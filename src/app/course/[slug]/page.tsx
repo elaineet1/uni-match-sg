@@ -313,7 +313,7 @@ export default async function CourseDetailPage({ params }: PageProps) {
 }
 
 function SourceLinks({ label, urls }: { label: string; urls: string[] }) {
-  const uniqueUrls = [...new Set(urls)];
+  const uniqueUrls = Array.from(new Set(urls));
   if (uniqueUrls.length === 0) return null;
   return (
     <div className="mt-3 border-t pt-2">
