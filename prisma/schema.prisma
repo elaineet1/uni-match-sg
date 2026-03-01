@@ -1,0 +1,103 @@
+// Prisma schema for Uni Match SG
+// SQLite for MVP, designed to be compatible with Postgres migration later.
+// String arrays are stored as JSON strings in SQLite.
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+model University {
+  id         Int      @id @default(autoincrement())
+  name       String   @unique // e.g. "NUS", "NTU", "SMU"
+  fullName   String   // e.g. "National University of Singapore"
+  websiteUrl String
+  courses    Course[]
+}
+
+model Course {
+  id            Int      @id @default(autoincrement())
+  slug          String   @unique
+  universityId  Int
+  university    University @relation(fields: [universityId], references: [id])
+  name          String   // Degree programme name
+  faculty       String   // School/faculty
+  description   String   @default("")
+  officialUrl   String   @default("")
+  // Tags stored as JSON array string, e.g. '["computing_software","data_ai"]'
+  tags          String   @default("[]")
+  // Typical roles after graduation, JSON array string
+  typicalRoles  String   @default("[]")
+  // AI risk note (brief, informational)
+  aiRiskNote    String   @default("")
+  // AI risk sources, JSON array string
+  aiRiskSources String   @default("[]")
+  // Majors/specialisations, JSON array string
+  majors        String   @default("[]")
+  // Double degree options, JSON array string
+  doubleDegrees String   @default("[]")
+
+  prerequisites Prerequisite[]
+  igps          IGP[]
+  outcomes      Outcome[]
+  intakes       Intake[]
+}
+
+model Prerequisite {
+  id              Int    @id @default(autoincrement())
+  courseId         Int
+  course          Course @relation(fields: [courseId], references: [id])
+  // e.g. "H2 Mathematics", "H2 Chemistry", "H2 Physics or H2 Chemistry"
+  requirementText String
+  // JSON array of source URLs
+  sourceUrls      String @default("[]")
+}
+
+model IGP {
+  id         Int    @id @default(autoincrement())
+  courseId    Int
+  course     Course @relation(fields: [courseId], references: [id])
+  intakeYear Int    // e.g. 2025
+  // Grade strings as published, e.g. "AAA/A" or "ABB/B"
+  igp10Text  String @default("")
+  igp90Text  String @default("")
+  // Computed RP equivalents (70-point scale)
+  igp10Rp    Float  @default(0)
+  igp90Rp    Float  @default(0)
+  // JSON array of source URLs
+  sourceUrls String @default("[]")
+}
+
+model Outcome {
+  id                      Int    @id @default(autoincrement())
+  courseId                 Int
+  course                  Course @relation(fields: [courseId], references: [id])
+  year                    Int    // GES year
+  startingSalaryMedian    Float? // SGD
+  startingSalaryMean      Float?
+  employmentRateOverall   Float? // percentage, e.g. 95.2
+  employmentRateFTPerm    Float? // full-time permanent, percentage
+  // JSON array of source URLs
+  sourceUrls              String @default("[]")
+}
+
+model Intake {
+  id         Int    @id @default(autoincrement())
+  courseId    Int
+  course     Course @relation(fields: [courseId], references: [id])
+  year       Int
+  intakeSize Int
+  // JSON array of source URLs
+  sourceUrls String @default("[]")
+}
+
+model AdminImportLog {
+  id         Int      @id @default(autoincrement())
+  importedAt DateTime @default(now())
+  fileName   String
+  statsJson  String   @default("{}")
+}

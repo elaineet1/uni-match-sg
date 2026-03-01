@@ -1,0 +1,18 @@
+[
+  {
+    "_comment": "Seed data for Uni Match SG. Values should be verified against official sources before production use.",
+    "name": "NUS",
+    "fullName": "National University of Singapore",
+    "websiteUrl": "https://www.nus.edu.sg"
+  },
+  {
+    "name": "NTU",
+    "fullName": "Nanyang Technological University",
+    "websiteUrl": "https://www.ntu.edu.sg"
+  },
+  {
+    "name": "SMU",
+    "fullName": "Singapore Management University",
+    "websiteUrl": "https://www.smu.edu.sg"
+  }
+]

@@ -1,0 +1,1660 @@
+{
+  "_comment": "Seed data for Uni Match SG. All IGP, salary, and employment figures are approximate and should be verified against official sources (NUS/NTU/SMU IGP pages, MOE GES surveys) before production use. IGP rank points are on the 70-point scale. Salary and employment data referenced from MOE Graduate Employment Survey (GES) 2023.",
+  "courses": [
+    {
+      "slug": "nus-computer-science",
+      "university": "NUS",
+      "name": "Computer Science",
+      "faculty": "School of Computing",
+      "description": "NUS Computer Science provides a strong foundation in software engineering, algorithms, artificial intelligence, computer systems, and data science. The programme is consistently ranked among the top in Asia and produces graduates highly sought after by the tech industry.",
+      "officialUrl": "https://www.comp.nus.edu.sg/programmes/ug/cs/",
+      "tags": ["computing_software", "data_ai", "entrepreneurship_product"],
+      "typicalRoles": ["Software Engineer", "Data Scientist", "Product Manager", "Machine Learning Engineer"],
+      "aiRiskNote": "",
+      "aiRiskSources": [],
+      "majors": ["Computer Science"],
+      "doubleDegrees": ["Computer Science and Business Administration", "Computer Science and Economics"],
+      "prerequisites": [
+        { "requirementText": "H2 Mathematics", "sourceUrls": ["https://www.comp.nus.edu.sg/programmes/ug/cs/admissions/"] }
+      ],
+      "igps": [
+        {
+          "intakeYear": 2024,
+          "igp10Text": "AAA/A",
+          "igp90Text": "AAA/A",
+          "igp10Rp": 70.0,
+          "igp90Rp": 70.0,
+          "sourceUrls": ["https://www.nus.edu.sg/oam/undergraduate-programmes/indicative-grade-profile"]
+        }
+      ],
+      "outcomes": [
+        {
+          "year": 2023,
+          "startingSalaryMedian": 6500,
+          "startingSalaryMean": 6800,
+          "employmentRateOverall": 97.5,
+          "employmentRateFTPerm": 92.3,
+          "sourceUrls": ["https://www.moe.gov.sg/post-secondary/overview"]
+        }
+      ],
+      "intakes": [
+        { "year": 2024, "intakeSize": 400, "sourceUrls": [] }
+      ]
+    },
+    {
+      "slug": "nus-business-administration",
+      "university": "NUS",
+      "name": "Business Administration",
+      "faculty": "NUS Business School",
+      "description": "NUS Business Administration offers a broad-based business education covering finance, marketing, management, strategy, and analytics. Students can specialise in areas such as finance, marketing, or management and organisations.",
+      "officialUrl": "https://bba.nus.edu.sg/",
+      "tags": ["business_management", "finance_accounting", "entrepreneurship_product"],
+      "typicalRoles": ["Management Trainee", "Business Analyst", "Financial Analyst", "Marketing Executive"],
+      "aiRiskNote": "",
+      "aiRiskSources": [],
+      "majors": ["Business Administration"],
+      "doubleDegrees": ["Business Administration and Law", "Business Administration and Computer Science"],
+      "prerequisites": [],
+      "igps": [
+        {
+          "intakeYear": 2024,
+          "igp10Text": "AAA/B",
+          "igp90Text": "AAA/A",
+          "igp10Rp": 68.75,
+          "igp90Rp": 70.0,
+          "sourceUrls": ["https://www.nus.edu.sg/oam/undergraduate-programmes/indicative-grade-profile"]
+        }
+      ],
+      "outcomes": [
+        {
+          "year": 2023,
+          "startingSalaryMedian": 5000,
+          "startingSalaryMean": 5300,
+          "employmentRateOverall": 96.0,
+          "employmentRateFTPerm": 88.5,
+          "sourceUrls": ["https://www.moe.gov.sg/post-secondary/overview"]
+        }
+      ],
+      "intakes": [
+        { "year": 2024, "intakeSize": 500, "sourceUrls": [] }
+      ]
+    },
+    {
+      "slug": "nus-medicine",
+      "university": "NUS",
+      "name": "Medicine",
+      "faculty": "Yong Loo Lin School of Medicine",
+      "description": "NUS Medicine is a five-year undergraduate programme that trains students to become competent and compassionate doctors. The curriculum integrates basic medical sciences with clinical training at the National University Hospital and other affiliated hospitals.",
+      "officialUrl": "https://medicine.nus.edu.sg/",
+      "tags": ["healthcare_biomedical", "life_sciences_chemistry"],
+      "typicalRoles": ["Medical Doctor", "Surgeon", "Medical Researcher"],
+      "aiRiskNote": "",
+      "aiRiskSources": [],
+      "majors": ["Medicine"],
+      "doubleDegrees": [],
+      "prerequisites": [
+        { "requirementText": "H2 Chemistry and either H2 Biology or H2 Physics", "sourceUrls": ["https://medicine.nus.edu.sg/admissions/"] },
+        { "requirementText": "BMAT/aptitude test and interview", "sourceUrls": ["https://medicine.nus.edu.sg/admissions/"] }
+      ],
+      "igps": [
+        {
+          "intakeYear": 2024,
+          "igp10Text": "AAA/A",
+          "igp90Text": "AAA/A",
+          "igp10Rp": 70.0,
+          "igp90Rp": 70.0,
+          "sourceUrls": ["https://www.nus.edu.sg/oam/undergraduate-programmes/indicative-grade-profile"]
+        }
+      ],
+      "outcomes": [
+        {
+          "year": 2023,
+          "startingSalaryMedian": 5700,
+          "startingSalaryMean": 5900,
+          "employmentRateOverall": 99.0,
+          "employmentRateFTPerm": 97.5,
+          "sourceUrls": ["https://www.moe.gov.sg/post-secondary/overview"]
+        }
+      ],
+      "intakes": [
+        { "year": 2024, "intakeSize": 300, "sourceUrls": [] }
+      ]
+    },
+    {
+      "slug": "nus-law",
+      "university": "NUS",
+      "name": "Law",
+      "faculty": "Faculty of Law",
+      "description": "NUS Law offers a four-year LLB programme that provides rigorous training in legal analysis, reasoning, and practice. The faculty is one of the most prestigious law schools in Asia with strong mooting and clinical legal education programmes.",
+      "officialUrl": "https://law.nus.edu.sg/",
+      "tags": ["law_public_policy", "social_sciences"],
+      "typicalRoles": ["Lawyer", "Legal Counsel", "Legal Associate", "Policy Analyst"],
+      "aiRiskNote": "",
+      "aiRiskSources": [],
+      "majors": ["Law"],
+      "doubleDegrees": ["Law and Business Administration"],
+      "prerequisites": [
+        { "requirementText": "Strong GP / Knowledge and Inquiry grades preferred", "sourceUrls": ["https://law.nus.edu.sg/admissions/"] }
+      ],
+      "igps": [
+        {
+          "intakeYear": 2024,
+          "igp10Text": "AAA/A",
+          "igp90Text": "AAA/A",
+          "igp10Rp": 70.0,
+          "igp90Rp": 70.0,
+          "sourceUrls": ["https://www.nus.edu.sg/oam/undergraduate-programmes/indicative-grade-profile"]
+        }
+      ],
+      "outcomes": [
+        {
+          "year": 2023,
+          "startingSalaryMedian": 5875,
+          "startingSalaryMean": 6100,
+          "employmentRateOverall": 97.0,
+          "employmentRateFTPerm": 93.0,
+          "sourceUrls": ["https://www.moe.gov.sg/post-secondary/overview"]
+        }
+      ],
+      "intakes": [
+        { "year": 2024, "intakeSize": 220, "sourceUrls": [] }
+      ]
+    },
+    {
+      "slug": "nus-civil-engineering",
+      "university": "NUS",
+      "name": "Civil Engineering",
+      "faculty": "College of Design and Engineering",
+      "description": "NUS Civil Engineering prepares students for careers in structural, geotechnical, transportation, and environmental engineering. The programme emphasises sustainable infrastructure development and smart city technologies.",
+      "officialUrl": "https://cde.nus.edu.sg/cee/",
+      "tags": ["engineering", "operations_logistics"],
+      "typicalRoles": ["Civil Engineer", "Structural Engineer", "Project Manager", "Urban Planner"],
+      "aiRiskNote": "",
+      "aiRiskSources": [],
+      "majors": ["Civil Engineering"],
+      "doubleDegrees": [],
+      "prerequisites": [
+        { "requirementText": "H2 Mathematics and H2 Physics", "sourceUrls": ["https://cde.nus.edu.sg/undergraduate/admissions/"] }
+      ],
+      "igps": [
+        {
+          "intakeYear": 2024,
+          "igp10Text": "ABB/C",
+          "igp90Text": "AAB/B",
+          "igp10Rp": 62.5,
+          "igp90Rp": 66.25,
+          "sourceUrls": ["https://www.nus.edu.sg/oam/undergraduate-programmes/indicative-grade-profile"]
+        }
+      ],
+      "outcomes": [
+        {
+          "year": 2023,
+          "startingSalaryMedian": 4200,
+          "startingSalaryMean": 4400,
+          "employmentRateOverall": 93.0,
+          "employmentRateFTPerm": 82.0,
+          "sourceUrls": ["https://www.moe.gov.sg/post-secondary/overview"]
+        }
+      ],
+      "intakes": [
+        { "year": 2024, "intakeSize": 150, "sourceUrls": [] }
+      ]
+    },
+    {
+      "slug": "nus-electrical-engineering",
+      "university": "NUS",
+      "name": "Electrical Engineering",
+      "faculty": "College of Design and Engineering",
+      "description": "NUS Electrical Engineering covers power systems, electronics, telecommunications, and control systems. Students gain skills in circuit design, signal processing, and embedded systems relevant to modern technology industries.",
+      "officialUrl": "https://cde.nus.edu.sg/ece/",
+      "tags": ["engineering", "computing_software"],
+      "typicalRoles": ["Electrical Engineer", "Electronics Engineer", "Systems Engineer", "Hardware Engineer"],
+      "aiRiskNote": "",
+      "aiRiskSources": [],
+      "majors": ["Electrical Engineering"],
+      "doubleDegrees": [],
+      "prerequisites": [
+        { "requirementText": "H2 Mathematics and H2 Physics", "sourceUrls": ["https://cde.nus.edu.sg/undergraduate/admissions/"] }
+      ],
+      "igps": [
+        {
+          "intakeYear": 2024,
+          "igp10Text": "ABB/B",
+          "igp90Text": "AAB/A",
+          "igp10Rp": 63.75,
+          "igp90Rp": 67.5,
+          "sourceUrls": ["https://www.nus.edu.sg/oam/undergraduate-programmes/indicative-grade-profile"]
+        }
+      ],
+      "outcomes": [
+        {
+          "year": 2023,
+          "startingSalaryMedian": 4500,
+          "startingSalaryMean": 4750,
+          "employmentRateOverall": 94.5,
+          "employmentRateFTPerm": 85.0,
+          "sourceUrls": ["https://www.moe.gov.sg/post-secondary/overview"]
+        }
+      ],
+      "intakes": [
+        { "year": 2024, "intakeSize": 200, "sourceUrls": [] }
+      ]
+    },
+    {
+      "slug": "nus-mechanical-engineering",
+      "university": "NUS",
+      "name": "Mechanical Engineering",
+      "faculty": "College of Design and Engineering",
+      "description": "NUS Mechanical Engineering covers thermodynamics, mechanics, materials science, and manufacturing. Students learn to design and analyse mechanical systems for industries including aerospace, automotive, and energy.",
+      "officialUrl": "https://cde.nus.edu.sg/me/",
+      "tags": ["engineering", "operations_logistics"],
+      "typicalRoles": ["Mechanical Engineer", "Design Engineer", "Manufacturing Engineer", "Project Engineer"],
+      "aiRiskNote": "",
+      "aiRiskSources": [],
+      "majors": ["Mechanical Engineering"],
+      "doubleDegrees": [],
+      "prerequisites": [
+        { "requirementText": "H2 Mathematics and H2 Physics", "sourceUrls": ["https://cde.nus.edu.sg/undergraduate/admissions/"] }
+      ],
+      "igps": [
+        {
+          "intakeYear": 2024,
+          "igp10Text": "ABB/B",
+          "igp90Text": "AAA/B",
+          "igp10Rp": 63.75,
+          "igp90Rp": 68.75,
+          "sourceUrls": ["https://www.nus.edu.sg/oam/undergraduate-programmes/indicative-grade-profile"]
+        }
+      ],
+      "outcomes": [
+        {
+          "year": 2023,
+          "startingSalaryMedian": 4300,
+          "startingSalaryMean": 4550,
+          "employmentRateOverall": 94.0,
+          "employmentRateFTPerm": 84.0,
+          "sourceUrls": ["https://www.moe.gov.sg/post-secondary/overview"]
+        }
+      ],
+      "intakes": [
+        { "year": 2024, "intakeSize": 250, "sourceUrls": [] }
+      ]
+    },
+    {
+      "slug": "nus-chemical-engineering",
+      "university": "NUS",
+      "name": "Chemical Engineering",
+      "faculty": "College of Design and Engineering",
+      "description": "NUS Chemical Engineering combines chemistry, physics, mathematics, and engineering principles to solve problems related to the production and use of chemicals, fuels, drugs, food, and other products.",
+      "officialUrl": "https://cde.nus.edu.sg/chbe/",
+      "tags": ["engineering", "life_sciences_chemistry"],
+      "typicalRoles": ["Chemical Engineer", "Process Engineer", "Plant Engineer", "R&D Engineer"],
+      "aiRiskNote": "",
+      "aiRiskSources": [],
+      "majors": ["Chemical Engineering"],
+      "doubleDegrees": [],
+      "prerequisites": [
+        { "requirementText": "H2 Mathematics and H2 Chemistry", "sourceUrls": ["https://cde.nus.edu.sg/undergraduate/admissions/"] }
+      ],
+      "igps": [
+        {
+          "intakeYear": 2024,
+          "igp10Text": "ABB/B",
+          "igp90Text": "AAB/A",
+          "igp10Rp": 63.75,
+          "igp90Rp": 67.5,
+          "sourceUrls": ["https://www.nus.edu.sg/oam/undergraduate-programmes/indicative-grade-profile"]
+        }
+      ],
+      "outcomes": [
+        {
+          "year": 2023,
+          "startingSalaryMedian": 4400,
+          "startingSalaryMean": 4650,
+          "employmentRateOverall": 93.5,
+          "employmentRateFTPerm": 83.0,
+          "sourceUrls": ["https://www.moe.gov.sg/post-secondary/overview"]
+        }
+      ],
+      "intakes": [
+        { "year": 2024, "intakeSize": 150, "sourceUrls": [] }
+      ]
+    },
+    {
+      "slug": "nus-economics",
+      "university": "NUS",
+      "name": "Economics",
+      "faculty": "Faculty of Arts and Social Sciences",
+      "description": "NUS Economics provides rigorous training in economic theory, quantitative methods, and policy analysis. Students develop strong analytical skills applicable to finance, consulting, government, and research.",
+      "officialUrl": "https://fass.nus.edu.sg/ecs/",
+      "tags": ["economics_policy", "finance_accounting", "data_ai"],
+      "typicalRoles": ["Economist", "Financial Analyst", "Policy Analyst", "Management Consultant"],
+      "aiRiskNote": "",
+      "aiRiskSources": [],
+      "majors": ["Economics"],
+      "doubleDegrees": [],
+      "prerequisites": [
+        { "requirementText": "H2 Mathematics recommended", "sourceUrls": ["https://fass.nus.edu.sg/ecs/"] }
+      ],
+      "igps": [
+        {
+          "intakeYear": 2024,
+          "igp10Text": "AAB/B",
+          "igp90Text": "AAA/A",
+          "igp10Rp": 66.25,
+          "igp90Rp": 70.0,
+          "sourceUrls": ["https://www.nus.edu.sg/oam/undergraduate-programmes/indicative-grade-profile"]
+        }
+      ],
+      "outcomes": [
+        {
+          "year": 2023,
+          "startingSalaryMedian": 4500,
+          "startingSalaryMean": 4800,
+          "employmentRateOverall": 94.0,
+          "employmentRateFTPerm": 85.0,
+          "sourceUrls": ["https://www.moe.gov.sg/post-secondary/overview"]
+        }
+      ],
+      "intakes": [
+        { "year": 2024, "intakeSize": 300, "sourceUrls": [] }
+      ]
+    },
+    {
+      "slug": "nus-political-science",
+      "university": "NUS",
+      "name": "Political Science",
+      "faculty": "Faculty of Arts and Social Sciences",
+      "description": "NUS Political Science examines political institutions, governance, international relations, and public policy. Students develop critical thinking and analytical skills for careers in government, diplomacy, and advocacy.",
+      "officialUrl": "https://fass.nus.edu.sg/pol/",
+      "tags": ["social_sciences", "law_public_policy"],
+      "typicalRoles": ["Policy Analyst", "Civil Servant", "Journalist", "Diplomat", "Researcher"],
+      "aiRiskNote": "",
+      "aiRiskSources": [],
+      "majors": ["Political Science"],
+      "doubleDegrees": [],
+      "prerequisites": [],
+      "igps": [
+        {
+          "intakeYear": 2024,
+          "igp10Text": "AAB/C",
+          "igp90Text": "AAA/B",
+          "igp10Rp": 65.0,
+          "igp90Rp": 68.75,
+          "sourceUrls": ["https://www.nus.edu.sg/oam/undergraduate-programmes/indicative-grade-profile"]
+        }
+      ],
+      "outcomes": [
+        {
+          "year": 2023,
+          "startingSalaryMedian": 3900,
+          "startingSalaryMean": 4100,
+          "employmentRateOverall": 91.0,
+          "employmentRateFTPerm": 78.0,
+          "sourceUrls": ["https://www.moe.gov.sg/post-secondary/overview"]
+        }
+      ],
+      "intakes": [
+        { "year": 2024, "intakeSize": 120, "sourceUrls": [] }
+      ]
+    },
+    {
+      "slug": "nus-english",
+      "university": "NUS",
+      "name": "English Language and Literature",
+      "faculty": "Faculty of Arts and Social Sciences",
+      "description": "NUS English explores literature, linguistics, and cultural studies. Students develop advanced skills in critical analysis, communication, and creative expression through the study of diverse literary traditions.",
+      "officialUrl": "https://fass.nus.edu.sg/elts/",
+      "tags": ["humanities_languages", "communications_marketing"],
+      "typicalRoles": ["Writer", "Editor", "Communications Specialist", "Content Strategist", "Teacher"],
+      "aiRiskNote": "",
+      "aiRiskSources": [],
+      "majors": ["English Language and Literature"],
+      "doubleDegrees": [],
+      "prerequisites": [],
+      "igps": [
+        {
+          "intakeYear": 2024,
+          "igp10Text": "AAB/C",
+          "igp90Text": "AAA/B",
+          "igp10Rp": 65.0,
+          "igp90Rp": 68.75,
+          "sourceUrls": ["https://www.nus.edu.sg/oam/undergraduate-programmes/indicative-grade-profile"]
+        }
+      ],
+      "outcomes": [
+        {
+          "year": 2023,
+          "startingSalaryMedian": 3700,
+          "startingSalaryMean": 3900,
+          "employmentRateOverall": 89.0,
+          "employmentRateFTPerm": 72.0,
+          "sourceUrls": ["https://www.moe.gov.sg/post-secondary/overview"]
+        }
+      ],
+      "intakes": [
+        { "year": 2024, "intakeSize": 100, "sourceUrls": [] }
+      ]
+    },
+    {
+      "slug": "nus-psychology",
+      "university": "NUS",
+      "name": "Psychology",
+      "faculty": "Faculty of Arts and Social Sciences",
+      "description": "NUS Psychology covers cognitive, developmental, social, and clinical psychology. Students learn research methods and statistical analysis alongside psychological theory, preparing them for careers in counselling, HR, and research.",
+      "officialUrl": "https://fass.nus.edu.sg/psy/",
+      "tags": ["education_psychology", "social_sciences", "healthcare_biomedical"],
+      "typicalRoles": ["Psychologist", "Counsellor", "HR Specialist", "UX Researcher", "Social Worker"],
+      "aiRiskNote": "",
+      "aiRiskSources": [],
+      "majors": ["Psychology"],
+      "doubleDegrees": [],
+      "prerequisites": [],
+      "igps": [
+        {
+          "intakeYear": 2024,
+          "igp10Text": "AAB/B",
+          "igp90Text": "AAA/B",
+          "igp10Rp": 66.25,
+          "igp90Rp": 68.75,
+          "sourceUrls": ["https://www.nus.edu.sg/oam/undergraduate-programmes/indicative-grade-profile"]
+        }
+      ],
+      "outcomes": [
+        {
+          "year": 2023,
+          "startingSalaryMedian": 3800,
+          "startingSalaryMean": 4000,
+          "employmentRateOverall": 90.0,
+          "employmentRateFTPerm": 75.0,
+          "sourceUrls": ["https://www.moe.gov.sg/post-secondary/overview"]
+        }
+      ],
+      "intakes": [
+        { "year": 2024, "intakeSize": 150, "sourceUrls": [] }
+      ]
+    },
+    {
+      "slug": "nus-data-science-and-analytics",
+      "university": "NUS",
+      "name": "Data Science and Analytics",
+      "faculty": "Faculty of Science",
+      "description": "NUS Data Science and Analytics combines statistics, computer science, and domain expertise. Students learn data wrangling, machine learning, statistical modelling, and data visualisation for extracting insights from complex datasets.",
+      "officialUrl": "https://www.stat.nus.edu.sg/prospective-students/undergraduate-programme/data-science-and-analytics/",
+      "tags": ["data_ai", "computing_software", "finance_accounting"],
+      "typicalRoles": ["Data Scientist", "Data Analyst", "Machine Learning Engineer", "Quantitative Analyst"],
+      "aiRiskNote": "",
+      "aiRiskSources": [],
+      "majors": ["Data Science and Analytics"],
+      "doubleDegrees": [],
+      "prerequisites": [
+        { "requirementText": "H2 Mathematics", "sourceUrls": ["https://www.stat.nus.edu.sg/prospective-students/undergraduate-programme/data-science-and-analytics/"] }
+      ],
+      "igps": [
+        {
+          "intakeYear": 2024,
+          "igp10Text": "AAA/B",
+          "igp90Text": "AAA/A",
+          "igp10Rp": 68.75,
+          "igp90Rp": 70.0,
+          "sourceUrls": ["https://www.nus.edu.sg/oam/undergraduate-programmes/indicative-grade-profile"]
+        }
+      ],
+      "outcomes": [
+        {
+          "year": 2023,
+          "startingSalaryMedian": 5500,
+          "startingSalaryMean": 5800,
+          "employmentRateOverall": 96.0,
+          "employmentRateFTPerm": 90.0,
+          "sourceUrls": ["https://www.moe.gov.sg/post-secondary/overview"]
+        }
+      ],
+      "intakes": [
+        { "year": 2024, "intakeSize": 150, "sourceUrls": [] }
+      ]
+    },
+    {
+      "slug": "nus-information-systems",
+      "university": "NUS",
+      "name": "Information Systems",
+      "faculty": "School of Computing",
+      "description": "NUS Information Systems bridges business and technology, training students to design and manage IT solutions for organisations. The curriculum covers systems analysis, project management, enterprise architecture, and digital innovation.",
+      "officialUrl": "https://www.comp.nus.edu.sg/programmes/ug/is/",
+      "tags": ["computing_software", "business_management", "data_ai"],
+      "typicalRoles": ["Business Analyst", "IT Consultant", "Systems Analyst", "Product Manager", "Solutions Architect"],
+      "aiRiskNote": "",
+      "aiRiskSources": [],
+      "majors": ["Information Systems"],
+      "doubleDegrees": [],
+      "prerequisites": [
+        { "requirementText": "H2 Mathematics", "sourceUrls": ["https://www.comp.nus.edu.sg/programmes/ug/is/admissions/"] }
+      ],
+      "igps": [
+        {
+          "intakeYear": 2024,
+          "igp10Text": "AAB/B",
+          "igp90Text": "AAA/A",
+          "igp10Rp": 66.25,
+          "igp90Rp": 70.0,
+          "sourceUrls": ["https://www.nus.edu.sg/oam/undergraduate-programmes/indicative-grade-profile"]
+        }
+      ],
+      "outcomes": [
+        {
+          "year": 2023,
+          "startingSalaryMedian": 5500,
+          "startingSalaryMean": 5800,
+          "employmentRateOverall": 96.5,
+          "employmentRateFTPerm": 90.5,
+          "sourceUrls": ["https://www.moe.gov.sg/post-secondary/overview"]
+        }
+      ],
+      "intakes": [
+        { "year": 2024, "intakeSize": 200, "sourceUrls": [] }
+      ]
+    },
+    {
+      "slug": "nus-accountancy",
+      "university": "NUS",
+      "name": "Accountancy",
+      "faculty": "NUS Business School",
+      "description": "NUS Accountancy provides a professional accounting education accredited by ISCA, CPA Australia, and ACCA. Students learn financial reporting, auditing, taxation, and management accounting.",
+      "officialUrl": "https://bba.nus.edu.sg/academic-programmes/accountancy/",
+      "tags": ["finance_accounting", "business_management"],
+      "typicalRoles": ["Auditor", "Accountant", "Tax Consultant", "Financial Controller", "CFO"],
+      "aiRiskNote": "",
+      "aiRiskSources": [],
+      "majors": ["Accountancy"],
+      "doubleDegrees": [],
+      "prerequisites": [],
+      "igps": [
+        {
+          "intakeYear": 2024,
+          "igp10Text": "AAB/B",
+          "igp90Text": "AAA/B",
+          "igp10Rp": 66.25,
+          "igp90Rp": 68.75,
+          "sourceUrls": ["https://www.nus.edu.sg/oam/undergraduate-programmes/indicative-grade-profile"]
+        }
+      ],
+      "outcomes": [
+        {
+          "year": 2023,
+          "startingSalaryMedian": 4100,
+          "startingSalaryMean": 4300,
+          "employmentRateOverall": 96.0,
+          "employmentRateFTPerm": 90.0,
+          "sourceUrls": ["https://www.moe.gov.sg/post-secondary/overview"]
+        }
+      ],
+      "intakes": [
+        { "year": 2024, "intakeSize": 200, "sourceUrls": [] }
+      ]
+    },
+    {
+      "slug": "nus-life-sciences",
+      "university": "NUS",
+      "name": "Life Sciences",
+      "faculty": "Faculty of Science",
+      "description": "NUS Life Sciences covers molecular biology, genetics, ecology, and biomedical science. Students gain laboratory skills and scientific reasoning applicable to research, healthcare, and the biotech industry.",
+      "officialUrl": "https://www.science.nus.edu.sg/undergraduates/departments/biological-sciences/",
+      "tags": ["life_sciences_chemistry", "healthcare_biomedical"],
+      "typicalRoles": ["Research Scientist", "Lab Technologist", "Quality Assurance Specialist", "Clinical Research Associate"],
+      "aiRiskNote": "",
+      "aiRiskSources": [],
+      "majors": ["Life Sciences"],
+      "doubleDegrees": [],
+      "prerequisites": [
+        { "requirementText": "H2 Biology or H2 Chemistry", "sourceUrls": ["https://www.science.nus.edu.sg/undergraduates/admissions/"] }
+      ],
+      "igps": [
+        {
+          "intakeYear": 2024,
+          "igp10Text": "ABB/B",
+          "igp90Text": "AAB/A",
+          "igp10Rp": 63.75,
+          "igp90Rp": 67.5,
+          "sourceUrls": ["https://www.nus.edu.sg/oam/undergraduate-programmes/indicative-grade-profile"]
+        }
+      ],
+      "outcomes": [
+        {
+          "year": 2023,
+          "startingSalaryMedian": 3500,
+          "startingSalaryMean": 3700,
+          "employmentRateOverall": 88.0,
+          "employmentRateFTPerm": 68.0,
+          "sourceUrls": ["https://www.moe.gov.sg/post-secondary/overview"]
+        }
+      ],
+      "intakes": [
+        { "year": 2024, "intakeSize": 200, "sourceUrls": [] }
+      ]
+    },
+    {
+      "slug": "nus-pharmacy",
+      "university": "NUS",
+      "name": "Pharmacy",
+      "faculty": "Faculty of Science",
+      "description": "NUS Pharmacy is a four-year programme that trains students in pharmaceutical sciences, pharmacology, and clinical pharmacy practice. Graduates can register as pharmacists in Singapore.",
+      "officialUrl": "https://pharmacy.nus.edu.sg/",
+      "tags": ["healthcare_biomedical", "life_sciences_chemistry"],
+      "typicalRoles": ["Pharmacist", "Clinical Pharmacist", "Pharmaceutical Researcher", "Regulatory Affairs Specialist"],
+      "aiRiskNote": "",
+      "aiRiskSources": [],
+      "majors": ["Pharmacy"],
+      "doubleDegrees": [],
+      "prerequisites": [
+        { "requirementText": "H2 Chemistry and H2 Mathematics or H2 Biology or H2 Physics", "sourceUrls": ["https://pharmacy.nus.edu.sg/education/bachelor-of-pharmacy/admissions/"] }
+      ],
+      "igps": [
+        {
+          "intakeYear": 2024,
+          "igp10Text": "AAB/B",
+          "igp90Text": "AAA/A",
+          "igp10Rp": 66.25,
+          "igp90Rp": 70.0,
+          "sourceUrls": ["https://www.nus.edu.sg/oam/undergraduate-programmes/indicative-grade-profile"]
+        }
+      ],
+      "outcomes": [
+        {
+          "year": 2023,
+          "startingSalaryMedian": 4200,
+          "startingSalaryMean": 4400,
+          "employmentRateOverall": 97.0,
+          "employmentRateFTPerm": 92.0,
+          "sourceUrls": ["https://www.moe.gov.sg/post-secondary/overview"]
+        }
+      ],
+      "intakes": [
+        { "year": 2024, "intakeSize": 100, "sourceUrls": [] }
+      ]
+    },
+    {
+      "slug": "nus-architecture",
+      "university": "NUS",
+      "name": "Architecture",
+      "faculty": "College of Design and Engineering",
+      "description": "NUS Architecture is a five-year programme combining design studio work with architectural theory, technology, and history. Students develop skills in spatial design, sustainability, and urban planning.",
+      "officialUrl": "https://cde.nus.edu.sg/arch/",
+      "tags": ["design_creative_media", "engineering"],
+      "typicalRoles": ["Architect", "Urban Designer", "Interior Designer", "Sustainability Consultant"],
+      "aiRiskNote": "",
+      "aiRiskSources": [],
+      "majors": ["Architecture"],
+      "doubleDegrees": [],
+      "prerequisites": [
+        { "requirementText": "Portfolio submission and aptitude test", "sourceUrls": ["https://cde.nus.edu.sg/arch/programmes/admissions/"] }
+      ],
+      "igps": [
+        {
+          "intakeYear": 2024,
+          "igp10Text": "ABB/B",
+          "igp90Text": "AAB/B",
+          "igp10Rp": 63.75,
+          "igp90Rp": 66.25,
+          "sourceUrls": ["https://www.nus.edu.sg/oam/undergraduate-programmes/indicative-grade-profile"]
+        }
+      ],
+      "outcomes": [
+        {
+          "year": 2023,
+          "startingSalaryMedian": 3700,
+          "startingSalaryMean": 3900,
+          "employmentRateOverall": 92.0,
+          "employmentRateFTPerm": 78.0,
+          "sourceUrls": ["https://www.moe.gov.sg/post-secondary/overview"]
+        }
+      ],
+      "intakes": [
+        { "year": 2024, "intakeSize": 80, "sourceUrls": [] }
+      ]
+    },
+    {
+      "slug": "nus-industrial-design",
+      "university": "NUS",
+      "name": "Industrial Design",
+      "faculty": "College of Design and Engineering",
+      "description": "NUS Industrial Design trains students in product design, user experience, and design thinking. The programme combines creative studio practice with engineering and technology for human-centred design solutions.",
+      "officialUrl": "https://cde.nus.edu.sg/did/",
+      "tags": ["design_creative_media", "entrepreneurship_product"],
+      "typicalRoles": ["Product Designer", "UX Designer", "Industrial Designer", "Design Consultant"],
+      "aiRiskNote": "",
+      "aiRiskSources": [],
+      "majors": ["Industrial Design"],
+      "doubleDegrees": [],
+      "prerequisites": [
+        { "requirementText": "Portfolio submission and aptitude test", "sourceUrls": ["https://cde.nus.edu.sg/did/programmes/admissions/"] }
+      ],
+      "igps": [
+        {
+          "intakeYear": 2024,
+          "igp10Text": "ABB/C",
+          "igp90Text": "AAB/B",
+          "igp10Rp": 62.5,
+          "igp90Rp": 66.25,
+          "sourceUrls": ["https://www.nus.edu.sg/oam/undergraduate-programmes/indicative-grade-profile"]
+        }
+      ],
+      "outcomes": [
+        {
+          "year": 2023,
+          "startingSalaryMedian": 3600,
+          "startingSalaryMean": 3800,
+          "employmentRateOverall": 90.0,
+          "employmentRateFTPerm": 74.0,
+          "sourceUrls": ["https://www.moe.gov.sg/post-secondary/overview"]
+        }
+      ],
+      "intakes": [
+        { "year": 2024, "intakeSize": 50, "sourceUrls": [] }
+      ]
+    },
+    {
+      "slug": "ntu-computer-science",
+      "university": "NTU",
+      "name": "Computer Science",
+      "faculty": "School of Computer Science and Engineering",
+      "description": "NTU Computer Science offers a comprehensive curriculum in algorithms, software engineering, AI, cybersecurity, and computer networks. The programme is well-regarded for its strong industry connections and research output.",
+      "officialUrl": "https://www.ntu.edu.sg/education/undergraduate-programme/bachelor-of-science-in-computer-science",
+      "tags": ["computing_software", "data_ai"],
+      "typicalRoles": ["Software Engineer", "Data Scientist", "Cybersecurity Analyst", "Full Stack Developer"],
+      "aiRiskNote": "",
+      "aiRiskSources": [],
+      "majors": ["Computer Science"],
+      "doubleDegrees": ["Computer Science and Business"],
+      "prerequisites": [
+        { "requirementText": "H2 Mathematics", "sourceUrls": ["https://www.ntu.edu.sg/education/undergraduate-programme/bachelor-of-science-in-computer-science"] }
+      ],
+      "igps": [
+        {
+          "intakeYear": 2024,
+          "igp10Text": "AAA/B",
+          "igp90Text": "AAA/A",
+          "igp10Rp": 68.75,
+          "igp90Rp": 70.0,
+          "sourceUrls": ["https://www.ntu.edu.sg/admissions/undergraduate/indicative-grade-profile"]
+        }
+      ],
+      "outcomes": [
+        {
+          "year": 2023,
+          "startingSalaryMedian": 6000,
+          "startingSalaryMean": 6300,
+          "employmentRateOverall": 97.0,
+          "employmentRateFTPerm": 91.0,
+          "sourceUrls": ["https://www.moe.gov.sg/post-secondary/overview"]
+        }
+      ],
+      "intakes": [
+        { "year": 2024, "intakeSize": 350, "sourceUrls": [] }
+      ]
+    },
+    {
+      "slug": "ntu-computer-engineering",
+      "university": "NTU",
+      "name": "Computer Engineering",
+      "faculty": "School of Computer Science and Engineering / School of Electrical and Electronic Engineering",
+      "description": "NTU Computer Engineering integrates hardware and software expertise, covering embedded systems, computer architecture, IoT, and real-time computing. Graduates are well-positioned for roles bridging hardware and software.",
+      "officialUrl": "https://www.ntu.edu.sg/education/undergraduate-programme/bachelor-of-engineering-in-computer-engineering",
+      "tags": ["computing_software", "engineering"],
+      "typicalRoles": ["Embedded Systems Engineer", "IoT Developer", "Systems Architect", "Firmware Engineer"],
+      "aiRiskNote": "",
+      "aiRiskSources": [],
+      "majors": ["Computer Engineering"],
+      "doubleDegrees": [],
+      "prerequisites": [
+        { "requirementText": "H2 Mathematics and H2 Physics", "sourceUrls": ["https://www.ntu.edu.sg/education/undergraduate-programme/bachelor-of-engineering-in-computer-engineering"] }
+      ],
+      "igps": [
+        {
+          "intakeYear": 2024,
+          "igp10Text": "AAB/B",
+          "igp90Text": "AAA/A",
+          "igp10Rp": 66.25,
+          "igp90Rp": 70.0,
+          "sourceUrls": ["https://www.ntu.edu.sg/admissions/undergraduate/indicative-grade-profile"]
+        }
+      ],
+      "outcomes": [
+        {
+          "year": 2023,
+          "startingSalaryMedian": 5500,
+          "startingSalaryMean": 5800,
+          "employmentRateOverall": 96.0,
+          "employmentRateFTPerm": 89.0,
+          "sourceUrls": ["https://www.moe.gov.sg/post-secondary/overview"]
+        }
+      ],
+      "intakes": [
+        { "year": 2024, "intakeSize": 200, "sourceUrls": [] }
+      ]
+    },
+    {
+      "slug": "ntu-business",
+      "university": "NTU",
+      "name": "Business",
+      "faculty": "Nanyang Business School",
+      "description": "NTU Business offers a comprehensive business education with specialisations in banking and finance, marketing, human resource consulting, and entrepreneurship. The programme is triple-accredited (AACSB, EQUIS, AMBA).",
+      "officialUrl": "https://www.ntu.edu.sg/business/undergraduate-programme/bachelor-of-business-administration",
+      "tags": ["business_management", "finance_accounting", "entrepreneurship_product"],
+      "typicalRoles": ["Management Trainee", "Business Analyst", "Marketing Executive", "Financial Analyst"],
+      "aiRiskNote": "",
+      "aiRiskSources": [],
+      "majors": ["Business"],
+      "doubleDegrees": ["Business and Computer Science", "Business and Computing"],
+      "prerequisites": [],
+      "igps": [
+        {
+          "intakeYear": 2024,
+          "igp10Text": "AAB/B",
+          "igp90Text": "AAA/A",
+          "igp10Rp": 66.25,
+          "igp90Rp": 70.0,
+          "sourceUrls": ["https://www.ntu.edu.sg/admissions/undergraduate/indicative-grade-profile"]
+        }
+      ],
+      "outcomes": [
+        {
+          "year": 2023,
+          "startingSalaryMedian": 4500,
+          "startingSalaryMean": 4800,
+          "employmentRateOverall": 95.0,
+          "employmentRateFTPerm": 87.0,
+          "sourceUrls": ["https://www.moe.gov.sg/post-secondary/overview"]
+        }
+      ],
+      "intakes": [
+        { "year": 2024, "intakeSize": 400, "sourceUrls": [] }
+      ]
+    },
+    {
+      "slug": "ntu-accountancy",
+      "university": "NTU",
+      "name": "Accountancy",
+      "faculty": "Nanyang Business School",
+      "description": "NTU Accountancy provides professional training in financial accounting, auditing, taxation, and corporate governance. The programme is accredited by ISCA, CPA Australia, and ACCA for direct professional qualification pathways.",
+      "officialUrl": "https://www.ntu.edu.sg/business/undergraduate-programme/bachelor-of-accountancy",
+      "tags": ["finance_accounting", "business_management"],
+      "typicalRoles": ["Auditor", "Accountant", "Tax Consultant", "Financial Controller"],
+      "aiRiskNote": "",
+      "aiRiskSources": [],
+      "majors": ["Accountancy"],
+      "doubleDegrees": ["Accountancy and Business"],
+      "prerequisites": [],
+      "igps": [
+        {
+          "intakeYear": 2024,
+          "igp10Text": "ABB/B",
+          "igp90Text": "AAB/A",
+          "igp10Rp": 63.75,
+          "igp90Rp": 67.5,
+          "sourceUrls": ["https://www.ntu.edu.sg/admissions/undergraduate/indicative-grade-profile"]
+        }
+      ],
+      "outcomes": [
+        {
+          "year": 2023,
+          "startingSalaryMedian": 3900,
+          "startingSalaryMean": 4100,
+          "employmentRateOverall": 95.5,
+          "employmentRateFTPerm": 88.0,
+          "sourceUrls": ["https://www.moe.gov.sg/post-secondary/overview"]
+        }
+      ],
+      "intakes": [
+        { "year": 2024, "intakeSize": 200, "sourceUrls": [] }
+      ]
+    },
+    {
+      "slug": "ntu-biological-sciences",
+      "university": "NTU",
+      "name": "Biological Sciences",
+      "faculty": "School of Biological Sciences",
+      "description": "NTU Biological Sciences covers molecular biology, genetics, cell biology, and ecology. The programme offers specialisations in biomedical sciences and environmental biology with strong laboratory training.",
+      "officialUrl": "https://www.ntu.edu.sg/education/undergraduate-programme/bachelor-of-science-in-biological-sciences",
+      "tags": ["life_sciences_chemistry", "healthcare_biomedical"],
+      "typicalRoles": ["Research Scientist", "Lab Technologist", "Biotech Specialist", "Clinical Research Associate"],
+      "aiRiskNote": "",
+      "aiRiskSources": [],
+      "majors": ["Biological Sciences"],
+      "doubleDegrees": [],
+      "prerequisites": [
+        { "requirementText": "H2 Biology or H2 Chemistry", "sourceUrls": ["https://www.ntu.edu.sg/education/undergraduate-programme/bachelor-of-science-in-biological-sciences"] }
+      ],
+      "igps": [
+        {
+          "intakeYear": 2024,
+          "igp10Text": "BBB/B",
+          "igp90Text": "AAB/B",
+          "igp10Rp": 61.25,
+          "igp90Rp": 66.25,
+          "sourceUrls": ["https://www.ntu.edu.sg/admissions/undergraduate/indicative-grade-profile"]
+        }
+      ],
+      "outcomes": [
+        {
+          "year": 2023,
+          "startingSalaryMedian": 3400,
+          "startingSalaryMean": 3600,
+          "employmentRateOverall": 87.0,
+          "employmentRateFTPerm": 65.0,
+          "sourceUrls": ["https://www.moe.gov.sg/post-secondary/overview"]
+        }
+      ],
+      "intakes": [
+        { "year": 2024, "intakeSize": 150, "sourceUrls": [] }
+      ]
+    },
+    {
+      "slug": "ntu-chemistry",
+      "university": "NTU",
+      "name": "Chemistry and Biological Chemistry",
+      "faculty": "School of Physical and Mathematical Sciences",
+      "description": "NTU Chemistry and Biological Chemistry provides rigorous training in organic, inorganic, physical, and analytical chemistry. Students gain strong laboratory skills for careers in chemical and pharmaceutical industries.",
+      "officialUrl": "https://www.ntu.edu.sg/education/undergraduate-programme/bachelor-of-science-in-chemistry-and-biological-chemistry",
+      "tags": ["life_sciences_chemistry", "engineering"],
+      "typicalRoles": ["Chemist", "Lab Analyst", "Quality Control Specialist", "Pharmaceutical Researcher"],
+      "aiRiskNote": "",
+      "aiRiskSources": [],
+      "majors": ["Chemistry and Biological Chemistry"],
+      "doubleDegrees": [],
+      "prerequisites": [
+        { "requirementText": "H2 Chemistry", "sourceUrls": ["https://www.ntu.edu.sg/education/undergraduate-programme/bachelor-of-science-in-chemistry-and-biological-chemistry"] }
+      ],
+      "igps": [
+        {
+          "intakeYear": 2024,
+          "igp10Text": "BBC/C",
+          "igp90Text": "AAB/B",
+          "igp10Rp": 57.5,
+          "igp90Rp": 66.25,
+          "sourceUrls": ["https://www.ntu.edu.sg/admissions/undergraduate/indicative-grade-profile"]
+        }
+      ],
+      "outcomes": [
+        {
+          "year": 2023,
+          "startingSalaryMedian": 3300,
+          "startingSalaryMean": 3500,
+          "employmentRateOverall": 85.0,
+          "employmentRateFTPerm": 62.0,
+          "sourceUrls": ["https://www.moe.gov.sg/post-secondary/overview"]
+        }
+      ],
+      "intakes": [
+        { "year": 2024, "intakeSize": 100, "sourceUrls": [] }
+      ]
+    },
+    {
+      "slug": "ntu-mechanical-engineering",
+      "university": "NTU",
+      "name": "Mechanical Engineering",
+      "faculty": "School of Mechanical and Aerospace Engineering",
+      "description": "NTU Mechanical Engineering covers mechanics, thermodynamics, manufacturing, and robotics. The programme emphasises hands-on design projects and offers specialisations in areas such as robotics and energy systems.",
+      "officialUrl": "https://www.ntu.edu.sg/education/undergraduate-programme/bachelor-of-engineering-in-mechanical-engineering",
+      "tags": ["engineering", "operations_logistics"],
+      "typicalRoles": ["Mechanical Engineer", "Design Engineer", "Manufacturing Engineer", "Robotics Engineer"],
+      "aiRiskNote": "",
+      "aiRiskSources": [],
+      "majors": ["Mechanical Engineering"],
+      "doubleDegrees": [],
+      "prerequisites": [
+        { "requirementText": "H2 Mathematics and H2 Physics", "sourceUrls": ["https://www.ntu.edu.sg/education/undergraduate-programme/bachelor-of-engineering-in-mechanical-engineering"] }
+      ],
+      "igps": [
+        {
+          "intakeYear": 2024,
+          "igp10Text": "ABB/C",
+          "igp90Text": "AAB/B",
+          "igp10Rp": 62.5,
+          "igp90Rp": 66.25,
+          "sourceUrls": ["https://www.ntu.edu.sg/admissions/undergraduate/indicative-grade-profile"]
+        }
+      ],
+      "outcomes": [
+        {
+          "year": 2023,
+          "startingSalaryMedian": 4100,
+          "startingSalaryMean": 4350,
+          "employmentRateOverall": 93.0,
+          "employmentRateFTPerm": 82.0,
+          "sourceUrls": ["https://www.moe.gov.sg/post-secondary/overview"]
+        }
+      ],
+      "intakes": [
+        { "year": 2024, "intakeSize": 300, "sourceUrls": [] }
+      ]
+    },
+    {
+      "slug": "ntu-electrical-engineering",
+      "university": "NTU",
+      "name": "Electrical and Electronic Engineering",
+      "faculty": "School of Electrical and Electronic Engineering",
+      "description": "NTU Electrical and Electronic Engineering covers power systems, microelectronics, signal processing, and communications. Students can specialise in areas including power engineering, intelligent systems, and nanoelectronics.",
+      "officialUrl": "https://www.ntu.edu.sg/education/undergraduate-programme/bachelor-of-engineering-in-electrical-and-electronic-engineering",
+      "tags": ["engineering", "computing_software"],
+      "typicalRoles": ["Electrical Engineer", "Electronics Engineer", "Telecommunications Engineer", "Systems Engineer"],
+      "aiRiskNote": "",
+      "aiRiskSources": [],
+      "majors": ["Electrical and Electronic Engineering"],
+      "doubleDegrees": [],
+      "prerequisites": [
+        { "requirementText": "H2 Mathematics and H2 Physics", "sourceUrls": ["https://www.ntu.edu.sg/education/undergraduate-programme/bachelor-of-engineering-in-electrical-and-electronic-engineering"] }
+      ],
+      "igps": [
+        {
+          "intakeYear": 2024,
+          "igp10Text": "ABB/C",
+          "igp90Text": "AAB/B",
+          "igp10Rp": 62.5,
+          "igp90Rp": 66.25,
+          "sourceUrls": ["https://www.ntu.edu.sg/admissions/undergraduate/indicative-grade-profile"]
+        }
+      ],
+      "outcomes": [
+        {
+          "year": 2023,
+          "startingSalaryMedian": 4300,
+          "startingSalaryMean": 4500,
+          "employmentRateOverall": 93.5,
+          "employmentRateFTPerm": 83.0,
+          "sourceUrls": ["https://www.moe.gov.sg/post-secondary/overview"]
+        }
+      ],
+      "intakes": [
+        { "year": 2024, "intakeSize": 250, "sourceUrls": [] }
+      ]
+    },
+    {
+      "slug": "ntu-civil-engineering",
+      "university": "NTU",
+      "name": "Civil Engineering",
+      "faculty": "School of Civil and Environmental Engineering",
+      "description": "NTU Civil Engineering covers structural engineering, geotechnics, water resources, and transportation. The programme prepares students for careers in infrastructure development and environmental engineering.",
+      "officialUrl": "https://www.ntu.edu.sg/education/undergraduate-programme/bachelor-of-engineering-in-civil-engineering",
+      "tags": ["engineering", "operations_logistics"],
+      "typicalRoles": ["Civil Engineer", "Structural Engineer", "Environmental Engineer", "Project Manager"],
+      "aiRiskNote": "",
+      "aiRiskSources": [],
+      "majors": ["Civil Engineering"],
+      "doubleDegrees": [],
+      "prerequisites": [
+        { "requirementText": "H2 Mathematics and H2 Physics", "sourceUrls": ["https://www.ntu.edu.sg/education/undergraduate-programme/bachelor-of-engineering-in-civil-engineering"] }
+      ],
+      "igps": [
+        {
+          "intakeYear": 2024,
+          "igp10Text": "BBB/C",
+          "igp90Text": "ABB/B",
+          "igp10Rp": 60.0,
+          "igp90Rp": 63.75,
+          "sourceUrls": ["https://www.ntu.edu.sg/admissions/undergraduate/indicative-grade-profile"]
+        }
+      ],
+      "outcomes": [
+        {
+          "year": 2023,
+          "startingSalaryMedian": 4000,
+          "startingSalaryMean": 4200,
+          "employmentRateOverall": 92.0,
+          "employmentRateFTPerm": 80.0,
+          "sourceUrls": ["https://www.moe.gov.sg/post-secondary/overview"]
+        }
+      ],
+      "intakes": [
+        { "year": 2024, "intakeSize": 180, "sourceUrls": [] }
+      ]
+    },
+    {
+      "slug": "ntu-aerospace-engineering",
+      "university": "NTU",
+      "name": "Aerospace Engineering",
+      "faculty": "School of Mechanical and Aerospace Engineering",
+      "description": "NTU Aerospace Engineering covers aerodynamics, propulsion, flight mechanics, and avionics. Students gain expertise in aircraft and spacecraft design, maintenance, and systems integration relevant to Singapore's aviation industry.",
+      "officialUrl": "https://www.ntu.edu.sg/education/undergraduate-programme/bachelor-of-engineering-in-aerospace-engineering",
+      "tags": ["engineering", "operations_logistics"],
+      "typicalRoles": ["Aerospace Engineer", "Aircraft Maintenance Engineer", "Systems Engineer", "Defence Engineer"],
+      "aiRiskNote": "",
+      "aiRiskSources": [],
+      "majors": ["Aerospace Engineering"],
+      "doubleDegrees": [],
+      "prerequisites": [
+        { "requirementText": "H2 Mathematics and H2 Physics", "sourceUrls": ["https://www.ntu.edu.sg/education/undergraduate-programme/bachelor-of-engineering-in-aerospace-engineering"] }
+      ],
+      "igps": [
+        {
+          "intakeYear": 2024,
+          "igp10Text": "ABB/B",
+          "igp90Text": "AAB/A",
+          "igp10Rp": 63.75,
+          "igp90Rp": 67.5,
+          "sourceUrls": ["https://www.ntu.edu.sg/admissions/undergraduate/indicative-grade-profile"]
+        }
+      ],
+      "outcomes": [
+        {
+          "year": 2023,
+          "startingSalaryMedian": 4200,
+          "startingSalaryMean": 4400,
+          "employmentRateOverall": 93.0,
+          "employmentRateFTPerm": 82.0,
+          "sourceUrls": ["https://www.moe.gov.sg/post-secondary/overview"]
+        }
+      ],
+      "intakes": [
+        { "year": 2024, "intakeSize": 120, "sourceUrls": [] }
+      ]
+    },
+    {
+      "slug": "ntu-materials-engineering",
+      "university": "NTU",
+      "name": "Materials Engineering",
+      "faculty": "School of Materials Science and Engineering",
+      "description": "NTU Materials Engineering covers metals, polymers, ceramics, and nanomaterials. Students learn to develop and characterise advanced materials for applications in electronics, biomedicine, and energy.",
+      "officialUrl": "https://www.ntu.edu.sg/education/undergraduate-programme/bachelor-of-engineering-in-materials-engineering",
+      "tags": ["engineering", "life_sciences_chemistry"],
+      "typicalRoles": ["Materials Engineer", "Process Engineer", "Quality Engineer", "R&D Engineer"],
+      "aiRiskNote": "",
+      "aiRiskSources": [],
+      "majors": ["Materials Engineering"],
+      "doubleDegrees": [],
+      "prerequisites": [
+        { "requirementText": "H2 Mathematics and H2 Chemistry or H2 Physics", "sourceUrls": ["https://www.ntu.edu.sg/education/undergraduate-programme/bachelor-of-engineering-in-materials-engineering"] }
+      ],
+      "igps": [
+        {
+          "intakeYear": 2024,
+          "igp10Text": "BBC/C",
+          "igp90Text": "ABB/B",
+          "igp10Rp": 57.5,
+          "igp90Rp": 63.75,
+          "sourceUrls": ["https://www.ntu.edu.sg/admissions/undergraduate/indicative-grade-profile"]
+        }
+      ],
+      "outcomes": [
+        {
+          "year": 2023,
+          "startingSalaryMedian": 3800,
+          "startingSalaryMean": 4000,
+          "employmentRateOverall": 90.0,
+          "employmentRateFTPerm": 76.0,
+          "sourceUrls": ["https://www.moe.gov.sg/post-secondary/overview"]
+        }
+      ],
+      "intakes": [
+        { "year": 2024, "intakeSize": 100, "sourceUrls": [] }
+      ]
+    },
+    {
+      "slug": "ntu-communication-studies",
+      "university": "NTU",
+      "name": "Communication Studies",
+      "faculty": "Wee Kim Wee School of Communication and Information",
+      "description": "NTU Communication Studies covers journalism, advertising, public relations, broadcasting, and cinema. Students develop strong media production and strategic communication skills for the creative industries.",
+      "officialUrl": "https://www.ntu.edu.sg/education/undergraduate-programme/bachelor-of-communication-studies",
+      "tags": ["communications_marketing", "design_creative_media"],
+      "typicalRoles": ["Journalist", "PR Executive", "Advertising Executive", "Content Producer", "Social Media Manager"],
+      "aiRiskNote": "",
+      "aiRiskSources": [],
+      "majors": ["Communication Studies"],
+      "doubleDegrees": [],
+      "prerequisites": [],
+      "igps": [
+        {
+          "intakeYear": 2024,
+          "igp10Text": "AAB/B",
+          "igp90Text": "AAA/A",
+          "igp10Rp": 66.25,
+          "igp90Rp": 70.0,
+          "sourceUrls": ["https://www.ntu.edu.sg/admissions/undergraduate/indicative-grade-profile"]
+        }
+      ],
+      "outcomes": [
+        {
+          "year": 2023,
+          "startingSalaryMedian": 4000,
+          "startingSalaryMean": 4200,
+          "employmentRateOverall": 93.0,
+          "employmentRateFTPerm": 82.0,
+          "sourceUrls": ["https://www.moe.gov.sg/post-secondary/overview"]
+        }
+      ],
+      "intakes": [
+        { "year": 2024, "intakeSize": 200, "sourceUrls": [] }
+      ]
+    },
+    {
+      "slug": "ntu-linguistics",
+      "university": "NTU",
+      "name": "Linguistics and Multilingual Studies",
+      "faculty": "School of Humanities",
+      "description": "NTU Linguistics and Multilingual Studies explores language structure, cognitive linguistics, translation, and multilingualism. Students develop expertise in language analysis and multilingual communication relevant to Singapore's diverse context.",
+      "officialUrl": "https://www.ntu.edu.sg/education/undergraduate-programme/bachelor-of-arts-in-linguistics-and-multilingual-studies",
+      "tags": ["humanities_languages", "education_psychology"],
+      "typicalRoles": ["Translator", "Interpreter", "Language Specialist", "Copywriter", "Teacher"],
+      "aiRiskNote": "",
+      "aiRiskSources": [],
+      "majors": ["Linguistics and Multilingual Studies"],
+      "doubleDegrees": [],
+      "prerequisites": [],
+      "igps": [
+        {
+          "intakeYear": 2024,
+          "igp10Text": "BBB/C",
+          "igp90Text": "AAB/B",
+          "igp10Rp": 60.0,
+          "igp90Rp": 66.25,
+          "sourceUrls": ["https://www.ntu.edu.sg/admissions/undergraduate/indicative-grade-profile"]
+        }
+      ],
+      "outcomes": [
+        {
+          "year": 2023,
+          "startingSalaryMedian": 3500,
+          "startingSalaryMean": 3700,
+          "employmentRateOverall": 88.0,
+          "employmentRateFTPerm": 70.0,
+          "sourceUrls": ["https://www.moe.gov.sg/post-secondary/overview"]
+        }
+      ],
+      "intakes": [
+        { "year": 2024, "intakeSize": 80, "sourceUrls": [] }
+      ]
+    },
+    {
+      "slug": "ntu-art-design-media",
+      "university": "NTU",
+      "name": "Art, Design and Media",
+      "faculty": "School of Art, Design and Media",
+      "description": "NTU Art, Design and Media offers specialisations in photography and digital imaging, animation, product design, interactive media, and visual communication. The programme balances creative practice with design theory.",
+      "officialUrl": "https://www.ntu.edu.sg/education/undergraduate-programme/bachelor-of-fine-arts-in-art-design-and-media",
+      "tags": ["design_creative_media", "communications_marketing"],
+      "typicalRoles": ["Graphic Designer", "Animator", "Art Director", "UI/UX Designer", "Photographer"],
+      "aiRiskNote": "",
+      "aiRiskSources": [],
+      "majors": ["Art, Design and Media"],
+      "doubleDegrees": [],
+      "prerequisites": [
+        { "requirementText": "Portfolio review and interview", "sourceUrls": ["https://www.ntu.edu.sg/education/undergraduate-programme/bachelor-of-fine-arts-in-art-design-and-media"] }
+      ],
+      "igps": [
+        {
+          "intakeYear": 2024,
+          "igp10Text": "Portfolio-based",
+          "igp90Text": "Portfolio-based",
+          "igp10Rp": 0,
+          "igp90Rp": 0,
+          "sourceUrls": ["https://www.ntu.edu.sg/admissions/undergraduate/indicative-grade-profile"]
+        }
+      ],
+      "outcomes": [
+        {
+          "year": 2023,
+          "startingSalaryMedian": 3400,
+          "startingSalaryMean": 3600,
+          "employmentRateOverall": 86.0,
+          "employmentRateFTPerm": 66.0,
+          "sourceUrls": ["https://www.moe.gov.sg/post-secondary/overview"]
+        }
+      ],
+      "intakes": [
+        { "year": 2024, "intakeSize": 100, "sourceUrls": [] }
+      ]
+    },
+    {
+      "slug": "ntu-economics",
+      "university": "NTU",
+      "name": "Economics",
+      "faculty": "School of Social Sciences",
+      "description": "NTU Economics trains students in microeconomics, macroeconomics, econometrics, and applied economics. The programme emphasises quantitative methods and data analysis for economic policy and business applications.",
+      "officialUrl": "https://www.ntu.edu.sg/education/undergraduate-programme/bachelor-of-science-in-economics",
+      "tags": ["economics_policy", "data_ai", "finance_accounting"],
+      "typicalRoles": ["Economist", "Policy Analyst", "Financial Analyst", "Data Analyst", "Consultant"],
+      "aiRiskNote": "",
+      "aiRiskSources": [],
+      "majors": ["Economics"],
+      "doubleDegrees": [],
+      "prerequisites": [
+        { "requirementText": "H2 Mathematics recommended", "sourceUrls": ["https://www.ntu.edu.sg/education/undergraduate-programme/bachelor-of-science-in-economics"] }
+      ],
+      "igps": [
+        {
+          "intakeYear": 2024,
+          "igp10Text": "ABB/B",
+          "igp90Text": "AAA/B",
+          "igp10Rp": 63.75,
+          "igp90Rp": 68.75,
+          "sourceUrls": ["https://www.ntu.edu.sg/admissions/undergraduate/indicative-grade-profile"]
+        }
+      ],
+      "outcomes": [
+        {
+          "year": 2023,
+          "startingSalaryMedian": 4200,
+          "startingSalaryMean": 4500,
+          "employmentRateOverall": 93.0,
+          "employmentRateFTPerm": 83.0,
+          "sourceUrls": ["https://www.moe.gov.sg/post-secondary/overview"]
+        }
+      ],
+      "intakes": [
+        { "year": 2024, "intakeSize": 150, "sourceUrls": [] }
+      ]
+    },
+    {
+      "slug": "ntu-psychology",
+      "university": "NTU",
+      "name": "Psychology",
+      "faculty": "School of Social Sciences",
+      "description": "NTU Psychology covers cognitive, developmental, social, and clinical psychology. The programme emphasises research methods and evidence-based practice for understanding human behaviour and mental processes.",
+      "officialUrl": "https://www.ntu.edu.sg/education/undergraduate-programme/bachelor-of-arts-in-psychology",
+      "tags": ["education_psychology", "social_sciences", "healthcare_biomedical"],
+      "typicalRoles": ["Psychologist", "Counsellor", "HR Specialist", "UX Researcher", "Social Worker"],
+      "aiRiskNote": "",
+      "aiRiskSources": [],
+      "majors": ["Psychology"],
+      "doubleDegrees": [],
+      "prerequisites": [],
+      "igps": [
+        {
+          "intakeYear": 2024,
+          "igp10Text": "ABB/B",
+          "igp90Text": "AAA/B",
+          "igp10Rp": 63.75,
+          "igp90Rp": 68.75,
+          "sourceUrls": ["https://www.ntu.edu.sg/admissions/undergraduate/indicative-grade-profile"]
+        }
+      ],
+      "outcomes": [
+        {
+          "year": 2023,
+          "startingSalaryMedian": 3700,
+          "startingSalaryMean": 3900,
+          "employmentRateOverall": 90.0,
+          "employmentRateFTPerm": 74.0,
+          "sourceUrls": ["https://www.moe.gov.sg/post-secondary/overview"]
+        }
+      ],
+      "intakes": [
+        { "year": 2024, "intakeSize": 120, "sourceUrls": [] }
+      ]
+    },
+    {
+      "slug": "smu-business-management",
+      "university": "SMU",
+      "name": "Business Management",
+      "faculty": "Lee Kong Chian School of Business",
+      "description": "SMU Business Management offers a broad-based business education with majors in finance, marketing, operations management, organisational behaviour, and strategic management. Known for its seminar-style interactive pedagogy.",
+      "officialUrl": "https://business.smu.edu.sg/bachelor-business-management",
+      "tags": ["business_management", "finance_accounting", "entrepreneurship_product"],
+      "typicalRoles": ["Management Trainee", "Business Analyst", "Marketing Executive", "Financial Analyst", "Consultant"],
+      "aiRiskNote": "",
+      "aiRiskSources": [],
+      "majors": ["Business Management"],
+      "doubleDegrees": [],
+      "prerequisites": [],
+      "igps": [
+        {
+          "intakeYear": 2024,
+          "igp10Text": "AAB/B",
+          "igp90Text": "AAA/A",
+          "igp10Rp": 66.25,
+          "igp90Rp": 70.0,
+          "sourceUrls": ["https://admissions.smu.edu.sg/indicative-grade-profiles"]
+        }
+      ],
+      "outcomes": [
+        {
+          "year": 2023,
+          "startingSalaryMedian": 5000,
+          "startingSalaryMean": 5400,
+          "employmentRateOverall": 96.5,
+          "employmentRateFTPerm": 90.0,
+          "sourceUrls": ["https://www.moe.gov.sg/post-secondary/overview"]
+        }
+      ],
+      "intakes": [
+        { "year": 2024, "intakeSize": 500, "sourceUrls": [] }
+      ]
+    },
+    {
+      "slug": "smu-accountancy",
+      "university": "SMU",
+      "name": "Accountancy",
+      "faculty": "School of Accountancy",
+      "description": "SMU Accountancy is one of the top accounting programmes in Asia, offering professional training in financial accounting, audit, tax, and data analytics. The programme provides direct pathways to CPA and ACCA qualifications.",
+      "officialUrl": "https://accountancy.smu.edu.sg/bachelor-accountancy",
+      "tags": ["finance_accounting", "business_management", "data_ai"],
+      "typicalRoles": ["Auditor", "Tax Consultant", "Financial Analyst", "Forensic Accountant", "CFO"],
+      "aiRiskNote": "",
+      "aiRiskSources": [],
+      "majors": ["Accountancy"],
+      "doubleDegrees": [],
+      "prerequisites": [],
+      "igps": [
+        {
+          "intakeYear": 2024,
+          "igp10Text": "ABB/B",
+          "igp90Text": "AAA/B",
+          "igp10Rp": 63.75,
+          "igp90Rp": 68.75,
+          "sourceUrls": ["https://admissions.smu.edu.sg/indicative-grade-profiles"]
+        }
+      ],
+      "outcomes": [
+        {
+          "year": 2023,
+          "startingSalaryMedian": 4200,
+          "startingSalaryMean": 4400,
+          "employmentRateOverall": 97.0,
+          "employmentRateFTPerm": 91.0,
+          "sourceUrls": ["https://www.moe.gov.sg/post-secondary/overview"]
+        }
+      ],
+      "intakes": [
+        { "year": 2024, "intakeSize": 250, "sourceUrls": [] }
+      ]
+    },
+    {
+      "slug": "smu-economics",
+      "university": "SMU",
+      "name": "Economics",
+      "faculty": "School of Economics",
+      "description": "SMU Economics focuses on applied economics with strong quantitative training. Students learn econometrics, behavioural economics, and policy analysis through SMU's distinctive seminar-style teaching approach.",
+      "officialUrl": "https://economics.smu.edu.sg/bachelor-science-economics",
+      "tags": ["economics_policy", "data_ai", "finance_accounting"],
+      "typicalRoles": ["Economist", "Policy Analyst", "Data Analyst", "Financial Analyst", "Risk Analyst"],
+      "aiRiskNote": "",
+      "aiRiskSources": [],
+      "majors": ["Economics"],
+      "doubleDegrees": [],
+      "prerequisites": [
+        { "requirementText": "H2 Mathematics recommended", "sourceUrls": ["https://economics.smu.edu.sg/bachelor-science-economics"] }
+      ],
+      "igps": [
+        {
+          "intakeYear": 2024,
+          "igp10Text": "ABB/B",
+          "igp90Text": "AAA/B",
+          "igp10Rp": 63.75,
+          "igp90Rp": 68.75,
+          "sourceUrls": ["https://admissions.smu.edu.sg/indicative-grade-profiles"]
+        }
+      ],
+      "outcomes": [
+        {
+          "year": 2023,
+          "startingSalaryMedian": 4500,
+          "startingSalaryMean": 4800,
+          "employmentRateOverall": 94.0,
+          "employmentRateFTPerm": 85.0,
+          "sourceUrls": ["https://www.moe.gov.sg/post-secondary/overview"]
+        }
+      ],
+      "intakes": [
+        { "year": 2024, "intakeSize": 200, "sourceUrls": [] }
+      ]
+    },
+    {
+      "slug": "smu-information-systems",
+      "university": "SMU",
+      "name": "Information Systems",
+      "faculty": "School of Computing and Information Systems",
+      "description": "SMU Information Systems trains students in software development, cybersecurity, data management, and digital business transformation. The programme is known for producing graduates with strong technical and business acumen.",
+      "officialUrl": "https://scis.smu.edu.sg/bsc-information-systems",
+      "tags": ["computing_software", "business_management", "data_ai"],
+      "typicalRoles": ["Software Engineer", "IT Consultant", "Cybersecurity Analyst", "Business Analyst", "Product Manager"],
+      "aiRiskNote": "",
+      "aiRiskSources": [],
+      "majors": ["Information Systems"],
+      "doubleDegrees": [],
+      "prerequisites": [
+        { "requirementText": "H2 Mathematics", "sourceUrls": ["https://scis.smu.edu.sg/bsc-information-systems"] }
+      ],
+      "igps": [
+        {
+          "intakeYear": 2024,
+          "igp10Text": "AAB/B",
+          "igp90Text": "AAA/A",
+          "igp10Rp": 66.25,
+          "igp90Rp": 70.0,
+          "sourceUrls": ["https://admissions.smu.edu.sg/indicative-grade-profiles"]
+        }
+      ],
+      "outcomes": [
+        {
+          "year": 2023,
+          "startingSalaryMedian": 5800,
+          "startingSalaryMean": 6100,
+          "employmentRateOverall": 97.5,
+          "employmentRateFTPerm": 93.0,
+          "sourceUrls": ["https://www.moe.gov.sg/post-secondary/overview"]
+        }
+      ],
+      "intakes": [
+        { "year": 2024, "intakeSize": 250, "sourceUrls": [] }
+      ]
+    },
+    {
+      "slug": "smu-law",
+      "university": "SMU",
+      "name": "Law",
+      "faculty": "Yong Pung How School of Law",
+      "description": "SMU Law offers a four-year LLB programme with a distinctive focus on commercial and corporate law, dispute resolution, and cross-border transactions. The seminar-style teaching develops strong advocacy and communication skills.",
+      "officialUrl": "https://law.smu.edu.sg/llb",
+      "tags": ["law_public_policy", "business_management"],
+      "typicalRoles": ["Lawyer", "Legal Counsel", "Compliance Officer", "Legal Associate"],
+      "aiRiskNote": "",
+      "aiRiskSources": [],
+      "majors": ["Law"],
+      "doubleDegrees": [],
+      "prerequisites": [
+        { "requirementText": "Strong academic record; interview required", "sourceUrls": ["https://law.smu.edu.sg/llb/admissions"] }
+      ],
+      "igps": [
+        {
+          "intakeYear": 2024,
+          "igp10Text": "AAA/A",
+          "igp90Text": "AAA/A",
+          "igp10Rp": 70.0,
+          "igp90Rp": 70.0,
+          "sourceUrls": ["https://admissions.smu.edu.sg/indicative-grade-profiles"]
+        }
+      ],
+      "outcomes": [
+        {
+          "year": 2023,
+          "startingSalaryMedian": 5500,
+          "startingSalaryMean": 5800,
+          "employmentRateOverall": 96.5,
+          "employmentRateFTPerm": 91.0,
+          "sourceUrls": ["https://www.moe.gov.sg/post-secondary/overview"]
+        }
+      ],
+      "intakes": [
+        { "year": 2024, "intakeSize": 180, "sourceUrls": [] }
+      ]
+    },
+    {
+      "slug": "smu-social-sciences",
+      "university": "SMU",
+      "name": "Social Sciences",
+      "faculty": "School of Social Sciences",
+      "description": "SMU Social Sciences offers majors in politics and public policy, psychology, and sociology. The programme develops critical thinking and research skills through SMU's interactive seminar-based pedagogy.",
+      "officialUrl": "https://socsc.smu.edu.sg/bachelor-science-social-sciences",
+      "tags": ["social_sciences", "law_public_policy", "education_psychology"],
+      "typicalRoles": ["Policy Analyst", "Social Worker", "HR Specialist", "Research Analyst", "Civil Servant"],
+      "aiRiskNote": "",
+      "aiRiskSources": [],
+      "majors": ["Political Science", "Psychology", "Sociology"],
+      "doubleDegrees": [],
+      "prerequisites": [],
+      "igps": [
+        {
+          "intakeYear": 2024,
+          "igp10Text": "ABB/B",
+          "igp90Text": "AAB/A",
+          "igp10Rp": 63.75,
+          "igp90Rp": 67.5,
+          "sourceUrls": ["https://admissions.smu.edu.sg/indicative-grade-profiles"]
+        }
+      ],
+      "outcomes": [
+        {
+          "year": 2023,
+          "startingSalaryMedian": 3900,
+          "startingSalaryMean": 4100,
+          "employmentRateOverall": 91.0,
+          "employmentRateFTPerm": 78.0,
+          "sourceUrls": ["https://www.moe.gov.sg/post-secondary/overview"]
+        }
+      ],
+      "intakes": [
+        { "year": 2024, "intakeSize": 150, "sourceUrls": [] }
+      ]
+    },
+    {
+      "slug": "smu-computing-and-law",
+      "university": "SMU",
+      "name": "Computing and Law",
+      "faculty": "School of Computing and Information Systems / Yong Pung How School of Law",
+      "description": "SMU Computing and Law is a unique double-degree programme combining computer science with legal studies. Graduates are uniquely positioned for roles at the intersection of technology and law, including tech regulation, IP law, and legal tech.",
+      "officialUrl": "https://scis.smu.edu.sg/bsc-computing-law",
+      "tags": ["computing_software", "law_public_policy", "data_ai"],
+      "typicalRoles": ["Tech Lawyer", "Legal Tech Consultant", "IP Lawyer", "Compliance Technologist", "Policy Analyst"],
+      "aiRiskNote": "",
+      "aiRiskSources": [],
+      "majors": ["Computing and Law"],
+      "doubleDegrees": [],
+      "prerequisites": [
+        { "requirementText": "H2 Mathematics; interview required", "sourceUrls": ["https://scis.smu.edu.sg/bsc-computing-law"] }
+      ],
+      "igps": [
+        {
+          "intakeYear": 2024,
+          "igp10Text": "AAA/A",
+          "igp90Text": "AAA/A",
+          "igp10Rp": 70.0,
+          "igp90Rp": 70.0,
+          "sourceUrls": ["https://admissions.smu.edu.sg/indicative-grade-profiles"]
+        }
+      ],
+      "outcomes": [
+        {
+          "year": 2023,
+          "startingSalaryMedian": 6000,
+          "startingSalaryMean": 6300,
+          "employmentRateOverall": 97.0,
+          "employmentRateFTPerm": 92.0,
+          "sourceUrls": ["https://www.moe.gov.sg/post-secondary/overview"]
+        }
+      ],
+      "intakes": [
+        { "year": 2024, "intakeSize": 50, "sourceUrls": [] }
+      ]
+    }
+  ]
+}
