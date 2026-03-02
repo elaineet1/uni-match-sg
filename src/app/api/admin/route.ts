@@ -167,21 +167,31 @@ export async function POST(request: NextRequest) {
           });
 
           // Upsert course
+          const courseUpdateData: Record<string, unknown> = {
+            name: row.name,
+            universityId: university.id,
+            faculty: row.faculty,
+          };
+          if (row.description !== undefined)
+            courseUpdateData.description = row.description;
+          if (row.officialUrl !== undefined)
+            courseUpdateData.officialUrl = row.officialUrl;
+          if (row.tags !== undefined)
+            courseUpdateData.tags = JSON.stringify(row.tags);
+          if (row.typicalRoles !== undefined)
+            courseUpdateData.typicalRoles = JSON.stringify(row.typicalRoles);
+          if (row.aiRiskNote !== undefined)
+            courseUpdateData.aiRiskNote = row.aiRiskNote;
+          if (row.aiRiskSources !== undefined)
+            courseUpdateData.aiRiskSources = JSON.stringify(row.aiRiskSources);
+          if (row.majors !== undefined)
+            courseUpdateData.majors = JSON.stringify(row.majors);
+          if (row.doubleDegrees !== undefined)
+            courseUpdateData.doubleDegrees = JSON.stringify(row.doubleDegrees);
+
           const course = await prisma.course.upsert({
             where: { slug: row.slug },
-            update: {
-              name: row.name,
-              universityId: university.id,
-              faculty: row.faculty,
-              description: row.description ?? "",
-              officialUrl: row.officialUrl ?? "",
-              tags: JSON.stringify(row.tags ?? []),
-              typicalRoles: JSON.stringify(row.typicalRoles ?? []),
-              aiRiskNote: row.aiRiskNote ?? "",
-              aiRiskSources: JSON.stringify(row.aiRiskSources ?? []),
-              majors: JSON.stringify(row.majors ?? []),
-              doubleDegrees: JSON.stringify(row.doubleDegrees ?? []),
-            },
+            update: courseUpdateData,
             create: {
               slug: row.slug,
               name: row.name,

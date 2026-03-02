@@ -9,6 +9,8 @@
     "lint": "next lint",
     "seed": "tsx scripts/seed.ts",
     "import:csv": "tsx scripts/import-csv.ts",
+    "import:igp": "tsx scripts/import-igp.ts",
+    "restore:metadata": "tsx scripts/restore-course-metadata.ts",
     "test": "jest",
     "test:watch": "jest --watch",
     "postinstall": "prisma generate"
