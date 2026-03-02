@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "@/app/globals.css";
+import { NavHeader } from "@/components/nav-header";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -34,33 +35,7 @@ export default function RootLayout({
   return (
     <html lang="en" className={inter.variable}>
       <body className={`${inter.className} min-h-screen`}>
-        <header className="sticky top-0 z-50 border-b border-gray-200 bg-white/95 backdrop-blur">
-          <div className="mx-auto flex max-w-5xl items-center justify-between px-4 py-3">
-            <a href="/" className="text-lg font-bold text-blue-600">
-              Uni Match SG
-            </a>
-            <nav className="hidden items-center gap-6 text-sm sm:flex">
-              <a
-                href="/results-input"
-                className="text-gray-600 transition-colors hover:text-blue-600"
-              >
-                Enter Results
-              </a>
-              <a
-                href="/quiz"
-                className="text-gray-600 transition-colors hover:text-blue-600"
-              >
-                Interests Quiz
-              </a>
-              <a
-                href="/recommendations"
-                className="text-gray-600 transition-colors hover:text-blue-600"
-              >
-                Recommendations
-              </a>
-            </nav>
-          </div>
-        </header>
+        <NavHeader />
         <main className="mx-auto max-w-5xl px-4 py-8">{children}</main>
         <footer className="border-t border-gray-200 bg-white py-6 text-center text-xs text-gray-500">
           <div className="mx-auto max-w-5xl px-4">

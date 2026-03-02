@@ -72,11 +72,57 @@ export async function POST(request: NextRequest) {
 
     // Import action
     if (action === "import") {
-      const courses: CourseImportRow[] = body.courses;
+      let courses: CourseImportRow[] = body.courses;
+
+      // Handle CSV text input — parse it into course rows
+      if (!courses && body.csvText) {
+        try {
+          const lines = body.csvText.split("\n").filter((l: string) => l.trim());
+          if (lines.length < 2) {
+            return NextResponse.json(
+              { error: "CSV must have a header row and at least one data row." },
+              { status: 400 }
+            );
+          }
+          const headers = lines[0].split(",").map((h: string) => h.trim());
+          courses = [];
+          for (let i = 1; i < lines.length; i++) {
+            const values = lines[i].split(",").map((v: string) => v.trim());
+            const row: Record<string, string> = {};
+            headers.forEach((h: string, idx: number) => {
+              row[h] = values[idx] ?? "";
+            });
+            courses.push({
+              slug: row.slug || "",
+              name: row.name || "",
+              universityName: row.universityName || row.university || "",
+              faculty: row.faculty || "",
+              description: row.description,
+              officialUrl: row.officialUrl,
+              tags: row.tags ? row.tags.split(";").map((t: string) => t.trim()) : undefined,
+              typicalRoles: row.typicalRoles ? row.typicalRoles.split(";").map((r: string) => r.trim()) : undefined,
+              prerequisites: row.prerequisites ? row.prerequisites.split(";").map((p: string) => p.trim()) : undefined,
+              igpYear: row.igpYear ? parseInt(row.igpYear) : undefined,
+              igp10Text: row.igp10Text,
+              igp90Text: row.igp90Text,
+              outcomeYear: row.gesYear ? parseInt(row.gesYear) : undefined,
+              salaryMedian: row.salaryMedian ? parseFloat(row.salaryMedian) : undefined,
+              salaryMean: row.salaryMean ? parseFloat(row.salaryMean) : undefined,
+              employmentRateOverall: row.employmentRateOverall ? parseFloat(row.employmentRateOverall) : undefined,
+              employmentRateFTPerm: row.employmentRateFTPerm ? parseFloat(row.employmentRateFTPerm) : undefined,
+            });
+          }
+        } catch {
+          return NextResponse.json(
+            { error: "Failed to parse CSV. Check formatting." },
+            { status: 400 }
+          );
+        }
+      }
 
       if (!Array.isArray(courses) || courses.length === 0) {
         return NextResponse.json(
-          { error: "No courses data provided. Expected an array of courses." },
+          { error: "No courses data provided. Expected an array of courses or CSV text." },
           { status: 400 }
         );
       }

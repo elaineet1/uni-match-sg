@@ -5,6 +5,7 @@
  */
 
 import { create } from "zustand";
+import { persist } from "zustand/middleware";
 import type { Grade, SubjectEntry, PWResult, RPResult } from "./rp-calculator";
 import type { QuizAnswer, QuizResult, InterestTag, PreferenceFlags } from "./quiz-engine";
 import type { UniStyleAnswer, UniStyleProfile } from "./uni-style-quiz";
@@ -65,7 +66,7 @@ export interface AppState {
   setManualPreferenceOverrides: (overrides: Partial<PreferenceFlags>) => void;
 }
 
-export const useAppStore = create<AppState>((set, get) => ({
+export const useAppStore = create<AppState>()(persist((set, get) => ({
   h2Subjects: [
     { name: "", level: "H2", grade: "A" },
     { name: "", level: "H2", grade: "A" },
@@ -172,4 +173,26 @@ export const useAppStore = create<AppState>((set, get) => ({
   setManualTagOverrides: (tags) => set({ manualTagOverrides: tags }),
   setManualPreferenceOverrides: (overrides) =>
     set({ manualPreferenceOverrides: overrides }),
+}), {
+  name: "uni-match-sg-store",
+  // Only persist user inputs, not computed results (those get recomputed)
+  partialize: (state) => ({
+    h2Subjects: state.h2Subjects,
+    gpGrade: state.gpGrade,
+    h1ContentSubject: state.h1ContentSubject,
+    mtlGrade: state.mtlGrade,
+    pwResult: state.pwResult,
+    rpResult: state.rpResult,
+    quizAnswers: state.quizAnswers,
+    quizResult: state.quizResult,
+    uniStyleAnswers: state.uniStyleAnswers,
+    uniStyleProfile: state.uniStyleProfile,
+    filters: state.filters,
+    hidePrereqNotMet: state.hidePrereqNotMet,
+    prioritiseEligibility: state.prioritiseEligibility,
+    openToCompetitive: state.openToCompetitive,
+    portfolio: state.portfolio,
+    manualTagOverrides: state.manualTagOverrides,
+    manualPreferenceOverrides: state.manualPreferenceOverrides,
+  }),
 }));

@@ -5,13 +5,12 @@ import Link from "next/link";
 import { useAppStore } from "@/lib/store";
 import {
   generateRecommendations,
-  DEFAULT_FILTERS,
   type CourseData,
   type FilterSettings,
   type RecommendedCourse,
 } from "@/lib/reco/engine";
 import { TIER_LABELS } from "@/lib/reco/config";
-import { TAG_LABELS, type InterestTag } from "@/lib/quiz-engine";
+import type { InterestTag } from "@/lib/quiz-engine";
 
 export default function RecommendationsPage() {
   const {
@@ -57,10 +56,16 @@ export default function RecommendationsPage() {
   }, []);
 
   const userRp = rpResult?.bestUAS ?? 0;
-  const userH2Subjects = h2Subjects
-    .filter((s) => s.name.trim() !== "")
-    .map((s) => s.name);
-  const userH1Subjects = h1ContentSubject ? [h1ContentSubject.name] : [];
+
+  const userH2Subjects = useMemo(
+    () => h2Subjects.filter((s) => s.name.trim() !== "").map((s) => s.name),
+    [h2Subjects]
+  );
+
+  const userH1Subjects = useMemo(
+    () => (h1ContentSubject ? [h1ContentSubject.name] : []),
+    [h1ContentSubject]
+  );
 
   // Merge quiz tag points with manual overrides
   const tagPoints = useMemo(() => {
@@ -72,14 +77,18 @@ export default function RecommendationsPage() {
     return merged;
   }, [quizResult, manualTagOverrides]);
 
-  const preferences = quizResult?.preferences ?? {
-    prefers_people_work: false,
-    prefers_analytical_work: false,
-    prefers_creative_work: false,
-    avoid_heavy_math: false,
-    avoid_heavy_coding: false,
-    likes_structure_vs_exploration: "balanced" as const,
-  };
+  const preferences = useMemo(
+    () =>
+      quizResult?.preferences ?? {
+        prefers_people_work: false,
+        prefers_analytical_work: false,
+        prefers_creative_work: false,
+        avoid_heavy_math: false,
+        avoid_heavy_coding: false,
+        likes_structure_vs_exploration: "balanced" as const,
+      },
+    [quizResult]
+  );
 
   const recommendations = useMemo(() => {
     if (courses.length === 0) return [];

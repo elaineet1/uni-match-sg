@@ -800,13 +800,15 @@ export function scoreQuiz(answers: QuizAnswer[]): QuizResult {
     tagPoints.humanities_languages +
     tagPoints.design_creative_media +
     tagPoints.communications_marketing;
+  // avoid_heavy_math: set directly by Q9 answers, OR inferred when user leans non-math
+  // and their math-heavy tag scores are lower than non-math tag scores
   const avoid_heavy_math_final =
-    avoidHeavyMath || (avoidHeavyMath && mathHeavyTags < nonMathTags);
+    avoidHeavyMath || (mathHeavyTags < nonMathTags && nonMathTags > 0 && mathHeavyTags === 0);
 
-  // avoid_heavy_coding: true if set by Q8 C/E, or if computing_software not in top 8 and user selected minimal coding
+  // avoid_heavy_coding: set directly by Q8 C/E, or if computing not in top 8 tags
   const computingRank = sortedTags.indexOf("computing_software");
   const avoid_heavy_coding_final =
-    avoidHeavyCoding || (avoidHeavyCoding && computingRank >= 8);
+    avoidHeavyCoding || (computingRank >= 8 && nonMathTags > mathHeavyTags);
 
   // likes_structure_vs_exploration
   let likes_structure_vs_exploration: "structure" | "exploration" | "balanced";

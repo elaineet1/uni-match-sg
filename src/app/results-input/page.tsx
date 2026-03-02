@@ -16,13 +16,16 @@ const H2_SUBJECT_OPTIONS = [
   "Economics",
   "History",
   "Geography",
-  "Literature",
+  "Literature in English",
   "Art",
   "Music",
   "Computing",
-  "China Studies",
-  "Theatre Studies",
-  "Knowledge & Inquiry",
+  "China Studies in English",
+  "Theatre Studies and Drama",
+  "Knowledge and Inquiry",
+  "Malay Language and Literature",
+  "Chinese Language and Literature",
+  "Tamil Language and Literature",
 ];
 
 export default function ResultsInputPage() {

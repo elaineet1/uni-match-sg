@@ -4,12 +4,13 @@ import { prisma } from "@/lib/prisma";
 import { TAG_LABELS, type InterestTag } from "@/lib/quiz-engine";
 
 interface PageProps {
-  params: { slug: string };
+  params: Promise<{ slug: string }>;
 }
 
 export default async function CourseDetailPage({ params }: PageProps) {
+  const { slug } = await params;
   const course = await prisma.course.findUnique({
-    where: { slug: params.slug },
+    where: { slug },
     include: {
       university: true,
       prerequisites: true,
