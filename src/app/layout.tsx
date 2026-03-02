@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "@/app/globals.css";
 import { NavHeader } from "@/components/nav-header";
+import { ResetFromQuery } from "@/components/reset-from-query";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -35,6 +36,7 @@ export default function RootLayout({
   return (
     <html lang="en" className={inter.variable}>
       <body className={`${inter.className} min-h-screen`}>
+        <ResetFromQuery />
         <NavHeader />
         <main className="mx-auto max-w-5xl px-4 py-8">{children}</main>
         <footer className="border-t border-gray-200 bg-white py-6 text-center text-xs text-gray-500">

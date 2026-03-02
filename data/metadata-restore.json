@@ -1,0 +1,1057 @@
+[
+  {
+    "slug": "nus-computer-science",
+    "name": "Computer Science",
+    "universityName": "NUS",
+    "faculty": "School of Computing",
+    "description": "NUS Computer Science provides a strong foundation in software engineering, algorithms, artificial intelligence, computer systems, and data science. The programme is consistently ranked among the top in Asia and produces graduates highly sought after by the tech industry.",
+    "officialUrl": "https://www.comp.nus.edu.sg/programmes/ug/cs/",
+    "tags": [
+      "computing_software",
+      "data_ai",
+      "entrepreneurship_product"
+    ],
+    "typicalRoles": [
+      "Software Engineer",
+      "Data Scientist",
+      "Product Manager",
+      "Machine Learning Engineer"
+    ],
+    "aiRiskNote": "",
+    "aiRiskSources": [],
+    "majors": [
+      "Computer Science"
+    ],
+    "doubleDegrees": [
+      "Computer Science and Business Administration",
+      "Computer Science and Economics"
+    ]
+  },
+  {
+    "slug": "nus-business-administration",
+    "name": "Business Administration",
+    "universityName": "NUS",
+    "faculty": "NUS Business School",
+    "description": "NUS Business Administration offers a broad-based business education covering finance, marketing, management, strategy, and analytics. Students can specialise in areas such as finance, marketing, or management and organisations.",
+    "officialUrl": "https://bba.nus.edu.sg/",
+    "tags": [
+      "business_management",
+      "finance_accounting",
+      "entrepreneurship_product"
+    ],
+    "typicalRoles": [
+      "Management Trainee",
+      "Business Analyst",
+      "Financial Analyst",
+      "Marketing Executive"
+    ],
+    "aiRiskNote": "",
+    "aiRiskSources": [],
+    "majors": [
+      "Business Administration"
+    ],
+    "doubleDegrees": [
+      "Business Administration and Law",
+      "Business Administration and Computer Science"
+    ]
+  },
+  {
+    "slug": "nus-medicine",
+    "name": "Medicine",
+    "universityName": "NUS",
+    "faculty": "Yong Loo Lin School of Medicine",
+    "description": "NUS Medicine is a five-year undergraduate programme that trains students to become competent and compassionate doctors. The curriculum integrates basic medical sciences with clinical training at the National University Hospital and other affiliated hospitals.",
+    "officialUrl": "https://medicine.nus.edu.sg/",
+    "tags": [
+      "healthcare_biomedical",
+      "life_sciences_chemistry"
+    ],
+    "typicalRoles": [
+      "Medical Doctor",
+      "Surgeon",
+      "Medical Researcher"
+    ],
+    "aiRiskNote": "",
+    "aiRiskSources": [],
+    "majors": [
+      "Medicine"
+    ],
+    "doubleDegrees": []
+  },
+  {
+    "slug": "nus-law",
+    "name": "Law",
+    "universityName": "NUS",
+    "faculty": "Faculty of Law",
+    "description": "NUS Law offers a four-year LLB programme that provides rigorous training in legal analysis, reasoning, and practice. The faculty is one of the most prestigious law schools in Asia with strong mooting and clinical legal education programmes.",
+    "officialUrl": "https://law.nus.edu.sg/",
+    "tags": [
+      "law_public_policy",
+      "social_sciences"
+    ],
+    "typicalRoles": [
+      "Lawyer",
+      "Legal Counsel",
+      "Legal Associate",
+      "Policy Analyst"
+    ],
+    "aiRiskNote": "",
+    "aiRiskSources": [],
+    "majors": [
+      "Law"
+    ],
+    "doubleDegrees": [
+      "Law and Business Administration"
+    ]
+  },
+  {
+    "slug": "nus-civil-engineering",
+    "name": "Civil Engineering",
+    "universityName": "NUS",
+    "faculty": "College of Design and Engineering",
+    "description": "NUS Civil Engineering prepares students for careers in structural, geotechnical, transportation, and environmental engineering. The programme emphasises sustainable infrastructure development and smart city technologies.",
+    "officialUrl": "https://cde.nus.edu.sg/cee/",
+    "tags": [
+      "engineering",
+      "operations_logistics"
+    ],
+    "typicalRoles": [
+      "Civil Engineer",
+      "Structural Engineer",
+      "Project Manager",
+      "Urban Planner"
+    ],
+    "aiRiskNote": "",
+    "aiRiskSources": [],
+    "majors": [
+      "Civil Engineering"
+    ],
+    "doubleDegrees": []
+  },
+  {
+    "slug": "nus-electrical-engineering",
+    "name": "Electrical Engineering",
+    "universityName": "NUS",
+    "faculty": "College of Design and Engineering",
+    "description": "NUS Electrical Engineering covers power systems, electronics, telecommunications, and control systems. Students gain skills in circuit design, signal processing, and embedded systems relevant to modern technology industries.",
+    "officialUrl": "https://cde.nus.edu.sg/ece/",
+    "tags": [
+      "engineering",
+      "computing_software"
+    ],
+    "typicalRoles": [
+      "Electrical Engineer",
+      "Electronics Engineer",
+      "Systems Engineer",
+      "Hardware Engineer"
+    ],
+    "aiRiskNote": "",
+    "aiRiskSources": [],
+    "majors": [
+      "Electrical Engineering"
+    ],
+    "doubleDegrees": []
+  },
+  {
+    "slug": "nus-mechanical-engineering",
+    "name": "Mechanical Engineering",
+    "universityName": "NUS",
+    "faculty": "College of Design and Engineering",
+    "description": "NUS Mechanical Engineering covers thermodynamics, mechanics, materials science, and manufacturing. Students learn to design and analyse mechanical systems for industries including aerospace, automotive, and energy.",
+    "officialUrl": "https://cde.nus.edu.sg/me/",
+    "tags": [
+      "engineering",
+      "operations_logistics"
+    ],
+    "typicalRoles": [
+      "Mechanical Engineer",
+      "Design Engineer",
+      "Manufacturing Engineer",
+      "Project Engineer"
+    ],
+    "aiRiskNote": "",
+    "aiRiskSources": [],
+    "majors": [
+      "Mechanical Engineering"
+    ],
+    "doubleDegrees": []
+  },
+  {
+    "slug": "nus-chemical-engineering",
+    "name": "Chemical Engineering",
+    "universityName": "NUS",
+    "faculty": "College of Design and Engineering",
+    "description": "NUS Chemical Engineering combines chemistry, physics, mathematics, and engineering principles to solve problems related to the production and use of chemicals, fuels, drugs, food, and other products.",
+    "officialUrl": "https://cde.nus.edu.sg/chbe/",
+    "tags": [
+      "engineering",
+      "life_sciences_chemistry"
+    ],
+    "typicalRoles": [
+      "Chemical Engineer",
+      "Process Engineer",
+      "Plant Engineer",
+      "R&D Engineer"
+    ],
+    "aiRiskNote": "",
+    "aiRiskSources": [],
+    "majors": [
+      "Chemical Engineering"
+    ],
+    "doubleDegrees": []
+  },
+  {
+    "slug": "nus-economics",
+    "name": "Economics",
+    "universityName": "NUS",
+    "faculty": "Faculty of Arts and Social Sciences",
+    "description": "NUS Economics provides rigorous training in economic theory, quantitative methods, and policy analysis. Students develop strong analytical skills applicable to finance, consulting, government, and research.",
+    "officialUrl": "https://fass.nus.edu.sg/ecs/",
+    "tags": [
+      "economics_policy",
+      "finance_accounting",
+      "data_ai"
+    ],
+    "typicalRoles": [
+      "Economist",
+      "Financial Analyst",
+      "Policy Analyst",
+      "Management Consultant"
+    ],
+    "aiRiskNote": "",
+    "aiRiskSources": [],
+    "majors": [
+      "Economics"
+    ],
+    "doubleDegrees": []
+  },
+  {
+    "slug": "nus-political-science",
+    "name": "Political Science",
+    "universityName": "NUS",
+    "faculty": "Faculty of Arts and Social Sciences",
+    "description": "NUS Political Science examines political institutions, governance, international relations, and public policy. Students develop critical thinking and analytical skills for careers in government, diplomacy, and advocacy.",
+    "officialUrl": "https://fass.nus.edu.sg/pol/",
+    "tags": [
+      "social_sciences",
+      "law_public_policy"
+    ],
+    "typicalRoles": [
+      "Policy Analyst",
+      "Civil Servant",
+      "Journalist",
+      "Diplomat",
+      "Researcher"
+    ],
+    "aiRiskNote": "",
+    "aiRiskSources": [],
+    "majors": [
+      "Political Science"
+    ],
+    "doubleDegrees": []
+  },
+  {
+    "slug": "nus-english",
+    "name": "English Language and Literature",
+    "universityName": "NUS",
+    "faculty": "Faculty of Arts and Social Sciences",
+    "description": "NUS English explores literature, linguistics, and cultural studies. Students develop advanced skills in critical analysis, communication, and creative expression through the study of diverse literary traditions.",
+    "officialUrl": "https://fass.nus.edu.sg/elts/",
+    "tags": [
+      "humanities_languages",
+      "communications_marketing"
+    ],
+    "typicalRoles": [
+      "Writer",
+      "Editor",
+      "Communications Specialist",
+      "Content Strategist",
+      "Teacher"
+    ],
+    "aiRiskNote": "",
+    "aiRiskSources": [],
+    "majors": [
+      "English Language and Literature"
+    ],
+    "doubleDegrees": []
+  },
+  {
+    "slug": "nus-psychology",
+    "name": "Psychology",
+    "universityName": "NUS",
+    "faculty": "Faculty of Arts and Social Sciences",
+    "description": "NUS Psychology covers cognitive, developmental, social, and clinical psychology. Students learn research methods and statistical analysis alongside psychological theory, preparing them for careers in counselling, HR, and research.",
+    "officialUrl": "https://fass.nus.edu.sg/psy/",
+    "tags": [
+      "education_psychology",
+      "social_sciences",
+      "healthcare_biomedical"
+    ],
+    "typicalRoles": [
+      "Psychologist",
+      "Counsellor",
+      "HR Specialist",
+      "UX Researcher",
+      "Social Worker"
+    ],
+    "aiRiskNote": "",
+    "aiRiskSources": [],
+    "majors": [
+      "Psychology"
+    ],
+    "doubleDegrees": []
+  },
+  {
+    "slug": "nus-data-science-and-analytics",
+    "name": "Data Science and Analytics",
+    "universityName": "NUS",
+    "faculty": "Faculty of Science",
+    "description": "NUS Data Science and Analytics combines statistics, computer science, and domain expertise. Students learn data wrangling, machine learning, statistical modelling, and data visualisation for extracting insights from complex datasets.",
+    "officialUrl": "https://www.stat.nus.edu.sg/prospective-students/undergraduate-programme/data-science-and-analytics/",
+    "tags": [
+      "data_ai",
+      "computing_software",
+      "finance_accounting"
+    ],
+    "typicalRoles": [
+      "Data Scientist",
+      "Data Analyst",
+      "Machine Learning Engineer",
+      "Quantitative Analyst"
+    ],
+    "aiRiskNote": "",
+    "aiRiskSources": [],
+    "majors": [
+      "Data Science and Analytics"
+    ],
+    "doubleDegrees": []
+  },
+  {
+    "slug": "nus-information-systems",
+    "name": "Information Systems",
+    "universityName": "NUS",
+    "faculty": "School of Computing",
+    "description": "NUS Information Systems bridges business and technology, training students to design and manage IT solutions for organisations. The curriculum covers systems analysis, project management, enterprise architecture, and digital innovation.",
+    "officialUrl": "https://www.comp.nus.edu.sg/programmes/ug/is/",
+    "tags": [
+      "computing_software",
+      "business_management",
+      "data_ai"
+    ],
+    "typicalRoles": [
+      "Business Analyst",
+      "IT Consultant",
+      "Systems Analyst",
+      "Product Manager",
+      "Solutions Architect"
+    ],
+    "aiRiskNote": "",
+    "aiRiskSources": [],
+    "majors": [
+      "Information Systems"
+    ],
+    "doubleDegrees": []
+  },
+  {
+    "slug": "nus-accountancy",
+    "name": "Accountancy",
+    "universityName": "NUS",
+    "faculty": "NUS Business School",
+    "description": "NUS Accountancy provides a professional accounting education accredited by ISCA, CPA Australia, and ACCA. Students learn financial reporting, auditing, taxation, and management accounting.",
+    "officialUrl": "https://bba.nus.edu.sg/academic-programmes/accountancy/",
+    "tags": [
+      "finance_accounting",
+      "business_management"
+    ],
+    "typicalRoles": [
+      "Auditor",
+      "Accountant",
+      "Tax Consultant",
+      "Financial Controller",
+      "CFO"
+    ],
+    "aiRiskNote": "",
+    "aiRiskSources": [],
+    "majors": [
+      "Accountancy"
+    ],
+    "doubleDegrees": []
+  },
+  {
+    "slug": "nus-life-sciences",
+    "name": "Life Sciences",
+    "universityName": "NUS",
+    "faculty": "Faculty of Science",
+    "description": "NUS Life Sciences covers molecular biology, genetics, ecology, and biomedical science. Students gain laboratory skills and scientific reasoning applicable to research, healthcare, and the biotech industry.",
+    "officialUrl": "https://www.science.nus.edu.sg/undergraduates/departments/biological-sciences/",
+    "tags": [
+      "life_sciences_chemistry",
+      "healthcare_biomedical"
+    ],
+    "typicalRoles": [
+      "Research Scientist",
+      "Lab Technologist",
+      "Quality Assurance Specialist",
+      "Clinical Research Associate"
+    ],
+    "aiRiskNote": "",
+    "aiRiskSources": [],
+    "majors": [
+      "Life Sciences"
+    ],
+    "doubleDegrees": []
+  },
+  {
+    "slug": "nus-pharmacy",
+    "name": "Pharmacy",
+    "universityName": "NUS",
+    "faculty": "Faculty of Science",
+    "description": "NUS Pharmacy is a four-year programme that trains students in pharmaceutical sciences, pharmacology, and clinical pharmacy practice. Graduates can register as pharmacists in Singapore.",
+    "officialUrl": "https://pharmacy.nus.edu.sg/",
+    "tags": [
+      "healthcare_biomedical",
+      "life_sciences_chemistry"
+    ],
+    "typicalRoles": [
+      "Pharmacist",
+      "Clinical Pharmacist",
+      "Pharmaceutical Researcher",
+      "Regulatory Affairs Specialist"
+    ],
+    "aiRiskNote": "",
+    "aiRiskSources": [],
+    "majors": [
+      "Pharmacy"
+    ],
+    "doubleDegrees": []
+  },
+  {
+    "slug": "nus-architecture",
+    "name": "Architecture",
+    "universityName": "NUS",
+    "faculty": "College of Design and Engineering",
+    "description": "NUS Architecture is a five-year programme combining design studio work with architectural theory, technology, and history. Students develop skills in spatial design, sustainability, and urban planning.",
+    "officialUrl": "https://cde.nus.edu.sg/arch/",
+    "tags": [
+      "design_creative_media",
+      "engineering"
+    ],
+    "typicalRoles": [
+      "Architect",
+      "Urban Designer",
+      "Interior Designer",
+      "Sustainability Consultant"
+    ],
+    "aiRiskNote": "",
+    "aiRiskSources": [],
+    "majors": [
+      "Architecture"
+    ],
+    "doubleDegrees": []
+  },
+  {
+    "slug": "nus-industrial-design",
+    "name": "Industrial Design",
+    "universityName": "NUS",
+    "faculty": "College of Design and Engineering",
+    "description": "NUS Industrial Design trains students in product design, user experience, and design thinking. The programme combines creative studio practice with engineering and technology for human-centred design solutions.",
+    "officialUrl": "https://cde.nus.edu.sg/did/",
+    "tags": [
+      "design_creative_media",
+      "entrepreneurship_product"
+    ],
+    "typicalRoles": [
+      "Product Designer",
+      "UX Designer",
+      "Industrial Designer",
+      "Design Consultant"
+    ],
+    "aiRiskNote": "",
+    "aiRiskSources": [],
+    "majors": [
+      "Industrial Design"
+    ],
+    "doubleDegrees": []
+  },
+  {
+    "slug": "ntu-computer-science",
+    "name": "Computer Science",
+    "universityName": "NTU",
+    "faculty": "School of Computer Science and Engineering",
+    "description": "NTU Computer Science offers a comprehensive curriculum in algorithms, software engineering, AI, cybersecurity, and computer networks. The programme is well-regarded for its strong industry connections and research output.",
+    "officialUrl": "https://www.ntu.edu.sg/education/undergraduate-programme/bachelor-of-science-in-computer-science",
+    "tags": [
+      "computing_software",
+      "data_ai"
+    ],
+    "typicalRoles": [
+      "Software Engineer",
+      "Data Scientist",
+      "Cybersecurity Analyst",
+      "Full Stack Developer"
+    ],
+    "aiRiskNote": "",
+    "aiRiskSources": [],
+    "majors": [
+      "Computer Science"
+    ],
+    "doubleDegrees": [
+      "Computer Science and Business"
+    ]
+  },
+  {
+    "slug": "ntu-computer-engineering",
+    "name": "Computer Engineering",
+    "universityName": "NTU",
+    "faculty": "School of Computer Science and Engineering / School of Electrical and Electronic Engineering",
+    "description": "NTU Computer Engineering integrates hardware and software expertise, covering embedded systems, computer architecture, IoT, and real-time computing. Graduates are well-positioned for roles bridging hardware and software.",
+    "officialUrl": "https://www.ntu.edu.sg/education/undergraduate-programme/bachelor-of-engineering-in-computer-engineering",
+    "tags": [
+      "computing_software",
+      "engineering"
+    ],
+    "typicalRoles": [
+      "Embedded Systems Engineer",
+      "IoT Developer",
+      "Systems Architect",
+      "Firmware Engineer"
+    ],
+    "aiRiskNote": "",
+    "aiRiskSources": [],
+    "majors": [
+      "Computer Engineering"
+    ],
+    "doubleDegrees": []
+  },
+  {
+    "slug": "ntu-business",
+    "name": "Business",
+    "universityName": "NTU",
+    "faculty": "Nanyang Business School",
+    "description": "NTU Business offers a comprehensive business education with specialisations in banking and finance, marketing, human resource consulting, and entrepreneurship. The programme is triple-accredited (AACSB, EQUIS, AMBA).",
+    "officialUrl": "https://www.ntu.edu.sg/business/undergraduate-programme/bachelor-of-business-administration",
+    "tags": [
+      "business_management",
+      "finance_accounting",
+      "entrepreneurship_product"
+    ],
+    "typicalRoles": [
+      "Management Trainee",
+      "Business Analyst",
+      "Marketing Executive",
+      "Financial Analyst"
+    ],
+    "aiRiskNote": "",
+    "aiRiskSources": [],
+    "majors": [
+      "Business"
+    ],
+    "doubleDegrees": [
+      "Business and Computer Science",
+      "Business and Computing"
+    ]
+  },
+  {
+    "slug": "ntu-accountancy",
+    "name": "Accountancy",
+    "universityName": "NTU",
+    "faculty": "Nanyang Business School",
+    "description": "NTU Accountancy provides professional training in financial accounting, auditing, taxation, and corporate governance. The programme is accredited by ISCA, CPA Australia, and ACCA for direct professional qualification pathways.",
+    "officialUrl": "https://www.ntu.edu.sg/business/undergraduate-programme/bachelor-of-accountancy",
+    "tags": [
+      "finance_accounting",
+      "business_management"
+    ],
+    "typicalRoles": [
+      "Auditor",
+      "Accountant",
+      "Tax Consultant",
+      "Financial Controller"
+    ],
+    "aiRiskNote": "",
+    "aiRiskSources": [],
+    "majors": [
+      "Accountancy"
+    ],
+    "doubleDegrees": [
+      "Accountancy and Business"
+    ]
+  },
+  {
+    "slug": "ntu-biological-sciences",
+    "name": "Biological Sciences",
+    "universityName": "NTU",
+    "faculty": "School of Biological Sciences",
+    "description": "NTU Biological Sciences covers molecular biology, genetics, cell biology, and ecology. The programme offers specialisations in biomedical sciences and environmental biology with strong laboratory training.",
+    "officialUrl": "https://www.ntu.edu.sg/education/undergraduate-programme/bachelor-of-science-in-biological-sciences",
+    "tags": [
+      "life_sciences_chemistry",
+      "healthcare_biomedical"
+    ],
+    "typicalRoles": [
+      "Research Scientist",
+      "Lab Technologist",
+      "Biotech Specialist",
+      "Clinical Research Associate"
+    ],
+    "aiRiskNote": "",
+    "aiRiskSources": [],
+    "majors": [
+      "Biological Sciences"
+    ],
+    "doubleDegrees": []
+  },
+  {
+    "slug": "ntu-chemistry",
+    "name": "Chemistry and Biological Chemistry",
+    "universityName": "NTU",
+    "faculty": "School of Physical and Mathematical Sciences",
+    "description": "NTU Chemistry and Biological Chemistry provides rigorous training in organic, inorganic, physical, and analytical chemistry. Students gain strong laboratory skills for careers in chemical and pharmaceutical industries.",
+    "officialUrl": "https://www.ntu.edu.sg/education/undergraduate-programme/bachelor-of-science-in-chemistry-and-biological-chemistry",
+    "tags": [
+      "life_sciences_chemistry",
+      "engineering"
+    ],
+    "typicalRoles": [
+      "Chemist",
+      "Lab Analyst",
+      "Quality Control Specialist",
+      "Pharmaceutical Researcher"
+    ],
+    "aiRiskNote": "",
+    "aiRiskSources": [],
+    "majors": [
+      "Chemistry and Biological Chemistry"
+    ],
+    "doubleDegrees": []
+  },
+  {
+    "slug": "ntu-mechanical-engineering",
+    "name": "Mechanical Engineering",
+    "universityName": "NTU",
+    "faculty": "School of Mechanical and Aerospace Engineering",
+    "description": "NTU Mechanical Engineering covers mechanics, thermodynamics, manufacturing, and robotics. The programme emphasises hands-on design projects and offers specialisations in areas such as robotics and energy systems.",
+    "officialUrl": "https://www.ntu.edu.sg/education/undergraduate-programme/bachelor-of-engineering-in-mechanical-engineering",
+    "tags": [
+      "engineering",
+      "operations_logistics"
+    ],
+    "typicalRoles": [
+      "Mechanical Engineer",
+      "Design Engineer",
+      "Manufacturing Engineer",
+      "Robotics Engineer"
+    ],
+    "aiRiskNote": "",
+    "aiRiskSources": [],
+    "majors": [
+      "Mechanical Engineering"
+    ],
+    "doubleDegrees": []
+  },
+  {
+    "slug": "ntu-electrical-engineering",
+    "name": "Electrical and Electronic Engineering",
+    "universityName": "NTU",
+    "faculty": "School of Electrical and Electronic Engineering",
+    "description": "NTU Electrical and Electronic Engineering covers power systems, microelectronics, signal processing, and communications. Students can specialise in areas including power engineering, intelligent systems, and nanoelectronics.",
+    "officialUrl": "https://www.ntu.edu.sg/education/undergraduate-programme/bachelor-of-engineering-in-electrical-and-electronic-engineering",
+    "tags": [
+      "engineering",
+      "computing_software"
+    ],
+    "typicalRoles": [
+      "Electrical Engineer",
+      "Electronics Engineer",
+      "Telecommunications Engineer",
+      "Systems Engineer"
+    ],
+    "aiRiskNote": "",
+    "aiRiskSources": [],
+    "majors": [
+      "Electrical and Electronic Engineering"
+    ],
+    "doubleDegrees": []
+  },
+  {
+    "slug": "ntu-civil-engineering",
+    "name": "Civil Engineering",
+    "universityName": "NTU",
+    "faculty": "School of Civil and Environmental Engineering",
+    "description": "NTU Civil Engineering covers structural engineering, geotechnics, water resources, and transportation. The programme prepares students for careers in infrastructure development and environmental engineering.",
+    "officialUrl": "https://www.ntu.edu.sg/education/undergraduate-programme/bachelor-of-engineering-in-civil-engineering",
+    "tags": [
+      "engineering",
+      "operations_logistics"
+    ],
+    "typicalRoles": [
+      "Civil Engineer",
+      "Structural Engineer",
+      "Environmental Engineer",
+      "Project Manager"
+    ],
+    "aiRiskNote": "",
+    "aiRiskSources": [],
+    "majors": [
+      "Civil Engineering"
+    ],
+    "doubleDegrees": []
+  },
+  {
+    "slug": "ntu-aerospace-engineering",
+    "name": "Aerospace Engineering",
+    "universityName": "NTU",
+    "faculty": "School of Mechanical and Aerospace Engineering",
+    "description": "NTU Aerospace Engineering covers aerodynamics, propulsion, flight mechanics, and avionics. Students gain expertise in aircraft and spacecraft design, maintenance, and systems integration relevant to Singapore's aviation industry.",
+    "officialUrl": "https://www.ntu.edu.sg/education/undergraduate-programme/bachelor-of-engineering-in-aerospace-engineering",
+    "tags": [
+      "engineering",
+      "operations_logistics"
+    ],
+    "typicalRoles": [
+      "Aerospace Engineer",
+      "Aircraft Maintenance Engineer",
+      "Systems Engineer",
+      "Defence Engineer"
+    ],
+    "aiRiskNote": "",
+    "aiRiskSources": [],
+    "majors": [
+      "Aerospace Engineering"
+    ],
+    "doubleDegrees": []
+  },
+  {
+    "slug": "ntu-materials-engineering",
+    "name": "Materials Engineering",
+    "universityName": "NTU",
+    "faculty": "School of Materials Science and Engineering",
+    "description": "NTU Materials Engineering covers metals, polymers, ceramics, and nanomaterials. Students learn to develop and characterise advanced materials for applications in electronics, biomedicine, and energy.",
+    "officialUrl": "https://www.ntu.edu.sg/education/undergraduate-programme/bachelor-of-engineering-in-materials-engineering",
+    "tags": [
+      "engineering",
+      "life_sciences_chemistry"
+    ],
+    "typicalRoles": [
+      "Materials Engineer",
+      "Process Engineer",
+      "Quality Engineer",
+      "R&D Engineer"
+    ],
+    "aiRiskNote": "",
+    "aiRiskSources": [],
+    "majors": [
+      "Materials Engineering"
+    ],
+    "doubleDegrees": []
+  },
+  {
+    "slug": "ntu-communication-studies",
+    "name": "Communication Studies",
+    "universityName": "NTU",
+    "faculty": "Wee Kim Wee School of Communication and Information",
+    "description": "NTU Communication Studies covers journalism, advertising, public relations, broadcasting, and cinema. Students develop strong media production and strategic communication skills for the creative industries.",
+    "officialUrl": "https://www.ntu.edu.sg/education/undergraduate-programme/bachelor-of-communication-studies",
+    "tags": [
+      "communications_marketing",
+      "design_creative_media"
+    ],
+    "typicalRoles": [
+      "Journalist",
+      "PR Executive",
+      "Advertising Executive",
+      "Content Producer",
+      "Social Media Manager"
+    ],
+    "aiRiskNote": "",
+    "aiRiskSources": [],
+    "majors": [
+      "Communication Studies"
+    ],
+    "doubleDegrees": []
+  },
+  {
+    "slug": "ntu-linguistics",
+    "name": "Linguistics and Multilingual Studies",
+    "universityName": "NTU",
+    "faculty": "School of Humanities",
+    "description": "NTU Linguistics and Multilingual Studies explores language structure, cognitive linguistics, translation, and multilingualism. Students develop expertise in language analysis and multilingual communication relevant to Singapore's diverse context.",
+    "officialUrl": "https://www.ntu.edu.sg/education/undergraduate-programme/bachelor-of-arts-in-linguistics-and-multilingual-studies",
+    "tags": [
+      "humanities_languages",
+      "education_psychology"
+    ],
+    "typicalRoles": [
+      "Translator",
+      "Interpreter",
+      "Language Specialist",
+      "Copywriter",
+      "Teacher"
+    ],
+    "aiRiskNote": "",
+    "aiRiskSources": [],
+    "majors": [
+      "Linguistics and Multilingual Studies"
+    ],
+    "doubleDegrees": []
+  },
+  {
+    "slug": "ntu-art-design-media",
+    "name": "Art, Design and Media",
+    "universityName": "NTU",
+    "faculty": "School of Art, Design and Media",
+    "description": "NTU Art, Design and Media offers specialisations in photography and digital imaging, animation, product design, interactive media, and visual communication. The programme balances creative practice with design theory.",
+    "officialUrl": "https://www.ntu.edu.sg/education/undergraduate-programme/bachelor-of-fine-arts-in-art-design-and-media",
+    "tags": [
+      "design_creative_media",
+      "communications_marketing"
+    ],
+    "typicalRoles": [
+      "Graphic Designer",
+      "Animator",
+      "Art Director",
+      "UI/UX Designer",
+      "Photographer"
+    ],
+    "aiRiskNote": "",
+    "aiRiskSources": [],
+    "majors": [
+      "Art, Design and Media"
+    ],
+    "doubleDegrees": []
+  },
+  {
+    "slug": "ntu-economics",
+    "name": "Economics",
+    "universityName": "NTU",
+    "faculty": "School of Social Sciences",
+    "description": "NTU Economics trains students in microeconomics, macroeconomics, econometrics, and applied economics. The programme emphasises quantitative methods and data analysis for economic policy and business applications.",
+    "officialUrl": "https://www.ntu.edu.sg/education/undergraduate-programme/bachelor-of-science-in-economics",
+    "tags": [
+      "economics_policy",
+      "data_ai",
+      "finance_accounting"
+    ],
+    "typicalRoles": [
+      "Economist",
+      "Policy Analyst",
+      "Financial Analyst",
+      "Data Analyst",
+      "Consultant"
+    ],
+    "aiRiskNote": "",
+    "aiRiskSources": [],
+    "majors": [
+      "Economics"
+    ],
+    "doubleDegrees": []
+  },
+  {
+    "slug": "ntu-psychology",
+    "name": "Psychology",
+    "universityName": "NTU",
+    "faculty": "School of Social Sciences",
+    "description": "NTU Psychology covers cognitive, developmental, social, and clinical psychology. The programme emphasises research methods and evidence-based practice for understanding human behaviour and mental processes.",
+    "officialUrl": "https://www.ntu.edu.sg/education/undergraduate-programme/bachelor-of-arts-in-psychology",
+    "tags": [
+      "education_psychology",
+      "social_sciences",
+      "healthcare_biomedical"
+    ],
+    "typicalRoles": [
+      "Psychologist",
+      "Counsellor",
+      "HR Specialist",
+      "UX Researcher",
+      "Social Worker"
+    ],
+    "aiRiskNote": "",
+    "aiRiskSources": [],
+    "majors": [
+      "Psychology"
+    ],
+    "doubleDegrees": []
+  },
+  {
+    "slug": "smu-business-management",
+    "name": "Business Management",
+    "universityName": "SMU",
+    "faculty": "Lee Kong Chian School of Business",
+    "description": "SMU Business Management offers a broad-based business education with majors in finance, marketing, operations management, organisational behaviour, and strategic management. Known for its seminar-style interactive pedagogy.",
+    "officialUrl": "https://business.smu.edu.sg/bachelor-business-management",
+    "tags": [
+      "business_management",
+      "finance_accounting",
+      "entrepreneurship_product"
+    ],
+    "typicalRoles": [
+      "Management Trainee",
+      "Business Analyst",
+      "Marketing Executive",
+      "Financial Analyst",
+      "Consultant"
+    ],
+    "aiRiskNote": "",
+    "aiRiskSources": [],
+    "majors": [
+      "Business Management"
+    ],
+    "doubleDegrees": []
+  },
+  {
+    "slug": "smu-accountancy",
+    "name": "Accountancy",
+    "universityName": "SMU",
+    "faculty": "School of Accountancy",
+    "description": "SMU Accountancy is one of the top accounting programmes in Asia, offering professional training in financial accounting, audit, tax, and data analytics. The programme provides direct pathways to CPA and ACCA qualifications.",
+    "officialUrl": "https://accountancy.smu.edu.sg/bachelor-accountancy",
+    "tags": [
+      "finance_accounting",
+      "business_management",
+      "data_ai"
+    ],
+    "typicalRoles": [
+      "Auditor",
+      "Tax Consultant",
+      "Financial Analyst",
+      "Forensic Accountant",
+      "CFO"
+    ],
+    "aiRiskNote": "",
+    "aiRiskSources": [],
+    "majors": [
+      "Accountancy"
+    ],
+    "doubleDegrees": []
+  },
+  {
+    "slug": "smu-economics",
+    "name": "Economics",
+    "universityName": "SMU",
+    "faculty": "School of Economics",
+    "description": "SMU Economics focuses on applied economics with strong quantitative training. Students learn econometrics, behavioural economics, and policy analysis through SMU's distinctive seminar-style teaching approach.",
+    "officialUrl": "https://economics.smu.edu.sg/bachelor-science-economics",
+    "tags": [
+      "economics_policy",
+      "data_ai",
+      "finance_accounting"
+    ],
+    "typicalRoles": [
+      "Economist",
+      "Policy Analyst",
+      "Data Analyst",
+      "Financial Analyst",
+      "Risk Analyst"
+    ],
+    "aiRiskNote": "",
+    "aiRiskSources": [],
+    "majors": [
+      "Economics"
+    ],
+    "doubleDegrees": []
+  },
+  {
+    "slug": "smu-information-systems",
+    "name": "Information Systems",
+    "universityName": "SMU",
+    "faculty": "School of Computing and Information Systems",
+    "description": "SMU Information Systems trains students in software development, cybersecurity, data management, and digital business transformation. The programme is known for producing graduates with strong technical and business acumen.",
+    "officialUrl": "https://scis.smu.edu.sg/bsc-information-systems",
+    "tags": [
+      "computing_software",
+      "business_management",
+      "data_ai"
+    ],
+    "typicalRoles": [
+      "Software Engineer",
+      "IT Consultant",
+      "Cybersecurity Analyst",
+      "Business Analyst",
+      "Product Manager"
+    ],
+    "aiRiskNote": "",
+    "aiRiskSources": [],
+    "majors": [
+      "Information Systems"
+    ],
+    "doubleDegrees": []
+  },
+  {
+    "slug": "smu-law",
+    "name": "Law",
+    "universityName": "SMU",
+    "faculty": "Yong Pung How School of Law",
+    "description": "SMU Law offers a four-year LLB programme with a distinctive focus on commercial and corporate law, dispute resolution, and cross-border transactions. The seminar-style teaching develops strong advocacy and communication skills.",
+    "officialUrl": "https://law.smu.edu.sg/llb",
+    "tags": [
+      "law_public_policy",
+      "business_management"
+    ],
+    "typicalRoles": [
+      "Lawyer",
+      "Legal Counsel",
+      "Compliance Officer",
+      "Legal Associate"
+    ],
+    "aiRiskNote": "",
+    "aiRiskSources": [],
+    "majors": [
+      "Law"
+    ],
+    "doubleDegrees": []
+  },
+  {
+    "slug": "smu-social-sciences",
+    "name": "Social Sciences",
+    "universityName": "SMU",
+    "faculty": "School of Social Sciences",
+    "description": "SMU Social Sciences offers majors in politics and public policy, psychology, and sociology. The programme develops critical thinking and research skills through SMU's interactive seminar-based pedagogy.",
+    "officialUrl": "https://socsc.smu.edu.sg/bachelor-science-social-sciences",
+    "tags": [
+      "social_sciences",
+      "law_public_policy",
+      "education_psychology"
+    ],
+    "typicalRoles": [
+      "Policy Analyst",
+      "Social Worker",
+      "HR Specialist",
+      "Research Analyst",
+      "Civil Servant"
+    ],
+    "aiRiskNote": "",
+    "aiRiskSources": [],
+    "majors": [
+      "Political Science",
+      "Psychology",
+      "Sociology"
+    ],
+    "doubleDegrees": []
+  },
+  {
+    "slug": "smu-computing-and-law",
+    "name": "Computing and Law",
+    "universityName": "SMU",
+    "faculty": "School of Computing and Information Systems / Yong Pung How School of Law",
+    "description": "SMU Computing and Law is a unique double-degree programme combining computer science with legal studies. Graduates are uniquely positioned for roles at the intersection of technology and law, including tech regulation, IP law, and legal tech.",
+    "officialUrl": "https://scis.smu.edu.sg/bsc-computing-law",
+    "tags": [
+      "computing_software",
+      "law_public_policy",
+      "data_ai"
+    ],
+    "typicalRoles": [
+      "Tech Lawyer",
+      "Legal Tech Consultant",
+      "IP Lawyer",
+      "Compliance Technologist",
+      "Policy Analyst"
+    ],
+    "aiRiskNote": "",
+    "aiRiskSources": [],
+    "majors": [
+      "Computing and Law"
+    ],
+    "doubleDegrees": []
+  }
+]

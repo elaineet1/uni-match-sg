@@ -68,41 +68,43 @@ export interface AppState {
   toggleCompareCourse: (slug: string) => void;
   removeCompareCourse: (slug: string) => void;
   clearCompareCourses: () => void;
+  resetAll: () => void;
+}
+
+function getInitialState() {
+  return {
+    h2Subjects: [
+      { name: "", level: "H2" as const, grade: "A" as const },
+      { name: "", level: "H2" as const, grade: "A" as const },
+      { name: "", level: "H2" as const, grade: "A" as const },
+    ],
+    gpGrade: "A" as Grade,
+    h1ContentSubject: null as SubjectEntry | null,
+    mtlGrade: null as Grade | null,
+    pwResult: "Pass" as PWResult,
+    rpResult: null as RPResult | null,
+    quizAnswers: [] as QuizAnswer[],
+    quizResult: null as QuizResult | null,
+    uniStyleAnswers: [] as UniStyleAnswer[],
+    uniStyleProfile: null as UniStyleProfile | null,
+    filters: { ...DEFAULT_FILTERS },
+    hidePrereqNotMet: false,
+    prioritiseEligibility: true,
+    openToCompetitive: true,
+    portfolio: {
+      leadershipRoles: "0" as const,
+      awardsLevel: "none" as const,
+      relevantActivities: 0,
+      personalStatementStrength: 3,
+    },
+    manualTagOverrides: [] as InterestTag[],
+    manualPreferenceOverrides: {} as Partial<PreferenceFlags>,
+    selectedCourseSlugs: [] as string[],
+  };
 }
 
 export const useAppStore = create<AppState>()(persist((set, get) => ({
-  h2Subjects: [
-    { name: "", level: "H2", grade: "A" },
-    { name: "", level: "H2", grade: "A" },
-    { name: "", level: "H2", grade: "A" },
-  ],
-  gpGrade: "A",
-  h1ContentSubject: null,
-  mtlGrade: null,
-  pwResult: "Pass",
-  rpResult: null,
-
-  quizAnswers: [],
-  quizResult: null,
-
-  uniStyleAnswers: [],
-  uniStyleProfile: null,
-
-  filters: { ...DEFAULT_FILTERS },
-  hidePrereqNotMet: false,
-  prioritiseEligibility: true,
-  openToCompetitive: true,
-
-  portfolio: {
-    leadershipRoles: "0",
-    awardsLevel: "none",
-    relevantActivities: 0,
-    personalStatementStrength: 3,
-  },
-
-  manualTagOverrides: [],
-  manualPreferenceOverrides: {},
-  selectedCourseSlugs: [],
+  ...getInitialState(),
 
   setH2Subjects: (subjects) => set({ h2Subjects: subjects }),
   setGPGrade: (grade) => set({ gpGrade: grade }),
@@ -194,6 +196,7 @@ export const useAppStore = create<AppState>()(persist((set, get) => ({
       selectedCourseSlugs: get().selectedCourseSlugs.filter((s) => s !== slug),
     }),
   clearCompareCourses: () => set({ selectedCourseSlugs: [] }),
+  resetAll: () => set({ ...getInitialState() }),
 }), {
   name: "uni-match-sg-store",
   // Only persist user inputs, not computed results (those get recomputed)
