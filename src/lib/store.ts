@@ -44,6 +44,7 @@ export interface AppState {
   // Manual tag overrides
   manualTagOverrides: InterestTag[];
   manualPreferenceOverrides: Partial<PreferenceFlags>;
+  selectedCourseSlugs: string[];
 
   // Actions
   setH2Subjects: (subjects: SubjectEntry[]) => void;
@@ -64,6 +65,9 @@ export interface AppState {
   setPortfolio: (portfolio: Partial<PortfolioInput>) => void;
   setManualTagOverrides: (tags: InterestTag[]) => void;
   setManualPreferenceOverrides: (overrides: Partial<PreferenceFlags>) => void;
+  toggleCompareCourse: (slug: string) => void;
+  removeCompareCourse: (slug: string) => void;
+  clearCompareCourses: () => void;
 }
 
 export const useAppStore = create<AppState>()(persist((set, get) => ({
@@ -98,6 +102,7 @@ export const useAppStore = create<AppState>()(persist((set, get) => ({
 
   manualTagOverrides: [],
   manualPreferenceOverrides: {},
+  selectedCourseSlugs: [],
 
   setH2Subjects: (subjects) => set({ h2Subjects: subjects }),
   setGPGrade: (grade) => set({ gpGrade: grade }),
@@ -173,6 +178,22 @@ export const useAppStore = create<AppState>()(persist((set, get) => ({
   setManualTagOverrides: (tags) => set({ manualTagOverrides: tags }),
   setManualPreferenceOverrides: (overrides) =>
     set({ manualPreferenceOverrides: overrides }),
+  toggleCompareCourse: (slug) => {
+    const selected = get().selectedCourseSlugs;
+    if (selected.includes(slug)) {
+      set({
+        selectedCourseSlugs: selected.filter((s) => s !== slug),
+      });
+      return;
+    }
+    if (selected.length >= 5) return;
+    set({ selectedCourseSlugs: [...selected, slug] });
+  },
+  removeCompareCourse: (slug) =>
+    set({
+      selectedCourseSlugs: get().selectedCourseSlugs.filter((s) => s !== slug),
+    }),
+  clearCompareCourses: () => set({ selectedCourseSlugs: [] }),
 }), {
   name: "uni-match-sg-store",
   // Only persist user inputs, not computed results (those get recomputed)
@@ -194,5 +215,6 @@ export const useAppStore = create<AppState>()(persist((set, get) => ({
     portfolio: state.portfolio,
     manualTagOverrides: state.manualTagOverrides,
     manualPreferenceOverrides: state.manualPreferenceOverrides,
+    selectedCourseSlugs: state.selectedCourseSlugs,
   }),
 }));

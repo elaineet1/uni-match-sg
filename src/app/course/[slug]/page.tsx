@@ -2,6 +2,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { prisma } from "@/lib/prisma";
 import { TAG_LABELS, type InterestTag } from "@/lib/quiz-engine";
+import { CompareToggleButton } from "@/components/compare-toggle-button";
 
 interface PageProps {
   params: Promise<{ slug: string }>;
@@ -69,6 +70,9 @@ export default async function CourseDetailPage({ params }: PageProps) {
         <h1 className="mt-1 text-2xl font-bold text-gray-900">
           {course.name}
         </h1>
+        <div className="mt-3">
+          <CompareToggleButton slug={course.slug} />
+        </div>
         {course.officialUrl && (
           <a
             href={course.officialUrl}

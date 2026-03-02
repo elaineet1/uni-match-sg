@@ -8,6 +8,7 @@ const NAV_ITEMS = [
   { href: "/results-input", label: "Enter Results" },
   { href: "/quiz", label: "Interests Quiz" },
   { href: "/recommendations", label: "Recommendations" },
+  { href: "/compare", label: "Compare" },
 ];
 
 export function NavHeader() {

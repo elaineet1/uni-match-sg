@@ -3,6 +3,7 @@
 import { useEffect, useState, useMemo } from "react";
 import Link from "next/link";
 import { useAppStore } from "@/lib/store";
+import { CompareToggleButton } from "@/components/compare-toggle-button";
 import {
   generateRecommendations,
   type CourseData,
@@ -30,6 +31,7 @@ export default function RecommendationsPage() {
     setOpenToCompetitive,
     portfolio,
     manualTagOverrides,
+    selectedCourseSlugs,
   } = useAppStore();
 
   const [courses, setCourses] = useState<CourseData[]>([]);
@@ -123,6 +125,7 @@ export default function RecommendationsPage() {
 
   const totalCourses = courses.length;
   const hiddenCourses = totalCourses - recommendations.length;
+  const canOpenCompare = selectedCourseSlugs.length >= 3;
 
   // Group by tier or reach/match/safe
   const grouped = useMemo(() => {
@@ -445,6 +448,30 @@ export default function RecommendationsPage() {
         {hiddenCourses > 0 && ` (${hiddenCourses} hidden)`}
       </p>
 
+      <div className="mt-3 card flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
+        <p className="text-sm text-gray-700">
+          Compare selection:{" "}
+          <span className="font-semibold text-gray-900">
+            {selectedCourseSlugs.length}
+          </span>{" "}
+          / 5 courses (minimum 3 to compare)
+        </p>
+        <Link
+          href="/compare"
+          className={`inline-flex items-center justify-center rounded-lg px-4 py-2 text-sm font-medium transition-colors ${
+            canOpenCompare
+              ? "bg-blue-600 text-white hover:bg-blue-700"
+              : "cursor-not-allowed bg-gray-100 text-gray-400"
+          }`}
+          aria-disabled={!canOpenCompare}
+          onClick={(e) => {
+            if (!canOpenCompare) e.preventDefault();
+          }}
+        >
+          Open Comparison
+        </Link>
+      </div>
+
       {/* Course list grouped */}
       {recommendations.length === 0 ? (
         <div className="mt-6 card text-center">
@@ -465,27 +492,24 @@ export default function RecommendationsPage() {
               </h2>
               <div className="space-y-3">
                 {group.items.map((rec) => (
-                  <Link
+                  <div
                     key={rec.course.id}
-                    href={`/course/${rec.course.slug}`}
-                    className="card block transition-shadow hover:shadow-md"
+                    className="card transition-shadow hover:shadow-md"
                   >
                     <div className="flex flex-col gap-2 sm:flex-row sm:items-start sm:justify-between">
-                      <div className="flex-1">
-                        <h3 className="font-semibold text-gray-900">
+                      <Link href={`/course/${rec.course.slug}`} className="flex-1">
+                        <h3 className="font-semibold text-gray-900 hover:text-blue-700">
                           {rec.course.name}
                         </h3>
                         <p className="text-xs text-gray-500 mt-0.5">
-                          {rec.course.universityName} &middot;{" "}
-                          {rec.course.faculty}
+                          {rec.course.universityName} &middot; {rec.course.faculty}
                         </p>
                         {rec.course.igp10Text && (
                           <p className="text-xs text-gray-400 mt-1">
-                            IGP: {rec.course.igp10Text} &ndash;{" "}
-                            {rec.course.igp90Text}
+                            IGP: {rec.course.igp10Text} &ndash; {rec.course.igp90Text}
                           </p>
                         )}
-                      </div>
+                      </Link>
                       <div className="flex flex-wrap gap-1.5 sm:flex-col sm:items-end">
                         <span className={chanceBadgeClass(rec.chanceLabel)}>
                           {rec.chanceLabel} chance
@@ -508,9 +532,10 @@ export default function RecommendationsPage() {
                             ABA recommended
                           </span>
                         )}
+                        <CompareToggleButton slug={rec.course.slug} />
                       </div>
                     </div>
-                  </Link>
+                  </div>
                 ))}
               </div>
             </section>
