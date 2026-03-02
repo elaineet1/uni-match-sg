@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
+import Script from "next/script";
 import "@/app/globals.css";
 import { NavHeader } from "@/components/nav-header";
 import { ResetFromQuery } from "@/components/reset-from-query";
@@ -33,9 +34,23 @@ export default function RootLayout({
 }: {
   children: React.ReactNode;
 }) {
+  const gaId = "G-X87D6S3X1J";
+
   return (
     <html lang="en" className={inter.variable}>
       <body className={`${inter.className} min-h-screen`}>
+        <Script
+          src={`https://www.googletagmanager.com/gtag/js?id=${gaId}`}
+          strategy="afterInteractive"
+        />
+        <Script id="google-analytics" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', '${gaId}');
+          `}
+        </Script>
         <ResetFromQuery />
         <NavHeader />
         <main className="mx-auto max-w-5xl px-4 py-8">{children}</main>
