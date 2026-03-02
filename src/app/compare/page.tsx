@@ -10,6 +10,8 @@ import {
   type RecommendedCourse,
 } from "@/lib/reco/engine";
 import type { InterestTag } from "@/lib/quiz-engine";
+import { computeAIRisk } from "@/lib/ai-risk";
+import { RiskInfoTooltip } from "@/components/risk-info-tooltip";
 
 function chanceBadgeClass(label: string) {
   switch (label) {
@@ -140,6 +142,7 @@ export default function ComparePage() {
           <p className="text-sm text-gray-600">
             Selected {selected.length} / 5 courses. Select at least 3 for a full comparison.
           </p>
+          <RiskInfoTooltip className="mt-1" />
         </div>
         <div className="flex gap-2">
           <Link href="/recommendations" className="btn-secondary">
@@ -271,11 +274,34 @@ export default function ComparePage() {
               </tr>
               <tr>
                 <td className="sticky left-0 border-b border-r bg-white p-3 text-xs font-medium uppercase tracking-wide text-gray-500">
-                  AI Risk Note
+                  AI Risk
                 </td>
                 {selected.map((rec) => (
                   <td key={rec.course.slug} className="border-b border-r p-3 text-sm text-gray-700">
-                    {rec.course.aiRiskNote || "No specific note"}
+                    {(() => {
+                      const risk = computeAIRisk(rec.course.tags, rec.course.typicalRoles);
+                      return (
+                        <>
+                          <span
+                            className={`badge ${
+                              risk.level === "Low"
+                                ? "bg-green-100 text-green-800"
+                                : risk.level === "Medium"
+                                ? "bg-yellow-100 text-yellow-800"
+                                : "bg-red-100 text-red-800"
+                            }`}
+                          >
+                            {risk.level} ({risk.score}/100)
+                          </span>
+                          <p className="mt-2 text-xs text-gray-600">{risk.rationale}</p>
+                          {rec.course.aiRiskNote && (
+                            <p className="mt-1 text-xs text-gray-500">
+                              Course note: {rec.course.aiRiskNote}
+                            </p>
+                          )}
+                        </>
+                      );
+                    })()}
                   </td>
                 ))}
               </tr>

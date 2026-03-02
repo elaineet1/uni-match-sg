@@ -3,6 +3,8 @@ import { notFound } from "next/navigation";
 import { prisma } from "@/lib/prisma";
 import { TAG_LABELS, type InterestTag } from "@/lib/quiz-engine";
 import { CompareToggleButton } from "@/components/compare-toggle-button";
+import { computeAIRisk } from "@/lib/ai-risk";
+import { RiskInfoTooltip } from "@/components/risk-info-tooltip";
 
 interface PageProps {
   params: Promise<{ slug: string }>;
@@ -34,6 +36,7 @@ export default async function CourseDetailPage({ params }: PageProps) {
   const latestIgp = course.igps[0] ?? null;
   const latestOutcome = course.outcomes[0] ?? null;
   const latestIntake = course.intakes[0] ?? null;
+  const aiRisk = computeAIRisk(tags, typicalRoles);
 
   // Collect all citation sources
   const prereqSources: string[] = [];
@@ -290,20 +293,36 @@ export default async function CourseDetailPage({ params }: PageProps) {
       )}
 
       {/* AI Risk Note */}
-      {course.aiRiskNote && (
-        <section className="mt-4 card border-amber-200 bg-amber-50">
-          <h2 className="text-sm font-semibold text-amber-900 mb-2">
-            AI & Automation Note
+      <section className="mt-4 card border-amber-200 bg-amber-50">
+        <div className="mb-2 flex items-center justify-between gap-3">
+          <h2 className="text-sm font-semibold text-amber-900">
+            Potential AI Risk to Roles
           </h2>
-          <p className="text-sm text-amber-800">{course.aiRiskNote}</p>
-          {aiRiskSources.length > 0 && (
-            <SourceLinks
-              label="AI risk sources"
-              urls={aiRiskSources}
-            />
-          )}
-        </section>
-      )}
+          <RiskInfoTooltip />
+        </div>
+        <div className="flex items-center gap-2">
+          <span
+            className={`badge ${
+              aiRisk.level === "Low"
+                ? "bg-green-100 text-green-800"
+                : aiRisk.level === "Medium"
+                ? "bg-yellow-100 text-yellow-800"
+                : "bg-red-100 text-red-800"
+            }`}
+          >
+            {aiRisk.level} ({aiRisk.score}/100)
+          </span>
+        </div>
+        <p className="mt-2 text-sm text-amber-800">{aiRisk.rationale}</p>
+        {course.aiRiskNote && (
+          <p className="mt-2 text-xs text-amber-700">
+            Course note: {course.aiRiskNote}
+          </p>
+        )}
+        {aiRiskSources.length > 0 && (
+          <SourceLinks label="AI risk sources" urls={aiRiskSources} />
+        )}
+      </section>
 
       {/* Disclaimer */}
       <div className="mt-8 card border-gray-200 bg-gray-50">
