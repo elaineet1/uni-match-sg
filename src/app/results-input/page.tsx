@@ -50,6 +50,7 @@ export default function ResultsInputPage() {
   const [showH1, setShowH1] = useState(h1ContentSubject !== null);
   const [showMTL, setShowMTL] = useState(mtlGrade !== null);
   const [computed, setComputed] = useState(false);
+  const [copiedFreshLink, setCopiedFreshLink] = useState(false);
 
   function handleNumH2Change(count: 3 | 4) {
     setNumH2(count);
@@ -79,6 +80,13 @@ export default function ResultsInputPage() {
     setComputed(true);
   }
 
+  async function copyFreshLink() {
+    const url = `${window.location.origin}/results-input?reset=1`;
+    await navigator.clipboard.writeText(url);
+    setCopiedFreshLink(true);
+    setTimeout(() => setCopiedFreshLink(false), 2000);
+  }
+
   return (
     <div className="mx-auto max-w-2xl">
       <div className="mb-6">
@@ -97,6 +105,11 @@ export default function ResultsInputPage() {
         Enter your subjects and grades to calculate your UAS (University
         Admission Score) on the 70-point scale.
       </p>
+      <div className="mt-3">
+        <button type="button" onClick={copyFreshLink} className="btn-secondary">
+          {copiedFreshLink ? "Fresh Link Copied" : "Copy Fresh Link"}
+        </button>
+      </div>
 
       <form onSubmit={handleSubmit} className="mt-8 space-y-8">
         {/* H2 Subject Count */}
