@@ -1,0 +1,562 @@
+[
+  {
+    "slug": "nus-business-analytics",
+    "name": "Business Analytics",
+    "universityName": "NUS",
+    "faculty": "School of Computing",
+    "officialUrl": ""
+  },
+  {
+    "slug": "nus-computer-engineering",
+    "name": "Computer Engineering",
+    "universityName": "NUS",
+    "faculty": "College of Design and Engineering",
+    "officialUrl": ""
+  },
+  {
+    "slug": "nus-infocomm-security",
+    "name": "Information Security",
+    "universityName": "NUS",
+    "faculty": "School of Computing",
+    "officialUrl": ""
+  },
+  {
+    "slug": "nus-quantitative-finance",
+    "name": "Quantitative Finance",
+    "universityName": "NUS",
+    "faculty": "Faculty of Science",
+    "officialUrl": ""
+  },
+  {
+    "slug": "nus-physics",
+    "name": "Physics",
+    "universityName": "NUS",
+    "faculty": "Faculty of Science",
+    "officialUrl": ""
+  },
+  {
+    "slug": "nus-chemistry",
+    "name": "Chemistry",
+    "universityName": "NUS",
+    "faculty": "Faculty of Science",
+    "officialUrl": ""
+  },
+  {
+    "slug": "nus-mathematics",
+    "name": "Mathematics",
+    "universityName": "NUS",
+    "faculty": "Faculty of Science",
+    "officialUrl": ""
+  },
+  {
+    "slug": "nus-statistics",
+    "name": "Statistics",
+    "universityName": "NUS",
+    "faculty": "Faculty of Science",
+    "officialUrl": ""
+  },
+  {
+    "slug": "nus-food-science",
+    "name": "Food Science and Technology",
+    "universityName": "NUS",
+    "faculty": "Faculty of Science",
+    "officialUrl": ""
+  },
+  {
+    "slug": "nus-pharmaceutical-science",
+    "name": "Pharmaceutical Science",
+    "universityName": "NUS",
+    "faculty": "Faculty of Science",
+    "officialUrl": ""
+  },
+  {
+    "slug": "nus-pharmaceutical-engineering",
+    "name": "Pharmaceutical Engineering",
+    "universityName": "NUS",
+    "faculty": "College of Design and Engineering",
+    "officialUrl": ""
+  },
+  {
+    "slug": "nus-environmental-engineering",
+    "name": "Environmental Engineering",
+    "universityName": "NUS",
+    "faculty": "College of Design and Engineering",
+    "officialUrl": ""
+  },
+  {
+    "slug": "nus-infrastructure-and-project-management",
+    "name": "Infrastructure and Project Management",
+    "universityName": "NUS",
+    "faculty": "College of Design and Engineering",
+    "officialUrl": ""
+  },
+  {
+    "slug": "nus-biomedical-engineering",
+    "name": "Biomedical Engineering",
+    "universityName": "NUS",
+    "faculty": "College of Design and Engineering",
+    "officialUrl": ""
+  },
+  {
+    "slug": "nus-materials-science-and-engineering",
+    "name": "Materials Science and Engineering",
+    "universityName": "NUS",
+    "faculty": "College of Design and Engineering",
+    "officialUrl": ""
+  },
+  {
+    "slug": "nus-landscape-architecture",
+    "name": "Landscape Architecture",
+    "universityName": "NUS",
+    "faculty": "College of Design and Engineering",
+    "officialUrl": ""
+  },
+  {
+    "slug": "nus-real-estate",
+    "name": "Real Estate",
+    "universityName": "NUS",
+    "faculty": "School of Design and Environment",
+    "officialUrl": ""
+  },
+  {
+    "slug": "nus-project-and-facilities-management",
+    "name": "Project and Facilities Management",
+    "universityName": "NUS",
+    "faculty": "School of Design and Environment",
+    "officialUrl": ""
+  },
+  {
+    "slug": "nus-nursing",
+    "name": "Nursing",
+    "universityName": "NUS",
+    "faculty": "Alice Lee Centre for Nursing Studies",
+    "officialUrl": ""
+  },
+  {
+    "slug": "nus-dentistry",
+    "name": "Dentistry",
+    "universityName": "NUS",
+    "faculty": "Faculty of Dentistry",
+    "officialUrl": ""
+  },
+  {
+    "slug": "nus-public-health",
+    "name": "Public Health",
+    "universityName": "NUS",
+    "faculty": "NUS Saw Swee Hock School of Public Health",
+    "officialUrl": ""
+  },
+  {
+    "slug": "nus-global-studies",
+    "name": "Global Studies",
+    "universityName": "NUS",
+    "faculty": "Faculty of Arts and Social Sciences",
+    "officialUrl": ""
+  },
+  {
+    "slug": "nus-sociology",
+    "name": "Sociology",
+    "universityName": "NUS",
+    "faculty": "Faculty of Arts and Social Sciences",
+    "officialUrl": ""
+  },
+  {
+    "slug": "nus-history",
+    "name": "History",
+    "universityName": "NUS",
+    "faculty": "Faculty of Arts and Social Sciences",
+    "officialUrl": ""
+  },
+  {
+    "slug": "nus-geography",
+    "name": "Geography",
+    "universityName": "NUS",
+    "faculty": "Faculty of Arts and Social Sciences",
+    "officialUrl": ""
+  },
+  {
+    "slug": "nus-philosophy",
+    "name": "Philosophy",
+    "universityName": "NUS",
+    "faculty": "Faculty of Arts and Social Sciences",
+    "officialUrl": ""
+  },
+  {
+    "slug": "nus-chinese-studies",
+    "name": "Chinese Studies",
+    "universityName": "NUS",
+    "faculty": "Faculty of Arts and Social Sciences",
+    "officialUrl": ""
+  },
+  {
+    "slug": "nus-malay-studies",
+    "name": "Malay Studies",
+    "universityName": "NUS",
+    "faculty": "Faculty of Arts and Social Sciences",
+    "officialUrl": ""
+  },
+  {
+    "slug": "nus-japanese-studies",
+    "name": "Japanese Studies",
+    "universityName": "NUS",
+    "faculty": "Faculty of Arts and Social Sciences",
+    "officialUrl": ""
+  },
+  {
+    "slug": "nus-theatre-studies",
+    "name": "Theatre Studies",
+    "universityName": "NUS",
+    "faculty": "Faculty of Arts and Social Sciences",
+    "officialUrl": ""
+  },
+  {
+    "slug": "nus-communications-and-new-media",
+    "name": "Communications and New Media",
+    "universityName": "NUS",
+    "faculty": "Faculty of Arts and Social Sciences",
+    "officialUrl": ""
+  },
+  {
+    "slug": "nus-social-work",
+    "name": "Social Work",
+    "universityName": "NUS",
+    "faculty": "Faculty of Arts and Social Sciences",
+    "officialUrl": ""
+  },
+  {
+    "slug": "nus-business-administration-accountancy",
+    "name": "Business Administration (Accountancy)",
+    "universityName": "NUS",
+    "faculty": "NUS Business School",
+    "officialUrl": ""
+  },
+  {
+    "slug": "nus-humanities-and-sciences",
+    "name": "Humanities and Sciences",
+    "universityName": "NUS",
+    "faculty": "College of Humanities and Sciences",
+    "officialUrl": ""
+  },
+  {
+    "slug": "nus-engineering",
+    "name": "Engineering",
+    "universityName": "NUS",
+    "faculty": "College of Design and Engineering",
+    "officialUrl": ""
+  },
+  {
+    "slug": "ntu-bioengineering",
+    "name": "Bioengineering",
+    "universityName": "NTU",
+    "faculty": "School of Chemistry, Chemical Engineering and Biotechnology",
+    "officialUrl": ""
+  },
+  {
+    "slug": "ntu-biomedical-sciences-and-biobusiness",
+    "name": "Biomedical Sciences and BioBusiness",
+    "universityName": "NTU",
+    "faculty": "School of Biological Sciences",
+    "officialUrl": ""
+  },
+  {
+    "slug": "ntu-chemistry-and-biological-chemistry",
+    "name": "Chemistry and Biological Chemistry",
+    "universityName": "NTU",
+    "faculty": "School of Physical and Mathematical Sciences",
+    "officialUrl": ""
+  },
+  {
+    "slug": "ntu-mathematical-sciences",
+    "name": "Mathematical Sciences",
+    "universityName": "NTU",
+    "faculty": "School of Physical and Mathematical Sciences",
+    "officialUrl": ""
+  },
+  {
+    "slug": "ntu-physics-applied-physics",
+    "name": "Physics and Applied Physics",
+    "universityName": "NTU",
+    "faculty": "School of Physical and Mathematical Sciences",
+    "officialUrl": ""
+  },
+  {
+    "slug": "ntu-environmental-earth-systems-science",
+    "name": "Environmental Earth Systems Science",
+    "universityName": "NTU",
+    "faculty": "Asian School of the Environment",
+    "officialUrl": ""
+  },
+  {
+    "slug": "ntu-business-and-computing",
+    "name": "Business and Computing",
+    "universityName": "NTU",
+    "faculty": "Nanyang Business School / School of Computer Science and Engineering",
+    "officialUrl": ""
+  },
+  {
+    "slug": "ntu-accountancy-and-business",
+    "name": "Accountancy and Business",
+    "universityName": "NTU",
+    "faculty": "Nanyang Business School",
+    "officialUrl": ""
+  },
+  {
+    "slug": "ntu-data-science-and-artificial-intelligence",
+    "name": "Data Science and Artificial Intelligence",
+    "universityName": "NTU",
+    "faculty": "School of Computer Science and Engineering",
+    "officialUrl": ""
+  },
+  {
+    "slug": "ntu-ai-and-society",
+    "name": "AI and Society",
+    "universityName": "NTU",
+    "faculty": "College of Computing and Data Science",
+    "officialUrl": ""
+  },
+  {
+    "slug": "ntu-information-engineering-and-media",
+    "name": "Information Engineering and Media",
+    "universityName": "NTU",
+    "faculty": "School of Electrical and Electronic Engineering",
+    "officialUrl": ""
+  },
+  {
+    "slug": "ntu-renaissance-engineering",
+    "name": "Renaissance Engineering",
+    "universityName": "NTU",
+    "faculty": "Renaissance Engineering Programme",
+    "officialUrl": ""
+  },
+  {
+    "slug": "ntu-maritime-studies",
+    "name": "Maritime Studies",
+    "universityName": "NTU",
+    "faculty": "School of Civil and Environmental Engineering",
+    "officialUrl": ""
+  },
+  {
+    "slug": "ntu-environmental-engineering",
+    "name": "Environmental Engineering",
+    "universityName": "NTU",
+    "faculty": "School of Civil and Environmental Engineering",
+    "officialUrl": ""
+  },
+  {
+    "slug": "ntu-common-engineering",
+    "name": "Common Engineering Programme",
+    "universityName": "NTU",
+    "faculty": "College of Engineering",
+    "officialUrl": ""
+  },
+  {
+    "slug": "ntu-common-computing",
+    "name": "Common Computing Programme",
+    "universityName": "NTU",
+    "faculty": "College of Computing and Data Science",
+    "officialUrl": ""
+  },
+  {
+    "slug": "ntu-common-business",
+    "name": "Common Business Programme",
+    "universityName": "NTU",
+    "faculty": "Nanyang Business School",
+    "officialUrl": ""
+  },
+  {
+    "slug": "ntu-english",
+    "name": "English",
+    "universityName": "NTU",
+    "faculty": "School of Humanities",
+    "officialUrl": ""
+  },
+  {
+    "slug": "ntu-history",
+    "name": "History",
+    "universityName": "NTU",
+    "faculty": "School of Humanities",
+    "officialUrl": ""
+  },
+  {
+    "slug": "ntu-philosophy",
+    "name": "Philosophy",
+    "universityName": "NTU",
+    "faculty": "School of Humanities",
+    "officialUrl": ""
+  },
+  {
+    "slug": "ntu-chinese",
+    "name": "Chinese",
+    "universityName": "NTU",
+    "faculty": "School of Humanities",
+    "officialUrl": ""
+  },
+  {
+    "slug": "ntu-economics-and-data-science",
+    "name": "Economics and Data Science",
+    "universityName": "NTU",
+    "faculty": "School of Social Sciences",
+    "officialUrl": ""
+  },
+  {
+    "slug": "ntu-public-policy-and-global-affairs",
+    "name": "Public Policy and Global Affairs",
+    "universityName": "NTU",
+    "faculty": "School of Social Sciences",
+    "officialUrl": ""
+  },
+  {
+    "slug": "ntu-sociology",
+    "name": "Sociology",
+    "universityName": "NTU",
+    "faculty": "School of Social Sciences",
+    "officialUrl": ""
+  },
+  {
+    "slug": "ntu-sport-science-and-management",
+    "name": "Sport Science and Management",
+    "universityName": "NTU",
+    "faculty": "National Institute of Education",
+    "officialUrl": ""
+  },
+  {
+    "slug": "ntu-arts-education",
+    "name": "Arts Education",
+    "universityName": "NTU",
+    "faculty": "National Institute of Education",
+    "officialUrl": ""
+  },
+  {
+    "slug": "ntu-science-education",
+    "name": "Science Education",
+    "universityName": "NTU",
+    "faculty": "National Institute of Education",
+    "officialUrl": ""
+  },
+  {
+    "slug": "ntu-engineering-education",
+    "name": "Engineering Education",
+    "universityName": "NTU",
+    "faculty": "National Institute of Education",
+    "officialUrl": ""
+  },
+  {
+    "slug": "ntu-education-humanities",
+    "name": "Education in Humanities",
+    "universityName": "NTU",
+    "faculty": "National Institute of Education",
+    "officialUrl": ""
+  },
+  {
+    "slug": "ntu-education-social-sciences",
+    "name": "Education in Social Sciences",
+    "universityName": "NTU",
+    "faculty": "National Institute of Education",
+    "officialUrl": ""
+  },
+  {
+    "slug": "ntu-accountancy-with-minor",
+    "name": "Accountancy with Minor",
+    "universityName": "NTU",
+    "faculty": "Nanyang Business School",
+    "officialUrl": ""
+  },
+  {
+    "slug": "ntu-business-with-minor",
+    "name": "Business with Minor",
+    "universityName": "NTU",
+    "faculty": "Nanyang Business School",
+    "officialUrl": ""
+  },
+  {
+    "slug": "ntu-applied-computing-finance",
+    "name": "Applied Computing in Finance",
+    "universityName": "NTU",
+    "faculty": "School of Computer Science and Engineering",
+    "officialUrl": ""
+  },
+  {
+    "slug": "ntu-applied-computing-supply-chain",
+    "name": "Applied Computing in Supply Chain Analytics",
+    "universityName": "NTU",
+    "faculty": "School of Computer Science and Engineering",
+    "officialUrl": ""
+  },
+  {
+    "slug": "ntu-applied-computing-smart-cities",
+    "name": "Applied Computing in Smart City Management",
+    "universityName": "NTU",
+    "faculty": "School of Computer Science and Engineering",
+    "officialUrl": ""
+  },
+  {
+    "slug": "smu-computer-science",
+    "name": "Computer Science",
+    "universityName": "SMU",
+    "faculty": "School of Computing and Information Systems",
+    "officialUrl": ""
+  },
+  {
+    "slug": "smu-software-engineering",
+    "name": "Software Engineering",
+    "universityName": "SMU",
+    "faculty": "School of Computing and Information Systems",
+    "officialUrl": ""
+  },
+  {
+    "slug": "smu-business-analytics",
+    "name": "Business Analytics",
+    "universityName": "SMU",
+    "faculty": "School of Computing and Information Systems",
+    "officialUrl": ""
+  },
+  {
+    "slug": "smu-legal-studies",
+    "name": "Legal Studies",
+    "universityName": "SMU",
+    "faculty": "Yong Pung How School of Law",
+    "officialUrl": ""
+  },
+  {
+    "slug": "smu-politics-law-and-economics",
+    "name": "Politics, Law and Economics",
+    "universityName": "SMU",
+    "faculty": "School of Social Sciences",
+    "officialUrl": ""
+  },
+  {
+    "slug": "smu-psychology",
+    "name": "Psychology",
+    "universityName": "SMU",
+    "faculty": "School of Social Sciences",
+    "officialUrl": ""
+  },
+  {
+    "slug": "smu-sociology",
+    "name": "Sociology",
+    "universityName": "SMU",
+    "faculty": "School of Social Sciences",
+    "officialUrl": ""
+  },
+  {
+    "slug": "smu-philosophy",
+    "name": "Philosophy",
+    "universityName": "SMU",
+    "faculty": "School of Social Sciences",
+    "officialUrl": ""
+  },
+  {
+    "slug": "smu-culture-and-management",
+    "name": "Culture and Management",
+    "universityName": "SMU",
+    "faculty": "School of Social Sciences",
+    "officialUrl": ""
+  },
+  {
+    "slug": "smu-accountancy-data-and-analytics",
+    "name": "Accountancy (Data and Analytics)",
+    "universityName": "SMU",
+    "faculty": "School of Accountancy",
+    "officialUrl": ""
+  }
+]
