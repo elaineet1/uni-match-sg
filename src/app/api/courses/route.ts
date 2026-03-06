@@ -16,16 +16,11 @@ export async function GET() {
       },
     });
 
-    const data: CourseData[] = courses
-      .map((course) => {
+    const data: CourseData[] = courses.map((course) => {
       const latestIgp = course.igps[0] ?? null;
       const latestOutcome = course.outcomes[0] ?? null;
       const tags: InterestTag[] = JSON.parse(course.tags || "[]");
       const typicalRoles: string[] = JSON.parse(course.typicalRoles || "[]");
-
-      // Keep recommendation dataset high-confidence only.
-      // Draft catalog entries are created with empty tags and are intentionally excluded.
-      if (tags.length === 0) return null;
 
       const maskProxyIgp = shouldMaskProxyIgp(course.slug);
 
@@ -47,8 +42,7 @@ export async function GET() {
         typicalRoles,
         aiRiskNote: course.aiRiskNote,
       };
-    })
-      .filter((course): course is CourseData => course !== null);
+    });
 
     return NextResponse.json(data);
   } catch (error) {
