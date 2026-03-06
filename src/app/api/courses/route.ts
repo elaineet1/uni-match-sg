@@ -32,9 +32,16 @@ export async function GET() {
         !!course.name?.trim() &&
         !!course.university.name?.trim() &&
         !!course.faculty?.trim();
+      const hasSupportingData =
+        !!course.description?.trim() ||
+        tags.length > 0 ||
+        typicalRoles.length > 0 ||
+        course.prerequisites.length > 0 ||
+        latestOutcome?.startingSalaryMedian !== null ||
+        latestOutcome?.employmentRateFTPerm !== null;
 
-      // Show only usable entries: core details + usable (non-proxy) IGP.
-      if (!hasUsableIgp || !hasCoreDetails) return null;
+      // Show only usable entries: core details + usable (non-proxy) IGP + supporting data.
+      if (!hasUsableIgp || !hasCoreDetails || !hasSupportingData) return null;
 
       return {
         id: course.id,
