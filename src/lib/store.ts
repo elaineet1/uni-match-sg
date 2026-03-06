@@ -8,11 +8,13 @@ import { create } from "zustand";
 import { persist } from "zustand/middleware";
 import type { Grade, SubjectEntry, PWResult, RPResult } from "./rp-calculator";
 import type { QuizAnswer, QuizResult, InterestTag, PreferenceFlags } from "./quiz-engine";
+import type { RiasecAnswer, RiasecQuizResult } from "./riasec-quiz";
 import type { UniStyleAnswer, UniStyleProfile } from "./uni-style-quiz";
 import type { FilterSettings, PortfolioInput } from "./reco/engine";
 import { DEFAULT_FILTERS } from "./reco/engine";
 import { calculateRP } from "./rp-calculator";
 import { scoreQuiz } from "./quiz-engine";
+import { scoreRiasecQuiz } from "./riasec-quiz";
 import { scoreUniStyle } from "./uni-style-quiz";
 
 export interface AppState {
@@ -27,6 +29,8 @@ export interface AppState {
   // Step 2: Quiz
   quizAnswers: QuizAnswer[];
   quizResult: QuizResult | null;
+  riasecAnswers: RiasecAnswer[];
+  riasecResult: RiasecQuizResult | null;
 
   // Step 2b: Uni style quiz
   uniStyleAnswers: UniStyleAnswer[];
@@ -55,6 +59,8 @@ export interface AppState {
   computeRP: () => void;
   setQuizAnswer: (answer: QuizAnswer) => void;
   computeQuizResult: () => void;
+  setRiasecAnswer: (answer: RiasecAnswer) => void;
+  computeRiasecResult: () => void;
   setUniStyleAnswer: (answer: UniStyleAnswer) => void;
   computeUniStyleResult: () => void;
   setFilter: <K extends keyof FilterSettings>(key: K, value: FilterSettings[K]) => void;
@@ -85,6 +91,8 @@ function getInitialState() {
     rpResult: null as RPResult | null,
     quizAnswers: [] as QuizAnswer[],
     quizResult: null as QuizResult | null,
+    riasecAnswers: [] as RiasecAnswer[],
+    riasecResult: null as RiasecQuizResult | null,
     uniStyleAnswers: [] as UniStyleAnswer[],
     uniStyleProfile: null as UniStyleProfile | null,
     filters: { ...DEFAULT_FILTERS },
@@ -145,6 +153,20 @@ export const useAppStore = create<AppState>()(persist((set, get) => ({
     const state = get();
     const result = scoreQuiz(state.quizAnswers);
     set({ quizResult: result });
+  },
+
+  setRiasecAnswer: (answer) => {
+    const state = get();
+    const existing = state.riasecAnswers.filter(
+      (a) => a.questionId !== answer.questionId
+    );
+    set({ riasecAnswers: [...existing, answer] });
+  },
+
+  computeRiasecResult: () => {
+    const state = get();
+    const result = scoreRiasecQuiz(state.riasecAnswers);
+    set({ riasecResult: result });
   },
 
   setUniStyleAnswer: (answer) => {
@@ -209,6 +231,8 @@ export const useAppStore = create<AppState>()(persist((set, get) => ({
     rpResult: state.rpResult,
     quizAnswers: state.quizAnswers,
     quizResult: state.quizResult,
+    riasecAnswers: state.riasecAnswers,
+    riasecResult: state.riasecResult,
     uniStyleAnswers: state.uniStyleAnswers,
     uniStyleProfile: state.uniStyleProfile,
     filters: state.filters,

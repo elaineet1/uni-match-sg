@@ -32,6 +32,7 @@ export async function GET() {
         !!course.name?.trim() &&
         !!course.university.name?.trim() &&
         !!course.faculty?.trim();
+      const hasOfficialCourseUrl = !!course.officialUrl?.trim();
       const hasSupportingData =
         !!course.description?.trim() ||
         tags.length > 0 ||
@@ -41,7 +42,8 @@ export async function GET() {
         latestOutcome?.employmentRateFTPerm !== null;
 
       // Show only usable entries: core details + usable (non-proxy) IGP + supporting data.
-      if (!hasUsableIgp || !hasCoreDetails || !hasSupportingData) return null;
+      if (!hasUsableIgp || !hasCoreDetails || !hasOfficialCourseUrl || !hasSupportingData)
+        return null;
 
       return {
         id: course.id,

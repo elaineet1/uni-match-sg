@@ -29,7 +29,6 @@ export default function QuizPage() {
   function handleSelect(letter: string) {
     const question = QUIZ_QUESTIONS[currentQuestion];
     setQuizAnswer({ questionId: question.id, selectedLetter: letter });
-
     if (currentQuestion < totalQuestions - 1) {
       setCurrentQuestion(currentQuestion + 1);
     } else {
@@ -204,8 +203,8 @@ export default function QuizPage() {
         </div>
 
         <div className="mt-8 flex flex-col gap-3 sm:flex-row">
-          <Link href="/uni-style-quiz" className="btn-primary">
-            Next: University Style Quiz
+          <Link href="/riasec-quiz" className="btn-primary">
+            Next: RIASEC Quiz
           </Link>
           <button
             type="button"

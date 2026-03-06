@@ -34,7 +34,11 @@ import {
   QUIZ_CODING_PENALTY,
   QUIZ_MATH_PENALTY,
   PREREQ_NOT_MET_PENALTY,
+  LEGACY_FIT_WEIGHT,
+  RIASEC_FIT_WEIGHT,
 } from "./config";
+import { computeRiasecFitScore } from "../riasec";
+import type { RiasecProfile } from "../riasec";
 
 // ----- Types -----
 
@@ -396,6 +400,7 @@ export interface RecommendationInput {
   preferences: PreferenceFlags;
   portfolio: PortfolioInput | null;
   uniStyleProfile: UniStyleProfile | null;
+  riasecProfile?: RiasecProfile | null;
   filters: FilterSettings;
   courses: CourseData[];
   hidePrereqNotMet: boolean;
@@ -414,6 +419,7 @@ export function generateRecommendations(
     preferences,
     portfolio,
     uniStyleProfile,
+    riasecProfile,
     filters,
     courses,
     hidePrereqNotMet,
@@ -484,8 +490,15 @@ export function generateRecommendations(
       tagPoints,
       effectivePrefs
     );
+    const riasecFitScore = computeRiasecFitScore(
+      tagPoints,
+      course.tags,
+      riasecProfile ?? undefined
+    );
+    const blendedBaseFitScore =
+      baseFitScore * LEGACY_FIT_WEIGHT + riasecFitScore * RIASEC_FIT_WEIGHT;
     const adjustedFitScore = applyFilterAdjustments(
-      baseFitScore,
+      blendedBaseFitScore,
       course.tags,
       filters,
       effectivePrefs
@@ -514,7 +527,7 @@ export function generateRecommendations(
       fitLabel: "Some fit" as FitLabel, // placeholder, computed after all scores known
       abaRecommended,
       eligibilityTier,
-      baseFitScore,
+      baseFitScore: blendedBaseFitScore,
       adjustedFitScore: finalFitScore,
       uniStyleFitScore,
     };

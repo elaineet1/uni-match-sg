@@ -17,6 +17,7 @@ export default function RecommendationsPage() {
   const {
     rpResult,
     quizResult,
+    riasecResult,
     uniStyleProfile,
     h2Subjects,
     h1ContentSubject,
@@ -102,6 +103,7 @@ export default function RecommendationsPage() {
       preferences,
       portfolio,
       uniStyleProfile,
+      riasecProfile: riasecResult?.profile ?? null,
       filters,
       courses,
       hidePrereqNotMet,
@@ -117,6 +119,7 @@ export default function RecommendationsPage() {
     preferences,
     portfolio,
     uniStyleProfile,
+    riasecResult,
     filters,
     hidePrereqNotMet,
     prioritiseEligibility,

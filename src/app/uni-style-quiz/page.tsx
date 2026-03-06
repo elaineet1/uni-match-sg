@@ -77,10 +77,10 @@ export default function UniStyleQuizPage() {
       <div className="mx-auto max-w-2xl">
         <div className="mb-6">
           <Link
-            href="/quiz"
+            href="/riasec-quiz"
             className="text-sm text-gray-500 hover:text-blue-600 transition-colors"
           >
-            &larr; Back to Interests Quiz
+            &larr; Back to RIASEC Quiz
           </Link>
         </div>
 
@@ -158,10 +158,10 @@ export default function UniStyleQuizPage() {
     <div className="mx-auto max-w-2xl">
       <div className="mb-6">
         <Link
-          href="/quiz"
+          href="/riasec-quiz"
           className="text-sm text-gray-500 hover:text-blue-600 transition-colors"
         >
-          &larr; Back to Interests Quiz
+          &larr; Back to RIASEC Quiz
         </Link>
       </div>
 

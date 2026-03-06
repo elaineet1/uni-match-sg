@@ -96,6 +96,12 @@ export const QUIZ_MATH_PENALTY = -2;
 // ----- Prerequisite-not-met penalty (when not hidden) -----
 export const PREREQ_NOT_MET_PENALTY = -1;
 
+// ----- Hybrid interest fit (legacy + RIASEC) -----
+/** Weight for existing legacy interest-fit score */
+export const LEGACY_FIT_WEIGHT = 0.7;
+/** Weight for RIASEC interest-fit score */
+export const RIASEC_FIT_WEIGHT = 0.3;
+
 // ----- Tier configuration -----
 // Tier 1: prereqMet + High/Medium
 // Tier 2: prereqMet + Low + (ABA recommended OR within delta)
