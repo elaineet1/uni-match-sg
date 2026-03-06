@@ -6,6 +6,33 @@ import { useAppStore } from "@/lib/store";
 import { RIASEC_LABELS, RIASEC_QUESTIONS, type RiasecAnswer } from "@/lib/riasec-quiz";
 import type { RiasecCode } from "@/lib/riasec";
 
+const RIASEC_MEANING: Record<RiasecCode, { meaning: string; careers: string[] }> = {
+  R: {
+    meaning: "You tend to like practical, hands-on, and technical work.",
+    careers: ["Engineer", "Operations Engineer", "Field Specialist"],
+  },
+  I: {
+    meaning: "You tend to enjoy analysis, research, and solving complex problems.",
+    careers: ["Data Analyst", "Research Scientist", "Economist"],
+  },
+  A: {
+    meaning: "You tend to value creativity, expression, and original ideas.",
+    careers: ["Designer", "Content Strategist", "Creative Producer"],
+  },
+  S: {
+    meaning: "You tend to prefer helping, teaching, and people-focused work.",
+    careers: ["Psychologist", "Educator", "Social Policy Officer"],
+  },
+  E: {
+    meaning: "You tend to like leadership, persuasion, and initiative.",
+    careers: ["Business Development", "Product Manager", "Consultant"],
+  },
+  C: {
+    meaning: "You tend to prefer structure, organization, and process clarity.",
+    careers: ["Accountant", "Compliance Analyst", "Operations Planner"],
+  },
+};
+
 export default function RiasecQuizPage() {
   const {
     riasecAnswers,
@@ -66,6 +93,9 @@ export default function RiasecQuizPage() {
         <p className="mt-2 text-sm text-gray-600">
           This quick profile estimates your Holland-style interest pattern.
         </p>
+        <p className="mt-1 text-xs text-gray-500">
+          This result typically highlights your top 3 dimensions out of 6 (R, I, A, S, E, C).
+        </p>
 
         <div className="mt-6 card">
           <h2 className="text-sm font-semibold text-gray-900 mb-4">Top 3 Dimensions</h2>
@@ -73,6 +103,7 @@ export default function RiasecQuizPage() {
             {topCodes.map((code, idx) => {
               const score = riasecResult.profile[code];
               const pct = Math.round((score / total) * 100);
+              const details = RIASEC_MEANING[code];
               return (
                 <div key={code}>
                   <div className="flex items-center justify-between text-sm">
@@ -84,6 +115,10 @@ export default function RiasecQuizPage() {
                   <div className="progress-bar mt-1">
                     <div className="progress-bar-fill" style={{ width: `${pct}%` }} />
                   </div>
+                  <p className="mt-1 text-xs text-gray-600">{details.meaning}</p>
+                  <p className="mt-1 text-xs text-gray-500">
+                    Suitable careers: {details.careers.join(", ")}
+                  </p>
                 </div>
               );
             })}
@@ -177,7 +212,15 @@ export default function RiasecQuizPage() {
         </button>
         <span className="text-xs text-gray-400 self-center">Click an option to proceed</span>
       </div>
+
+      <div className="mt-4 text-center">
+        <Link
+          href="/recommendations"
+          className="text-xs text-blue-600 hover:underline"
+        >
+          Skip RIASEC quiz and continue with manual tags
+        </Link>
+      </div>
     </div>
   );
 }
-

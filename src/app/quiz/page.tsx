@@ -304,6 +304,15 @@ export default function QuizPage() {
           Click an option to proceed
         </span>
       </div>
+
+      <div className="mt-4 text-center">
+        <Link
+          href="/recommendations"
+          className="text-xs text-blue-600 hover:underline"
+        >
+          Skip quizzes and choose interest tags manually
+        </Link>
+      </div>
     </div>
   );
 }

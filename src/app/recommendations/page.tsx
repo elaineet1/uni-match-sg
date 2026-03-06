@@ -11,7 +11,7 @@ import {
   type RecommendedCourse,
 } from "@/lib/reco/engine";
 import { TIER_LABELS } from "@/lib/reco/config";
-import type { InterestTag } from "@/lib/quiz-engine";
+import { INTEREST_TAGS, TAG_LABELS, type InterestTag } from "@/lib/quiz-engine";
 
 export default function RecommendationsPage() {
   const {
@@ -32,6 +32,7 @@ export default function RecommendationsPage() {
     setOpenToCompetitive,
     portfolio,
     manualTagOverrides,
+    setManualTagOverrides,
     selectedCourseSlugs,
   } = useAppStore();
 
@@ -164,6 +165,15 @@ export default function RecommendationsPage() {
   const hasCodingComputingConflict =
     preferences.avoid_heavy_coding &&
     manualTagOverrides.includes("computing_software");
+  const usingManualOnly = !quizResult && manualTagOverrides.length > 0;
+
+  function toggleManualTag(tag: InterestTag) {
+    if (manualTagOverrides.includes(tag)) {
+      setManualTagOverrides(manualTagOverrides.filter((t) => t !== tag));
+      return;
+    }
+    setManualTagOverrides([...manualTagOverrides, tag]);
+  }
 
   function chanceBadgeClass(label: string) {
     switch (label) {
@@ -226,6 +236,48 @@ export default function RecommendationsPage() {
           Based on your UAS of {rpResult.bestUAS}/70 and interest profile.
         </p>
       )}
+      {usingManualOnly && (
+        <p className="mt-1 text-xs text-blue-700">
+          You are currently using manual interest tags (quiz skipped).
+        </p>
+      )}
+
+      <div className="mt-4 card">
+        <div className="flex items-center justify-between gap-3">
+          <h2 className="text-sm font-semibold text-gray-900">
+            Interest Tags
+          </h2>
+          <button
+            type="button"
+            onClick={() => setManualTagOverrides([])}
+            className="text-xs text-blue-600 hover:underline"
+          >
+            Clear tags
+          </button>
+        </div>
+        <p className="mt-2 text-xs text-gray-500">
+          If you skipped quizzes, choose tags here to drive recommendations.
+        </p>
+        <div className="mt-3 flex flex-wrap gap-2">
+          {INTEREST_TAGS.map((tag) => {
+            const isActive = manualTagOverrides.includes(tag);
+            return (
+              <button
+                key={tag}
+                type="button"
+                onClick={() => toggleManualTag(tag)}
+                className={`badge cursor-pointer transition-colors ${
+                  isActive
+                    ? "bg-blue-200 text-blue-900 ring-1 ring-blue-400"
+                    : "bg-gray-100 text-gray-600 hover:bg-gray-200"
+                }`}
+              >
+                {TAG_LABELS[tag]}
+              </button>
+            );
+          })}
+        </div>
+      </div>
 
       {/* Conflict warning */}
       {hasCodingComputingConflict && (
