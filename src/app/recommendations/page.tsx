@@ -544,8 +544,10 @@ export default function RecommendationsPage() {
       )}
 
       <p className="mt-8 text-xs text-gray-400 italic">
-        These are estimates only. Please refer to official university websites
-        for the most accurate and up-to-date admission information.
+        Guidance only: recommendations are generated from your inputs using
+        scoring heuristics and available data. They are not guarantees or
+        official admissions decisions. Please refer to official university
+        websites for the most accurate and up-to-date information.
       </p>
     </div>
   );

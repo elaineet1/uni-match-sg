@@ -80,6 +80,13 @@ export default function QuizPage() {
         <p className="mt-2 text-sm text-gray-600">
           Based on your quiz responses, here are your top interest areas.
         </p>
+        <div className="mt-3 rounded-lg border border-amber-200 bg-amber-50 px-3 py-2">
+          <p className="text-xs text-amber-800">
+            Guidance only: this quiz uses rule-based scoring heuristics. It is
+            not a psychological test, diagnosis, or a guaranteed predictor of
+            course outcomes.
+          </p>
+        </div>
 
         {/* Top 5 tags */}
         <div className="mt-6 card">
