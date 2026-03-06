@@ -986,12 +986,12 @@
     "faculty": "School of Computing and Information Systems",
     "officialUrl": "",
     "igpYear": 2025,
-    "igp10Text": "ABB/A",
+    "igp10Text": "AAB/B",
     "igp90Text": "AAA/A",
     "igpSources": [
       "https://admissions.smu.edu.sg/admissions-requirements/indicative-grade-profile"
     ],
-    "note": "Proxy mapping based on closest official programme band for 2025. Replace with exact programme row when verified."
+    "note": "Exact from SMU IGP page (published 2026-01-09, based on 2025 admissions)."
   },
   {
     "slug": "smu-software-engineering",
@@ -1000,12 +1000,12 @@
     "faculty": "School of Computing and Information Systems",
     "officialUrl": "",
     "igpYear": 2025,
-    "igp10Text": "ABB/A",
-    "igp90Text": "AAA/A",
+    "igp10Text": "BBC/B",
+    "igp90Text": "AAA/C",
     "igpSources": [
       "https://admissions.smu.edu.sg/admissions-requirements/indicative-grade-profile"
     ],
-    "note": "Proxy mapping based on closest official programme band for 2025. Replace with exact programme row when verified."
+    "note": "Exact from SMU IGP page (published 2026-01-09, based on 2025 admissions)."
   },
   {
     "slug": "smu-business-analytics",

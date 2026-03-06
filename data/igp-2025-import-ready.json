@@ -1010,7 +1010,7 @@
   {
     "slug": "smu-computer-science",
     "igpYear": 2025,
-    "igp10Text": "ABB/A",
+    "igp10Text": "AAB/B",
     "igp90Text": "AAA/A",
     "igpSources": [
       "https://admissions.smu.edu.sg/admissions-requirements/indicative-grade-profile"
@@ -1019,8 +1019,8 @@
   {
     "slug": "smu-software-engineering",
     "igpYear": 2025,
-    "igp10Text": "ABB/A",
-    "igp90Text": "AAA/A",
+    "igp10Text": "BBC/B",
+    "igp90Text": "AAA/C",
     "igpSources": [
       "https://admissions.smu.edu.sg/admissions-requirements/indicative-grade-profile"
     ]
