@@ -28,13 +28,13 @@ export async function GET() {
         !maskProxyIgp &&
         !!latestIgp?.igp10Text?.trim() &&
         !!latestIgp?.igp90Text?.trim();
-      const hasDetails =
-        !!course.description?.trim() &&
-        tags.length > 0 &&
-        typicalRoles.length > 0;
+      const hasCoreDetails =
+        !!course.name?.trim() &&
+        !!course.university.name?.trim() &&
+        !!course.faculty?.trim();
 
-      // Show only complete courses: must have core details and usable IGP.
-      if (!hasUsableIgp || !hasDetails) return null;
+      // Show only usable entries: core details + usable (non-proxy) IGP.
+      if (!hasUsableIgp || !hasCoreDetails) return null;
 
       return {
         id: course.id,
