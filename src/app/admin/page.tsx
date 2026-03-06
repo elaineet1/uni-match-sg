@@ -123,6 +123,11 @@ export default function AdminPage() {
         }
       } else {
         addLog(`Import failed: ${result.error}`, "error");
+        if (Array.isArray(result.stats?.errors) && result.stats.errors.length > 0) {
+          for (const err of result.stats.errors) {
+            addLog(`Validation error: ${err}`, "error");
+          }
+        }
       }
     } catch (err) {
       addLog(
