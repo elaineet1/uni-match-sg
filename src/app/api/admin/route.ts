@@ -4,11 +4,11 @@ import { igpGradeStringToRP } from "@/lib/rp-calculator";
 
 interface CourseImportRow {
   slug: string;
-  name: string;
-  universityName: string;
+  name?: string;
+  universityName?: string;
   universityFullName?: string;
   universityWebsite?: string;
-  faculty: string;
+  faculty?: string;
   description?: string;
   officialUrl?: string;
   tags?: string[];
@@ -46,10 +46,15 @@ function validateCourseRow(
 ): string[] {
   const errors: string[] = [];
   if (!row.slug) errors.push(`Row ${index}: missing slug`);
-  if (!row.name) errors.push(`Row ${index}: missing name`);
-  if (!row.universityName)
-    errors.push(`Row ${index}: missing universityName`);
-  if (!row.faculty) errors.push(`Row ${index}: missing faculty`);
+  const isIgpOnlyRow =
+    !!row.igpYear || !!row.igp10Text || !!row.igp90Text;
+
+  if (!isIgpOnlyRow) {
+    if (!row.name) errors.push(`Row ${index}: missing name`);
+    if (!row.universityName)
+      errors.push(`Row ${index}: missing universityName`);
+    if (!row.faculty) errors.push(`Row ${index}: missing faculty`);
+  }
   return errors;
 }
 
@@ -150,63 +155,77 @@ export async function POST(request: NextRequest) {
 
       for (const row of courses) {
         try {
-          // Upsert university
-          const university = await prisma.university.upsert({
-            where: { name: row.universityName },
-            update: {
-              fullName:
-                row.universityFullName ?? row.universityName,
-              websiteUrl: row.universityWebsite ?? "",
-            },
-            create: {
-              name: row.universityName,
-              fullName:
-                row.universityFullName ?? row.universityName,
-              websiteUrl: row.universityWebsite ?? "",
-            },
-          });
+          const isIgpOnlyRow =
+            !!row.igpYear || !!row.igp10Text || !!row.igp90Text;
 
-          // Upsert course
-          const courseUpdateData: Record<string, unknown> = {
-            name: row.name,
-            universityId: university.id,
-            faculty: row.faculty,
-          };
-          if (row.description !== undefined)
-            courseUpdateData.description = row.description;
-          if (row.officialUrl !== undefined)
-            courseUpdateData.officialUrl = row.officialUrl;
-          if (row.tags !== undefined)
-            courseUpdateData.tags = JSON.stringify(row.tags);
-          if (row.typicalRoles !== undefined)
-            courseUpdateData.typicalRoles = JSON.stringify(row.typicalRoles);
-          if (row.aiRiskNote !== undefined)
-            courseUpdateData.aiRiskNote = row.aiRiskNote;
-          if (row.aiRiskSources !== undefined)
-            courseUpdateData.aiRiskSources = JSON.stringify(row.aiRiskSources);
-          if (row.majors !== undefined)
-            courseUpdateData.majors = JSON.stringify(row.majors);
-          if (row.doubleDegrees !== undefined)
-            courseUpdateData.doubleDegrees = JSON.stringify(row.doubleDegrees);
+          let course;
+          if (isIgpOnlyRow && (!row.name || !row.universityName || !row.faculty)) {
+            course = await prisma.course.findUnique({
+              where: { slug: row.slug },
+            });
+            if (!course) {
+              importErrors.push(`Course not found for IGP-only row: "${row.slug}"`);
+              continue;
+            }
+          } else {
+            // Upsert university
+            const university = await prisma.university.upsert({
+              where: { name: row.universityName! },
+              update: {
+                fullName:
+                  row.universityFullName ?? row.universityName!,
+                websiteUrl: row.universityWebsite ?? "",
+              },
+              create: {
+                name: row.universityName!,
+                fullName:
+                  row.universityFullName ?? row.universityName!,
+                websiteUrl: row.universityWebsite ?? "",
+              },
+            });
 
-          const course = await prisma.course.upsert({
-            where: { slug: row.slug },
-            update: courseUpdateData,
-            create: {
-              slug: row.slug,
-              name: row.name,
+            // Upsert course
+            const courseUpdateData: Record<string, unknown> = {
+              name: row.name!,
               universityId: university.id,
-              faculty: row.faculty,
-              description: row.description ?? "",
-              officialUrl: row.officialUrl ?? "",
-              tags: JSON.stringify(row.tags ?? []),
-              typicalRoles: JSON.stringify(row.typicalRoles ?? []),
-              aiRiskNote: row.aiRiskNote ?? "",
-              aiRiskSources: JSON.stringify(row.aiRiskSources ?? []),
-              majors: JSON.stringify(row.majors ?? []),
-              doubleDegrees: JSON.stringify(row.doubleDegrees ?? []),
-            },
-          });
+              faculty: row.faculty!,
+            };
+            if (row.description !== undefined)
+              courseUpdateData.description = row.description;
+            if (row.officialUrl !== undefined)
+              courseUpdateData.officialUrl = row.officialUrl;
+            if (row.tags !== undefined)
+              courseUpdateData.tags = JSON.stringify(row.tags);
+            if (row.typicalRoles !== undefined)
+              courseUpdateData.typicalRoles = JSON.stringify(row.typicalRoles);
+            if (row.aiRiskNote !== undefined)
+              courseUpdateData.aiRiskNote = row.aiRiskNote;
+            if (row.aiRiskSources !== undefined)
+              courseUpdateData.aiRiskSources = JSON.stringify(row.aiRiskSources);
+            if (row.majors !== undefined)
+              courseUpdateData.majors = JSON.stringify(row.majors);
+            if (row.doubleDegrees !== undefined)
+              courseUpdateData.doubleDegrees = JSON.stringify(row.doubleDegrees);
+
+            course = await prisma.course.upsert({
+              where: { slug: row.slug },
+              update: courseUpdateData,
+              create: {
+                slug: row.slug,
+                name: row.name!,
+                universityId: university.id,
+                faculty: row.faculty!,
+                description: row.description ?? "",
+                officialUrl: row.officialUrl ?? "",
+                tags: JSON.stringify(row.tags ?? []),
+                typicalRoles: JSON.stringify(row.typicalRoles ?? []),
+                aiRiskNote: row.aiRiskNote ?? "",
+                aiRiskSources: JSON.stringify(row.aiRiskSources ?? []),
+                majors: JSON.stringify(row.majors ?? []),
+                doubleDegrees: JSON.stringify(row.doubleDegrees ?? []),
+              },
+            });
+          }
 
           // Prerequisites: delete old and recreate
           if (row.prerequisites && row.prerequisites.length > 0) {
