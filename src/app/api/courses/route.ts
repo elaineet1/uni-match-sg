@@ -2,6 +2,7 @@ import { NextResponse } from "next/server";
 import { prisma } from "@/lib/prisma";
 import type { CourseData } from "@/lib/reco/engine";
 import type { InterestTag } from "@/lib/quiz-engine";
+import { shouldMaskProxyIgp } from "@/lib/igp-strict";
 
 export async function GET() {
   try {
@@ -26,6 +27,8 @@ export async function GET() {
       // Draft catalog entries are created with empty tags and are intentionally excluded.
       if (tags.length === 0) return null;
 
+      const maskProxyIgp = shouldMaskProxyIgp(course.slug);
+
       return {
         id: course.id,
         slug: course.slug,
@@ -34,10 +37,10 @@ export async function GET() {
         faculty: course.faculty,
         tags,
         prerequisites: course.prerequisites.map((p) => p.requirementText),
-        igp10Rp: latestIgp?.igp10Rp ?? 0,
-        igp90Rp: latestIgp?.igp90Rp ?? 0,
-        igp10Text: latestIgp?.igp10Text ?? "",
-        igp90Text: latestIgp?.igp90Text ?? "",
+        igp10Rp: maskProxyIgp ? 0 : latestIgp?.igp10Rp ?? 0,
+        igp90Rp: maskProxyIgp ? 0 : latestIgp?.igp90Rp ?? 0,
+        igp10Text: maskProxyIgp ? "" : latestIgp?.igp10Text ?? "",
+        igp90Text: maskProxyIgp ? "" : latestIgp?.igp90Text ?? "",
         salaryMedian: latestOutcome?.startingSalaryMedian ?? null,
         employmentRateFTPerm: latestOutcome?.employmentRateFTPerm ?? null,
         officialUrl: course.officialUrl,

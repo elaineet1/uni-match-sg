@@ -1,0 +1,1100 @@
+[
+  {
+    "slug": "ntu-accountancy",
+    "igpYear": 2025,
+    "igp10Text": "BBC/B",
+    "igp90Text": "AAA/A",
+    "igpSources": [
+      "https://www.ntu.edu.sg/docs/default-source/undergraduate-admissions/igp/ntu_igp.pdf?sfvrsn=5bf56f6c_1"
+    ]
+  },
+  {
+    "slug": "ntu-aerospace-engineering",
+    "igpYear": 2025,
+    "igp10Text": "ABC/B",
+    "igp90Text": "AAA/A",
+    "igpSources": [
+      "https://www.ntu.edu.sg/docs/default-source/undergraduate-admissions/igp/ntu_igp.pdf?sfvrsn=5bf56f6c_1"
+    ]
+  },
+  {
+    "slug": "ntu-art-design-media",
+    "igpYear": 2025,
+    "igp10Text": "CCC/C",
+    "igp90Text": "AAA/A",
+    "igpSources": [
+      "https://www.ntu.edu.sg/docs/default-source/undergraduate-admissions/igp/ntu_igp.pdf?sfvrsn=5bf56f6c_1"
+    ]
+  },
+  {
+    "slug": "ntu-biological-sciences",
+    "igpYear": 2025,
+    "igp10Text": "AAB/C",
+    "igp90Text": "AAA/A",
+    "igpSources": [
+      "https://www.ntu.edu.sg/docs/default-source/undergraduate-admissions/igp/ntu_igp.pdf?sfvrsn=5bf56f6c_1"
+    ]
+  },
+  {
+    "slug": "ntu-business",
+    "igpYear": 2025,
+    "igp10Text": "BBC/B",
+    "igp90Text": "AAA/A",
+    "igpSources": [
+      "https://www.ntu.edu.sg/docs/default-source/undergraduate-admissions/igp/ntu_igp.pdf?sfvrsn=5bf56f6c_1"
+    ]
+  },
+  {
+    "slug": "ntu-chemistry",
+    "igpYear": 2025,
+    "igp10Text": "BCC/C",
+    "igp90Text": "AAA/A",
+    "igpSources": [
+      "https://www.ntu.edu.sg/docs/default-source/undergraduate-admissions/igp/ntu_igp.pdf?sfvrsn=5bf56f6c_1"
+    ]
+  },
+  {
+    "slug": "ntu-civil-engineering",
+    "igpYear": 2025,
+    "igp10Text": "CCD/D",
+    "igp90Text": "AAB/B",
+    "igpSources": [
+      "https://www.ntu.edu.sg/docs/default-source/undergraduate-admissions/igp/ntu_igp.pdf?sfvrsn=5bf56f6c_1"
+    ]
+  },
+  {
+    "slug": "ntu-communication-studies",
+    "igpYear": 2025,
+    "igp10Text": "ABC/B",
+    "igp90Text": "AAA/A",
+    "igpSources": [
+      "https://www.ntu.edu.sg/docs/default-source/undergraduate-admissions/igp/ntu_igp.pdf?sfvrsn=5bf56f6c_1"
+    ]
+  },
+  {
+    "slug": "ntu-computer-engineering",
+    "igpYear": 2025,
+    "igp10Text": "AAC/C",
+    "igp90Text": "AAA/A",
+    "igpSources": [
+      "https://www.ntu.edu.sg/docs/default-source/undergraduate-admissions/igp/ntu_igp.pdf?sfvrsn=5bf56f6c_1"
+    ]
+  },
+  {
+    "slug": "ntu-computer-science",
+    "igpYear": 2025,
+    "igp10Text": "AAB/C",
+    "igp90Text": "AAA/A",
+    "igpSources": [
+      "https://www.ntu.edu.sg/docs/default-source/undergraduate-admissions/igp/ntu_igp.pdf?sfvrsn=5bf56f6c_1"
+    ]
+  },
+  {
+    "slug": "ntu-economics",
+    "igpYear": 2025,
+    "igp10Text": "ABC/B",
+    "igp90Text": "AAA/A",
+    "igpSources": [
+      "https://www.ntu.edu.sg/docs/default-source/undergraduate-admissions/igp/ntu_igp.pdf?sfvrsn=5bf56f6c_1"
+    ]
+  },
+  {
+    "slug": "ntu-electrical-engineering",
+    "igpYear": 2025,
+    "igp10Text": "CCC/D",
+    "igp90Text": "AAA/C",
+    "igpSources": [
+      "https://www.ntu.edu.sg/docs/default-source/undergraduate-admissions/igp/ntu_igp.pdf?sfvrsn=5bf56f6c_1"
+    ]
+  },
+  {
+    "slug": "ntu-linguistics",
+    "igpYear": 2025,
+    "igp10Text": "BBC/C",
+    "igp90Text": "AAA/A",
+    "igpSources": [
+      "https://www.ntu.edu.sg/docs/default-source/undergraduate-admissions/igp/ntu_igp.pdf?sfvrsn=5bf56f6c_1"
+    ]
+  },
+  {
+    "slug": "ntu-materials-engineering",
+    "igpYear": 2025,
+    "igp10Text": "BCC/D",
+    "igp90Text": "AAA/A",
+    "igpSources": [
+      "https://www.ntu.edu.sg/docs/default-source/undergraduate-admissions/igp/ntu_igp.pdf?sfvrsn=5bf56f6c_1"
+    ]
+  },
+  {
+    "slug": "ntu-mechanical-engineering",
+    "igpYear": 2025,
+    "igp10Text": "CCD/C",
+    "igp90Text": "AAA/A",
+    "igpSources": [
+      "https://www.ntu.edu.sg/docs/default-source/undergraduate-admissions/igp/ntu_igp.pdf?sfvrsn=5bf56f6c_1"
+    ]
+  },
+  {
+    "slug": "ntu-psychology",
+    "igpYear": 2025,
+    "igp10Text": "AAC/B",
+    "igp90Text": "AAA/A",
+    "igpSources": [
+      "https://www.ntu.edu.sg/docs/default-source/undergraduate-admissions/igp/ntu_igp.pdf?sfvrsn=5bf56f6c_1"
+    ]
+  },
+  {
+    "slug": "nus-accountancy",
+    "igpYear": 2025,
+    "igp10Text": "AAA/C",
+    "igp90Text": "AAA/A",
+    "igpSources": [
+      "https://www.nus.edu.sg/oam/admissions/indicative-grade-profile"
+    ]
+  },
+  {
+    "slug": "nus-architecture",
+    "igpYear": 2025,
+    "igp10Text": "CCC/C",
+    "igp90Text": "AAB/B",
+    "igpSources": [
+      "https://www.nus.edu.sg/oam/admissions/indicative-grade-profile"
+    ]
+  },
+  {
+    "slug": "nus-business-administration",
+    "igpYear": 2025,
+    "igp10Text": "AAA/C",
+    "igp90Text": "AAA/A",
+    "igpSources": [
+      "https://www.nus.edu.sg/oam/admissions/indicative-grade-profile"
+    ]
+  },
+  {
+    "slug": "nus-chemical-engineering",
+    "igpYear": 2025,
+    "igp10Text": "BBB/C",
+    "igp90Text": "AAA/A",
+    "igpSources": [
+      "https://www.nus.edu.sg/oam/admissions/indicative-grade-profile"
+    ]
+  },
+  {
+    "slug": "nus-civil-engineering",
+    "igpYear": 2025,
+    "igp10Text": "BBB/C",
+    "igp90Text": "AAA/A",
+    "igpSources": [
+      "https://www.nus.edu.sg/oam/admissions/indicative-grade-profile"
+    ]
+  },
+  {
+    "slug": "nus-computer-science",
+    "igpYear": 2025,
+    "igp10Text": "AAA/A",
+    "igp90Text": "AAA/A",
+    "igpSources": [
+      "https://www.nus.edu.sg/oam/admissions/indicative-grade-profile"
+    ]
+  },
+  {
+    "slug": "nus-data-science-and-analytics",
+    "igpYear": 2025,
+    "igp10Text": "AAA/A",
+    "igp90Text": "AAA/A",
+    "igpSources": [
+      "https://www.nus.edu.sg/oam/admissions/indicative-grade-profile"
+    ]
+  },
+  {
+    "slug": "nus-economics",
+    "igpYear": 2025,
+    "igp10Text": "ABB/C",
+    "igp90Text": "AAA/A",
+    "igpSources": [
+      "https://www.nus.edu.sg/oam/admissions/indicative-grade-profile"
+    ]
+  },
+  {
+    "slug": "nus-electrical-engineering",
+    "igpYear": 2025,
+    "igp10Text": "BBB/C",
+    "igp90Text": "AAA/A",
+    "igpSources": [
+      "https://www.nus.edu.sg/oam/admissions/indicative-grade-profile"
+    ]
+  },
+  {
+    "slug": "nus-english",
+    "igpYear": 2025,
+    "igp10Text": "ABB/C",
+    "igp90Text": "AAA/A",
+    "igpSources": [
+      "https://www.nus.edu.sg/oam/admissions/indicative-grade-profile"
+    ]
+  },
+  {
+    "slug": "nus-industrial-design",
+    "igpYear": 2025,
+    "igp10Text": "BBC/B",
+    "igp90Text": "AAA/A",
+    "igpSources": [
+      "https://www.nus.edu.sg/oam/admissions/indicative-grade-profile"
+    ]
+  },
+  {
+    "slug": "nus-information-systems",
+    "igpYear": 2025,
+    "igp10Text": "AAA/A",
+    "igp90Text": "AAA/A",
+    "igpSources": [
+      "https://www.nus.edu.sg/oam/admissions/indicative-grade-profile"
+    ]
+  },
+  {
+    "slug": "nus-law",
+    "igpYear": 2025,
+    "igp10Text": "AAA/A",
+    "igp90Text": "AAA/A",
+    "igpSources": [
+      "https://www.nus.edu.sg/oam/admissions/indicative-grade-profile"
+    ]
+  },
+  {
+    "slug": "nus-life-sciences",
+    "igpYear": 2025,
+    "igp10Text": "ABB/C",
+    "igp90Text": "AAA/A",
+    "igpSources": [
+      "https://www.nus.edu.sg/oam/admissions/indicative-grade-profile"
+    ]
+  },
+  {
+    "slug": "nus-mechanical-engineering",
+    "igpYear": 2025,
+    "igp10Text": "BBB/C",
+    "igp90Text": "AAA/A",
+    "igpSources": [
+      "https://www.nus.edu.sg/oam/admissions/indicative-grade-profile"
+    ]
+  },
+  {
+    "slug": "nus-medicine",
+    "igpYear": 2025,
+    "igp10Text": "AAA/A",
+    "igp90Text": "AAA/A",
+    "igpSources": [
+      "https://www.nus.edu.sg/oam/admissions/indicative-grade-profile"
+    ]
+  },
+  {
+    "slug": "nus-pharmacy",
+    "igpYear": 2025,
+    "igp10Text": "AAA/C",
+    "igp90Text": "AAA/A",
+    "igpSources": [
+      "https://www.nus.edu.sg/oam/admissions/indicative-grade-profile"
+    ]
+  },
+  {
+    "slug": "nus-political-science",
+    "igpYear": 2025,
+    "igp10Text": "ABB/C",
+    "igp90Text": "AAA/A",
+    "igpSources": [
+      "https://www.nus.edu.sg/oam/admissions/indicative-grade-profile"
+    ]
+  },
+  {
+    "slug": "nus-psychology",
+    "igpYear": 2025,
+    "igp10Text": "ABB/C",
+    "igp90Text": "AAA/A",
+    "igpSources": [
+      "https://www.nus.edu.sg/oam/admissions/indicative-grade-profile"
+    ]
+  },
+  {
+    "slug": "smu-accountancy",
+    "igpYear": 2025,
+    "igp10Text": "BBB/C",
+    "igp90Text": "AAA/A",
+    "igpSources": [
+      "https://admissions.smu.edu.sg/admissions-requirements/indicative-grade-profile"
+    ]
+  },
+  {
+    "slug": "smu-business-management",
+    "igpYear": 2025,
+    "igp10Text": "ABB/C",
+    "igp90Text": "AAA/A",
+    "igpSources": [
+      "https://admissions.smu.edu.sg/admissions-requirements/indicative-grade-profile"
+    ]
+  },
+  {
+    "slug": "smu-computing-and-law",
+    "igpYear": 2025,
+    "igp10Text": "ABB/A",
+    "igp90Text": "AAA/A",
+    "igpSources": [
+      "https://admissions.smu.edu.sg/admissions-requirements/indicative-grade-profile"
+    ]
+  },
+  {
+    "slug": "smu-economics",
+    "igpYear": 2025,
+    "igp10Text": "BBB/C",
+    "igp90Text": "AAA/A",
+    "igpSources": [
+      "https://admissions.smu.edu.sg/admissions-requirements/indicative-grade-profile"
+    ]
+  },
+  {
+    "slug": "smu-information-systems",
+    "igpYear": 2025,
+    "igp10Text": "BBC/C",
+    "igp90Text": "AAA/B",
+    "igpSources": [
+      "https://admissions.smu.edu.sg/admissions-requirements/indicative-grade-profile"
+    ]
+  },
+  {
+    "slug": "smu-law",
+    "igpYear": 2025,
+    "igp10Text": "AAA/A",
+    "igp90Text": "AAA/A",
+    "igpSources": [
+      "https://admissions.smu.edu.sg/admissions-requirements/indicative-grade-profile"
+    ]
+  },
+  {
+    "slug": "smu-social-sciences",
+    "igpYear": 2025,
+    "igp10Text": "BBB/C",
+    "igp90Text": "AAA/A",
+    "igpSources": [
+      "https://admissions.smu.edu.sg/admissions-requirements/indicative-grade-profile"
+    ]
+  },
+  {
+    "slug": "nus-business-analytics",
+    "igpYear": 2025,
+    "igp10Text": "AAA/A",
+    "igp90Text": "AAA/A",
+    "igpSources": [
+      "https://www.nus.edu.sg/oam/admissions/indicative-grade-profile"
+    ]
+  },
+  {
+    "slug": "nus-computer-engineering",
+    "igpYear": 2025,
+    "igp10Text": "AAA/A",
+    "igp90Text": "AAA/A",
+    "igpSources": [
+      "https://www.nus.edu.sg/oam/admissions/indicative-grade-profile"
+    ]
+  },
+  {
+    "slug": "nus-infocomm-security",
+    "igpYear": 2025,
+    "igp10Text": "AAA/B",
+    "igp90Text": "AAA/A",
+    "igpSources": [
+      "https://www.nus.edu.sg/oam/admissions/indicative-grade-profile"
+    ]
+  },
+  {
+    "slug": "nus-quantitative-finance",
+    "igpYear": 2025,
+    "igp10Text": "ABB/C",
+    "igp90Text": "AAA/A",
+    "igpSources": [
+      "https://www.nus.edu.sg/oam/admissions/indicative-grade-profile"
+    ]
+  },
+  {
+    "slug": "nus-physics",
+    "igpYear": 2025,
+    "igp10Text": "ABB/C",
+    "igp90Text": "AAA/A",
+    "igpSources": [
+      "https://www.nus.edu.sg/oam/admissions/indicative-grade-profile"
+    ]
+  },
+  {
+    "slug": "nus-chemistry",
+    "igpYear": 2025,
+    "igp10Text": "ABB/C",
+    "igp90Text": "AAA/A",
+    "igpSources": [
+      "https://www.nus.edu.sg/oam/admissions/indicative-grade-profile"
+    ]
+  },
+  {
+    "slug": "nus-mathematics",
+    "igpYear": 2025,
+    "igp10Text": "ABB/C",
+    "igp90Text": "AAA/A",
+    "igpSources": [
+      "https://www.nus.edu.sg/oam/admissions/indicative-grade-profile"
+    ]
+  },
+  {
+    "slug": "nus-statistics",
+    "igpYear": 2025,
+    "igp10Text": "ABB/C",
+    "igp90Text": "AAA/A",
+    "igpSources": [
+      "https://www.nus.edu.sg/oam/admissions/indicative-grade-profile"
+    ]
+  },
+  {
+    "slug": "nus-food-science",
+    "igpYear": 2025,
+    "igp10Text": "AAA/C",
+    "igp90Text": "AAA/A",
+    "igpSources": [
+      "https://www.nus.edu.sg/oam/admissions/indicative-grade-profile"
+    ]
+  },
+  {
+    "slug": "nus-pharmaceutical-science",
+    "igpYear": 2025,
+    "igp10Text": "AAA/A",
+    "igp90Text": "AAA/A",
+    "igpSources": [
+      "https://www.nus.edu.sg/oam/admissions/indicative-grade-profile"
+    ]
+  },
+  {
+    "slug": "nus-pharmaceutical-engineering",
+    "igpYear": 2025,
+    "igp10Text": "BBB/C",
+    "igp90Text": "AAA/A",
+    "igpSources": [
+      "https://www.nus.edu.sg/oam/admissions/indicative-grade-profile"
+    ]
+  },
+  {
+    "slug": "nus-environmental-engineering",
+    "igpYear": 2025,
+    "igp10Text": "BBB/C",
+    "igp90Text": "AAA/A",
+    "igpSources": [
+      "https://www.nus.edu.sg/oam/admissions/indicative-grade-profile"
+    ]
+  },
+  {
+    "slug": "nus-infrastructure-and-project-management",
+    "igpYear": 2025,
+    "igp10Text": "BBB/C",
+    "igp90Text": "AAA/A",
+    "igpSources": [
+      "https://www.nus.edu.sg/oam/admissions/indicative-grade-profile"
+    ]
+  },
+  {
+    "slug": "nus-biomedical-engineering",
+    "igpYear": 2025,
+    "igp10Text": "BBB/C",
+    "igp90Text": "AAA/A",
+    "igpSources": [
+      "https://www.nus.edu.sg/oam/admissions/indicative-grade-profile"
+    ]
+  },
+  {
+    "slug": "nus-materials-science-and-engineering",
+    "igpYear": 2025,
+    "igp10Text": "BBB/C",
+    "igp90Text": "AAA/A",
+    "igpSources": [
+      "https://www.nus.edu.sg/oam/admissions/indicative-grade-profile"
+    ]
+  },
+  {
+    "slug": "nus-landscape-architecture",
+    "igpYear": 2025,
+    "igp10Text": "CCC/B",
+    "igp90Text": "AAB/C",
+    "igpSources": [
+      "https://www.nus.edu.sg/oam/admissions/indicative-grade-profile"
+    ]
+  },
+  {
+    "slug": "nus-real-estate",
+    "igpYear": 2025,
+    "igp10Text": "BBB/C",
+    "igp90Text": "AAA/A",
+    "igpSources": [
+      "https://www.nus.edu.sg/oam/admissions/indicative-grade-profile"
+    ]
+  },
+  {
+    "slug": "nus-project-and-facilities-management",
+    "igpYear": 2025,
+    "igp10Text": "BBB/C",
+    "igp90Text": "AAA/A",
+    "igpSources": [
+      "https://www.nus.edu.sg/oam/admissions/indicative-grade-profile"
+    ]
+  },
+  {
+    "slug": "nus-nursing",
+    "igpYear": 2025,
+    "igp10Text": "CCD/C",
+    "igp90Text": "ABB/B",
+    "igpSources": [
+      "https://www.nus.edu.sg/oam/admissions/indicative-grade-profile"
+    ]
+  },
+  {
+    "slug": "nus-dentistry",
+    "igpYear": 2025,
+    "igp10Text": "AAA/A",
+    "igp90Text": "AAA/A",
+    "igpSources": [
+      "https://www.nus.edu.sg/oam/admissions/indicative-grade-profile"
+    ]
+  },
+  {
+    "slug": "nus-public-health",
+    "igpYear": 2025,
+    "igp10Text": "ABB/C",
+    "igp90Text": "AAA/A",
+    "igpSources": [
+      "https://www.nus.edu.sg/oam/admissions/indicative-grade-profile"
+    ]
+  },
+  {
+    "slug": "nus-global-studies",
+    "igpYear": 2025,
+    "igp10Text": "ABB/C",
+    "igp90Text": "AAA/A",
+    "igpSources": [
+      "https://www.nus.edu.sg/oam/admissions/indicative-grade-profile"
+    ]
+  },
+  {
+    "slug": "nus-sociology",
+    "igpYear": 2025,
+    "igp10Text": "ABB/C",
+    "igp90Text": "AAA/A",
+    "igpSources": [
+      "https://www.nus.edu.sg/oam/admissions/indicative-grade-profile"
+    ]
+  },
+  {
+    "slug": "nus-history",
+    "igpYear": 2025,
+    "igp10Text": "ABB/C",
+    "igp90Text": "AAA/A",
+    "igpSources": [
+      "https://www.nus.edu.sg/oam/admissions/indicative-grade-profile"
+    ]
+  },
+  {
+    "slug": "nus-geography",
+    "igpYear": 2025,
+    "igp10Text": "ABB/C",
+    "igp90Text": "AAA/A",
+    "igpSources": [
+      "https://www.nus.edu.sg/oam/admissions/indicative-grade-profile"
+    ]
+  },
+  {
+    "slug": "nus-philosophy",
+    "igpYear": 2025,
+    "igp10Text": "ABB/C",
+    "igp90Text": "AAA/A",
+    "igpSources": [
+      "https://www.nus.edu.sg/oam/admissions/indicative-grade-profile"
+    ]
+  },
+  {
+    "slug": "nus-chinese-studies",
+    "igpYear": 2025,
+    "igp10Text": "ABB/C",
+    "igp90Text": "AAA/A",
+    "igpSources": [
+      "https://www.nus.edu.sg/oam/admissions/indicative-grade-profile"
+    ]
+  },
+  {
+    "slug": "nus-malay-studies",
+    "igpYear": 2025,
+    "igp10Text": "ABB/C",
+    "igp90Text": "AAA/A",
+    "igpSources": [
+      "https://www.nus.edu.sg/oam/admissions/indicative-grade-profile"
+    ]
+  },
+  {
+    "slug": "nus-japanese-studies",
+    "igpYear": 2025,
+    "igp10Text": "ABB/C",
+    "igp90Text": "AAA/A",
+    "igpSources": [
+      "https://www.nus.edu.sg/oam/admissions/indicative-grade-profile"
+    ]
+  },
+  {
+    "slug": "nus-theatre-studies",
+    "igpYear": 2025,
+    "igp10Text": "ABB/C",
+    "igp90Text": "AAA/A",
+    "igpSources": [
+      "https://www.nus.edu.sg/oam/admissions/indicative-grade-profile"
+    ]
+  },
+  {
+    "slug": "nus-communications-and-new-media",
+    "igpYear": 2025,
+    "igp10Text": "ABB/C",
+    "igp90Text": "AAA/A",
+    "igpSources": [
+      "https://www.nus.edu.sg/oam/admissions/indicative-grade-profile"
+    ]
+  },
+  {
+    "slug": "nus-social-work",
+    "igpYear": 2025,
+    "igp10Text": "ABB/C",
+    "igp90Text": "AAA/A",
+    "igpSources": [
+      "https://www.nus.edu.sg/oam/admissions/indicative-grade-profile"
+    ]
+  },
+  {
+    "slug": "nus-business-administration-accountancy",
+    "igpYear": 2025,
+    "igp10Text": "AAA/C",
+    "igp90Text": "AAA/A",
+    "igpSources": [
+      "https://www.nus.edu.sg/oam/admissions/indicative-grade-profile"
+    ]
+  },
+  {
+    "slug": "nus-humanities-and-sciences",
+    "igpYear": 2025,
+    "igp10Text": "ABB/C",
+    "igp90Text": "AAA/A",
+    "igpSources": [
+      "https://www.nus.edu.sg/oam/admissions/indicative-grade-profile"
+    ]
+  },
+  {
+    "slug": "nus-engineering",
+    "igpYear": 2025,
+    "igp10Text": "BBB/C",
+    "igp90Text": "AAA/A",
+    "igpSources": [
+      "https://www.nus.edu.sg/oam/admissions/indicative-grade-profile"
+    ]
+  },
+  {
+    "slug": "ntu-bioengineering",
+    "igpYear": 2025,
+    "igp10Text": "BCC/B",
+    "igp90Text": "AAA/A",
+    "igpSources": [
+      "https://www.ntu.edu.sg/docs/default-source/undergraduate-admissions/igp/ntu_igp.pdf?sfvrsn=5bf56f6c_1"
+    ]
+  },
+  {
+    "slug": "ntu-biomedical-sciences-and-biobusiness",
+    "igpYear": 2025,
+    "igp10Text": "AAB/B",
+    "igp90Text": "AAA/A",
+    "igpSources": [
+      "https://www.ntu.edu.sg/docs/default-source/undergraduate-admissions/igp/ntu_igp.pdf?sfvrsn=5bf56f6c_1"
+    ]
+  },
+  {
+    "slug": "ntu-chemistry-and-biological-chemistry",
+    "igpYear": 2025,
+    "igp10Text": "BCC/C",
+    "igp90Text": "AAA/A",
+    "igpSources": [
+      "https://www.ntu.edu.sg/docs/default-source/undergraduate-admissions/igp/ntu_igp.pdf?sfvrsn=5bf56f6c_1"
+    ]
+  },
+  {
+    "slug": "ntu-mathematical-sciences",
+    "igpYear": 2025,
+    "igp10Text": "BCC/B",
+    "igp90Text": "AAA/A",
+    "igpSources": [
+      "https://www.ntu.edu.sg/docs/default-source/undergraduate-admissions/igp/ntu_igp.pdf?sfvrsn=5bf56f6c_1"
+    ]
+  },
+  {
+    "slug": "ntu-physics-applied-physics",
+    "igpYear": 2025,
+    "igp10Text": "CCC/D",
+    "igp90Text": "AAA/A",
+    "igpSources": [
+      "https://www.ntu.edu.sg/docs/default-source/undergraduate-admissions/igp/ntu_igp.pdf?sfvrsn=5bf56f6c_1"
+    ]
+  },
+  {
+    "slug": "ntu-environmental-earth-systems-science",
+    "igpYear": 2025,
+    "igp10Text": "AAB/B",
+    "igp90Text": "AAA/A",
+    "igpSources": [
+      "https://www.ntu.edu.sg/docs/default-source/undergraduate-admissions/igp/ntu_igp.pdf?sfvrsn=5bf56f6c_1"
+    ]
+  },
+  {
+    "slug": "ntu-business-and-computing",
+    "igpYear": 2025,
+    "igp10Text": "AAB/C",
+    "igp90Text": "AAA/A",
+    "igpSources": [
+      "https://www.ntu.edu.sg/docs/default-source/undergraduate-admissions/igp/ntu_igp.pdf?sfvrsn=5bf56f6c_1"
+    ]
+  },
+  {
+    "slug": "ntu-accountancy-and-business",
+    "igpYear": 2025,
+    "igp10Text": "BBC/B",
+    "igp90Text": "AAA/A",
+    "igpSources": [
+      "https://www.ntu.edu.sg/docs/default-source/undergraduate-admissions/igp/ntu_igp.pdf?sfvrsn=5bf56f6c_1"
+    ]
+  },
+  {
+    "slug": "ntu-data-science-and-artificial-intelligence",
+    "igpYear": 2025,
+    "igp10Text": "AAB/B",
+    "igp90Text": "AAA/A",
+    "igpSources": [
+      "https://www.ntu.edu.sg/docs/default-source/undergraduate-admissions/igp/ntu_igp.pdf?sfvrsn=5bf56f6c_1"
+    ]
+  },
+  {
+    "slug": "ntu-ai-and-society",
+    "igpYear": 2025,
+    "igp10Text": "ABC/C",
+    "igp90Text": "AAA/A",
+    "igpSources": [
+      "https://www.ntu.edu.sg/docs/default-source/undergraduate-admissions/igp/ntu_igp.pdf?sfvrsn=5bf56f6c_1"
+    ]
+  },
+  {
+    "slug": "ntu-information-engineering-and-media",
+    "igpYear": 2025,
+    "igp10Text": "BCC/D",
+    "igp90Text": "ABC/B",
+    "igpSources": [
+      "https://www.ntu.edu.sg/docs/default-source/undergraduate-admissions/igp/ntu_igp.pdf?sfvrsn=5bf56f6c_1"
+    ]
+  },
+  {
+    "slug": "ntu-renaissance-engineering",
+    "igpYear": 2025,
+    "igp10Text": "AAA/A",
+    "igp90Text": "AAA/A",
+    "igpSources": [
+      "https://www.ntu.edu.sg/docs/default-source/undergraduate-admissions/igp/ntu_igp.pdf?sfvrsn=5bf56f6c_1"
+    ]
+  },
+  {
+    "slug": "ntu-maritime-studies",
+    "igpYear": 2025,
+    "igp10Text": "BCC/C",
+    "igp90Text": "ABC/B",
+    "igpSources": [
+      "https://www.ntu.edu.sg/docs/default-source/undergraduate-admissions/igp/ntu_igp.pdf?sfvrsn=5bf56f6c_1"
+    ]
+  },
+  {
+    "slug": "ntu-environmental-engineering",
+    "igpYear": 2025,
+    "igp10Text": "BCC/D",
+    "igp90Text": "AAA/B",
+    "igpSources": [
+      "https://www.ntu.edu.sg/docs/default-source/undergraduate-admissions/igp/ntu_igp.pdf?sfvrsn=5bf56f6c_1"
+    ]
+  },
+  {
+    "slug": "ntu-common-engineering",
+    "igpYear": 2025,
+    "igp10Text": "CCD/C",
+    "igp90Text": "AAA/A",
+    "igpSources": [
+      "https://www.ntu.edu.sg/docs/default-source/undergraduate-admissions/igp/ntu_igp.pdf?sfvrsn=5bf56f6c_1"
+    ]
+  },
+  {
+    "slug": "ntu-common-computing",
+    "igpYear": 2025,
+    "igp10Text": "AAB/C",
+    "igp90Text": "AAA/A",
+    "igpSources": [
+      "https://www.ntu.edu.sg/docs/default-source/undergraduate-admissions/igp/ntu_igp.pdf?sfvrsn=5bf56f6c_1"
+    ]
+  },
+  {
+    "slug": "ntu-common-business",
+    "igpYear": 2025,
+    "igp10Text": "BBC/B",
+    "igp90Text": "AAA/A",
+    "igpSources": [
+      "https://www.ntu.edu.sg/docs/default-source/undergraduate-admissions/igp/ntu_igp.pdf?sfvrsn=5bf56f6c_1"
+    ]
+  },
+  {
+    "slug": "ntu-english",
+    "igpYear": 2025,
+    "igp10Text": "BBC/C",
+    "igp90Text": "AAA/A",
+    "igpSources": [
+      "https://www.ntu.edu.sg/docs/default-source/undergraduate-admissions/igp/ntu_igp.pdf?sfvrsn=5bf56f6c_1"
+    ]
+  },
+  {
+    "slug": "ntu-history",
+    "igpYear": 2025,
+    "igp10Text": "BCC/B",
+    "igp90Text": "AAB/C",
+    "igpSources": [
+      "https://www.ntu.edu.sg/docs/default-source/undergraduate-admissions/igp/ntu_igp.pdf?sfvrsn=5bf56f6c_1"
+    ]
+  },
+  {
+    "slug": "ntu-philosophy",
+    "igpYear": 2025,
+    "igp10Text": "BBC/C",
+    "igp90Text": "AAB/C",
+    "igpSources": [
+      "https://www.ntu.edu.sg/docs/default-source/undergraduate-admissions/igp/ntu_igp.pdf?sfvrsn=5bf56f6c_1"
+    ]
+  },
+  {
+    "slug": "ntu-chinese",
+    "igpYear": 2025,
+    "igp10Text": "BBC/C",
+    "igp90Text": "AAA/C",
+    "igpSources": [
+      "https://www.ntu.edu.sg/docs/default-source/undergraduate-admissions/igp/ntu_igp.pdf?sfvrsn=5bf56f6c_1"
+    ]
+  },
+  {
+    "slug": "ntu-economics-and-data-science",
+    "igpYear": 2025,
+    "igp10Text": "AAB/B",
+    "igp90Text": "AAA/A",
+    "igpSources": [
+      "https://www.ntu.edu.sg/docs/default-source/undergraduate-admissions/igp/ntu_igp.pdf?sfvrsn=5bf56f6c_1"
+    ]
+  },
+  {
+    "slug": "ntu-public-policy-and-global-affairs",
+    "igpYear": 2025,
+    "igp10Text": "AAB/B",
+    "igp90Text": "AAA/A",
+    "igpSources": [
+      "https://www.ntu.edu.sg/docs/default-source/undergraduate-admissions/igp/ntu_igp.pdf?sfvrsn=5bf56f6c_1"
+    ]
+  },
+  {
+    "slug": "ntu-sociology",
+    "igpYear": 2025,
+    "igp10Text": "BBC/C",
+    "igp90Text": "AAA/A",
+    "igpSources": [
+      "https://www.ntu.edu.sg/docs/default-source/undergraduate-admissions/igp/ntu_igp.pdf?sfvrsn=5bf56f6c_1"
+    ]
+  },
+  {
+    "slug": "ntu-sport-science-and-management",
+    "igpYear": 2025,
+    "igp10Text": "BCC/D",
+    "igp90Text": "AAB/B",
+    "igpSources": [
+      "https://www.ntu.edu.sg/docs/default-source/undergraduate-admissions/igp/ntu_igp.pdf?sfvrsn=5bf56f6c_1"
+    ]
+  },
+  {
+    "slug": "ntu-arts-education",
+    "igpYear": 2025,
+    "igp10Text": "BCC/B",
+    "igp90Text": "AAA/A",
+    "igpSources": [
+      "https://www.ntu.edu.sg/docs/default-source/undergraduate-admissions/igp/ntu_igp.pdf?sfvrsn=5bf56f6c_1"
+    ]
+  },
+  {
+    "slug": "ntu-science-education",
+    "igpYear": 2025,
+    "igp10Text": "BBC/C",
+    "igp90Text": "AAA/A",
+    "igpSources": [
+      "https://www.ntu.edu.sg/docs/default-source/undergraduate-admissions/igp/ntu_igp.pdf?sfvrsn=5bf56f6c_1"
+    ]
+  },
+  {
+    "slug": "ntu-engineering-education",
+    "igpYear": 2025,
+    "igp10Text": "BBC/C",
+    "igp90Text": "AAA/A",
+    "igpSources": [
+      "https://www.ntu.edu.sg/docs/default-source/undergraduate-admissions/igp/ntu_igp.pdf?sfvrsn=5bf56f6c_1"
+    ]
+  },
+  {
+    "slug": "ntu-education-humanities",
+    "igpYear": 2025,
+    "igp10Text": "BBC/C",
+    "igp90Text": "AAA/A",
+    "igpSources": [
+      "https://www.ntu.edu.sg/docs/default-source/undergraduate-admissions/igp/ntu_igp.pdf?sfvrsn=5bf56f6c_1"
+    ]
+  },
+  {
+    "slug": "ntu-education-social-sciences",
+    "igpYear": 2025,
+    "igp10Text": "BBC/C",
+    "igp90Text": "AAA/A",
+    "igpSources": [
+      "https://www.ntu.edu.sg/docs/default-source/undergraduate-admissions/igp/ntu_igp.pdf?sfvrsn=5bf56f6c_1"
+    ]
+  },
+  {
+    "slug": "ntu-accountancy-with-minor",
+    "igpYear": 2025,
+    "igp10Text": "BBC/B",
+    "igp90Text": "AAA/A",
+    "igpSources": [
+      "https://www.ntu.edu.sg/docs/default-source/undergraduate-admissions/igp/ntu_igp.pdf?sfvrsn=5bf56f6c_1"
+    ]
+  },
+  {
+    "slug": "ntu-business-with-minor",
+    "igpYear": 2025,
+    "igp10Text": "BBC/B",
+    "igp90Text": "AAA/A",
+    "igpSources": [
+      "https://www.ntu.edu.sg/docs/default-source/undergraduate-admissions/igp/ntu_igp.pdf?sfvrsn=5bf56f6c_1"
+    ]
+  },
+  {
+    "slug": "ntu-applied-computing-finance",
+    "igpYear": 2025,
+    "igp10Text": "AAC/C",
+    "igp90Text": "AAA/A",
+    "igpSources": [
+      "https://www.ntu.edu.sg/docs/default-source/undergraduate-admissions/igp/ntu_igp.pdf?sfvrsn=5bf56f6c_1"
+    ]
+  },
+  {
+    "slug": "ntu-applied-computing-supply-chain",
+    "igpYear": 2025,
+    "igp10Text": "AAB/C",
+    "igp90Text": "AAA/A",
+    "igpSources": [
+      "https://www.ntu.edu.sg/docs/default-source/undergraduate-admissions/igp/ntu_igp.pdf?sfvrsn=5bf56f6c_1"
+    ]
+  },
+  {
+    "slug": "ntu-applied-computing-smart-cities",
+    "igpYear": 2025,
+    "igp10Text": "AAB/C",
+    "igp90Text": "AAA/A",
+    "igpSources": [
+      "https://www.ntu.edu.sg/docs/default-source/undergraduate-admissions/igp/ntu_igp.pdf?sfvrsn=5bf56f6c_1"
+    ]
+  },
+  {
+    "slug": "smu-computer-science",
+    "igpYear": 2025,
+    "igp10Text": "ABB/A",
+    "igp90Text": "AAA/A",
+    "igpSources": [
+      "https://admissions.smu.edu.sg/admissions-requirements/indicative-grade-profile"
+    ]
+  },
+  {
+    "slug": "smu-software-engineering",
+    "igpYear": 2025,
+    "igp10Text": "ABB/A",
+    "igp90Text": "AAA/A",
+    "igpSources": [
+      "https://admissions.smu.edu.sg/admissions-requirements/indicative-grade-profile"
+    ]
+  },
+  {
+    "slug": "smu-business-analytics",
+    "igpYear": 2025,
+    "igp10Text": "ABB/C",
+    "igp90Text": "AAA/A",
+    "igpSources": [
+      "https://admissions.smu.edu.sg/admissions-requirements/indicative-grade-profile"
+    ]
+  },
+  {
+    "slug": "smu-legal-studies",
+    "igpYear": 2025,
+    "igp10Text": "BBB/C",
+    "igp90Text": "AAA/A",
+    "igpSources": [
+      "https://admissions.smu.edu.sg/admissions-requirements/indicative-grade-profile"
+    ]
+  },
+  {
+    "slug": "smu-politics-law-and-economics",
+    "igpYear": 2025,
+    "igp10Text": "BBB/C",
+    "igp90Text": "AAA/A",
+    "igpSources": [
+      "https://admissions.smu.edu.sg/admissions-requirements/indicative-grade-profile"
+    ]
+  },
+  {
+    "slug": "smu-psychology",
+    "igpYear": 2025,
+    "igp10Text": "BBB/C",
+    "igp90Text": "AAA/A",
+    "igpSources": [
+      "https://admissions.smu.edu.sg/admissions-requirements/indicative-grade-profile"
+    ]
+  },
+  {
+    "slug": "smu-sociology",
+    "igpYear": 2025,
+    "igp10Text": "BBB/C",
+    "igp90Text": "AAA/A",
+    "igpSources": [
+      "https://admissions.smu.edu.sg/admissions-requirements/indicative-grade-profile"
+    ]
+  },
+  {
+    "slug": "smu-philosophy",
+    "igpYear": 2025,
+    "igp10Text": "BBB/C",
+    "igp90Text": "AAA/A",
+    "igpSources": [
+      "https://admissions.smu.edu.sg/admissions-requirements/indicative-grade-profile"
+    ]
+  },
+  {
+    "slug": "smu-culture-and-management",
+    "igpYear": 2025,
+    "igp10Text": "BBB/C",
+    "igp90Text": "AAA/A",
+    "igpSources": [
+      "https://admissions.smu.edu.sg/admissions-requirements/indicative-grade-profile"
+    ]
+  },
+  {
+    "slug": "smu-accountancy-data-and-analytics",
+    "igpYear": 2025,
+    "igp10Text": "BBB/C",
+    "igp90Text": "AAA/A",
+    "igpSources": [
+      "https://admissions.smu.edu.sg/admissions-requirements/indicative-grade-profile"
+    ]
+  }
+]

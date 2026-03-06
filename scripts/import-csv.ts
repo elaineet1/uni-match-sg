@@ -22,7 +22,9 @@
 import { PrismaClient } from "@prisma/client";
 import * as fs from "fs";
 import Papa from "papaparse";
+import { loadPreferredDatabaseUrl } from "./load-env";
 
+loadPreferredDatabaseUrl();
 const prisma = new PrismaClient();
 
 interface CSVRow {

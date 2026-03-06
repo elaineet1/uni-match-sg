@@ -20,7 +20,9 @@
 import { PrismaClient } from "@prisma/client";
 import * as fs from "fs";
 import * as path from "path";
+import { loadPreferredDatabaseUrl } from "./load-env";
 
+loadPreferredDatabaseUrl();
 const prisma = new PrismaClient();
 
 interface CourseJSON {

@@ -14,6 +14,7 @@
 import { PrismaClient } from "@prisma/client";
 import * as fs from "fs";
 import * as path from "path";
+import { loadPreferredDatabaseUrl } from "./load-env";
 
 interface DraftCourseRow {
   slug: string;
@@ -28,6 +29,8 @@ function normalize(raw: string): string {
 }
 
 async function main() {
+  loadPreferredDatabaseUrl();
+
   const args = process.argv.slice(2);
   const dryRun = args.includes("--dry-run");
   const inputPath =
@@ -142,4 +145,3 @@ main().catch((e) => {
   console.error(e);
   process.exit(1);
 });
-

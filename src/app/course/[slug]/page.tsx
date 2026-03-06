@@ -5,6 +5,7 @@ import { TAG_LABELS, type InterestTag } from "@/lib/quiz-engine";
 import { CompareToggleButton } from "@/components/compare-toggle-button";
 import { computeAIRisk } from "@/lib/ai-risk";
 import { RiskInfoTooltip } from "@/components/risk-info-tooltip";
+import { shouldMaskProxyIgp } from "@/lib/igp-strict";
 
 interface PageProps {
   params: Promise<{ slug: string }>;
@@ -34,6 +35,7 @@ export default async function CourseDetailPage({ params }: PageProps) {
   const doubleDegrees: string[] = JSON.parse(course.doubleDegrees || "[]");
 
   const latestIgp = course.igps[0] ?? null;
+  const maskProxyIgp = shouldMaskProxyIgp(course.slug);
   const latestOutcome = course.outcomes[0] ?? null;
   const latestIntake = course.intakes[0] ?? null;
   const aiRisk = computeAIRisk(tags, typicalRoles);
@@ -150,24 +152,29 @@ export default async function CourseDetailPage({ params }: PageProps) {
             <div>
               <p className="text-xs text-gray-500">10th Percentile</p>
               <p className="text-lg font-semibold text-gray-900">
-                {latestIgp.igp10Text || "N/A"}
+                {maskProxyIgp ? "N/A" : latestIgp.igp10Text || "N/A"}
               </p>
               <p className="text-xs text-gray-400">
-                ({latestIgp.igp10Rp} RP)
+                ({maskProxyIgp ? 0 : latestIgp.igp10Rp} RP)
               </p>
             </div>
             <div>
               <p className="text-xs text-gray-500">90th Percentile</p>
               <p className="text-lg font-semibold text-gray-900">
-                {latestIgp.igp90Text || "N/A"}
+                {maskProxyIgp ? "N/A" : latestIgp.igp90Text || "N/A"}
               </p>
               <p className="text-xs text-gray-400">
-                ({latestIgp.igp90Rp} RP)
+                ({maskProxyIgp ? 0 : latestIgp.igp90Rp} RP)
               </p>
             </div>
             <p className="col-span-2 text-xs text-gray-400">
               Intake year: {latestIgp.intakeYear}
             </p>
+            {maskProxyIgp && (
+              <p className="col-span-2 text-xs text-amber-700">
+                Hidden in strict mode: this programme is currently mapped by proxy and pending exact verification.
+              </p>
+            )}
           </div>
         ) : (
           <p className="text-sm text-gray-500">No IGP data available.</p>

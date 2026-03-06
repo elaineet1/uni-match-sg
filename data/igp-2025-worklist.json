@@ -1,0 +1,1122 @@
+[
+  {
+    "slug": "nus-business-analytics",
+    "name": "Business Analytics",
+    "universityName": "NUS",
+    "faculty": "School of Computing",
+    "officialUrl": "",
+    "igpYear": 2025,
+    "igp10Text": "AAA/A",
+    "igp90Text": "AAA/A",
+    "igpSources": [
+      "https://www.nus.edu.sg/oam/admissions/indicative-grade-profile"
+    ],
+    "note": "IGP sourced from NUS official IGP table. For programmes not listed individually, mapped to the relevant NUS umbrella programme band."
+  },
+  {
+    "slug": "nus-computer-engineering",
+    "name": "Computer Engineering",
+    "universityName": "NUS",
+    "faculty": "College of Design and Engineering",
+    "officialUrl": "",
+    "igpYear": 2025,
+    "igp10Text": "AAA/A",
+    "igp90Text": "AAA/A",
+    "igpSources": [
+      "https://www.nus.edu.sg/oam/admissions/indicative-grade-profile"
+    ],
+    "note": "IGP sourced from NUS official IGP table. For programmes not listed individually, mapped to the relevant NUS umbrella programme band."
+  },
+  {
+    "slug": "nus-infocomm-security",
+    "name": "Information Security",
+    "universityName": "NUS",
+    "faculty": "School of Computing",
+    "officialUrl": "",
+    "igpYear": 2025,
+    "igp10Text": "AAA/B",
+    "igp90Text": "AAA/A",
+    "igpSources": [
+      "https://www.nus.edu.sg/oam/admissions/indicative-grade-profile"
+    ],
+    "note": "IGP sourced from NUS official IGP table. For programmes not listed individually, mapped to the relevant NUS umbrella programme band."
+  },
+  {
+    "slug": "nus-quantitative-finance",
+    "name": "Quantitative Finance",
+    "universityName": "NUS",
+    "faculty": "Faculty of Science",
+    "officialUrl": "",
+    "igpYear": 2025,
+    "igp10Text": "ABB/C",
+    "igp90Text": "AAA/A",
+    "igpSources": [
+      "https://www.nus.edu.sg/oam/admissions/indicative-grade-profile"
+    ],
+    "note": "IGP sourced from NUS official IGP table. For programmes not listed individually, mapped to the relevant NUS umbrella programme band."
+  },
+  {
+    "slug": "nus-physics",
+    "name": "Physics",
+    "universityName": "NUS",
+    "faculty": "Faculty of Science",
+    "officialUrl": "",
+    "igpYear": 2025,
+    "igp10Text": "ABB/C",
+    "igp90Text": "AAA/A",
+    "igpSources": [
+      "https://www.nus.edu.sg/oam/admissions/indicative-grade-profile"
+    ],
+    "note": "IGP sourced from NUS official IGP table. For programmes not listed individually, mapped to the relevant NUS umbrella programme band."
+  },
+  {
+    "slug": "nus-chemistry",
+    "name": "Chemistry",
+    "universityName": "NUS",
+    "faculty": "Faculty of Science",
+    "officialUrl": "",
+    "igpYear": 2025,
+    "igp10Text": "ABB/C",
+    "igp90Text": "AAA/A",
+    "igpSources": [
+      "https://www.nus.edu.sg/oam/admissions/indicative-grade-profile"
+    ],
+    "note": "IGP sourced from NUS official IGP table. For programmes not listed individually, mapped to the relevant NUS umbrella programme band."
+  },
+  {
+    "slug": "nus-mathematics",
+    "name": "Mathematics",
+    "universityName": "NUS",
+    "faculty": "Faculty of Science",
+    "officialUrl": "",
+    "igpYear": 2025,
+    "igp10Text": "ABB/C",
+    "igp90Text": "AAA/A",
+    "igpSources": [
+      "https://www.nus.edu.sg/oam/admissions/indicative-grade-profile"
+    ],
+    "note": "IGP sourced from NUS official IGP table. For programmes not listed individually, mapped to the relevant NUS umbrella programme band."
+  },
+  {
+    "slug": "nus-statistics",
+    "name": "Statistics",
+    "universityName": "NUS",
+    "faculty": "Faculty of Science",
+    "officialUrl": "",
+    "igpYear": 2025,
+    "igp10Text": "ABB/C",
+    "igp90Text": "AAA/A",
+    "igpSources": [
+      "https://www.nus.edu.sg/oam/admissions/indicative-grade-profile"
+    ],
+    "note": "IGP sourced from NUS official IGP table. For programmes not listed individually, mapped to the relevant NUS umbrella programme band."
+  },
+  {
+    "slug": "nus-food-science",
+    "name": "Food Science and Technology",
+    "universityName": "NUS",
+    "faculty": "Faculty of Science",
+    "officialUrl": "",
+    "igpYear": 2025,
+    "igp10Text": "AAA/C",
+    "igp90Text": "AAA/A",
+    "igpSources": [
+      "https://www.nus.edu.sg/oam/admissions/indicative-grade-profile"
+    ],
+    "note": "IGP sourced from NUS official IGP table. For programmes not listed individually, mapped to the relevant NUS umbrella programme band."
+  },
+  {
+    "slug": "nus-pharmaceutical-science",
+    "name": "Pharmaceutical Science",
+    "universityName": "NUS",
+    "faculty": "Faculty of Science",
+    "officialUrl": "",
+    "igpYear": 2025,
+    "igp10Text": "AAA/A",
+    "igp90Text": "AAA/A",
+    "igpSources": [
+      "https://www.nus.edu.sg/oam/admissions/indicative-grade-profile"
+    ],
+    "note": "IGP sourced from NUS official IGP table. For programmes not listed individually, mapped to the relevant NUS umbrella programme band."
+  },
+  {
+    "slug": "nus-pharmaceutical-engineering",
+    "name": "Pharmaceutical Engineering",
+    "universityName": "NUS",
+    "faculty": "College of Design and Engineering",
+    "officialUrl": "",
+    "igpYear": 2025,
+    "igp10Text": "BBB/C",
+    "igp90Text": "AAA/A",
+    "igpSources": [
+      "https://www.nus.edu.sg/oam/admissions/indicative-grade-profile"
+    ],
+    "note": "IGP sourced from NUS official IGP table. For programmes not listed individually, mapped to the relevant NUS umbrella programme band."
+  },
+  {
+    "slug": "nus-environmental-engineering",
+    "name": "Environmental Engineering",
+    "universityName": "NUS",
+    "faculty": "College of Design and Engineering",
+    "officialUrl": "",
+    "igpYear": 2025,
+    "igp10Text": "BBB/C",
+    "igp90Text": "AAA/A",
+    "igpSources": [
+      "https://www.nus.edu.sg/oam/admissions/indicative-grade-profile"
+    ],
+    "note": "IGP sourced from NUS official IGP table. For programmes not listed individually, mapped to the relevant NUS umbrella programme band."
+  },
+  {
+    "slug": "nus-infrastructure-and-project-management",
+    "name": "Infrastructure and Project Management",
+    "universityName": "NUS",
+    "faculty": "College of Design and Engineering",
+    "officialUrl": "",
+    "igpYear": 2025,
+    "igp10Text": "BBB/C",
+    "igp90Text": "AAA/A",
+    "igpSources": [
+      "https://www.nus.edu.sg/oam/admissions/indicative-grade-profile"
+    ],
+    "note": "IGP sourced from NUS official IGP table. For programmes not listed individually, mapped to the relevant NUS umbrella programme band."
+  },
+  {
+    "slug": "nus-biomedical-engineering",
+    "name": "Biomedical Engineering",
+    "universityName": "NUS",
+    "faculty": "College of Design and Engineering",
+    "officialUrl": "",
+    "igpYear": 2025,
+    "igp10Text": "BBB/C",
+    "igp90Text": "AAA/A",
+    "igpSources": [
+      "https://www.nus.edu.sg/oam/admissions/indicative-grade-profile"
+    ],
+    "note": "IGP sourced from NUS official IGP table. For programmes not listed individually, mapped to the relevant NUS umbrella programme band."
+  },
+  {
+    "slug": "nus-materials-science-and-engineering",
+    "name": "Materials Science and Engineering",
+    "universityName": "NUS",
+    "faculty": "College of Design and Engineering",
+    "officialUrl": "",
+    "igpYear": 2025,
+    "igp10Text": "BBB/C",
+    "igp90Text": "AAA/A",
+    "igpSources": [
+      "https://www.nus.edu.sg/oam/admissions/indicative-grade-profile"
+    ],
+    "note": "IGP sourced from NUS official IGP table. For programmes not listed individually, mapped to the relevant NUS umbrella programme band."
+  },
+  {
+    "slug": "nus-landscape-architecture",
+    "name": "Landscape Architecture",
+    "universityName": "NUS",
+    "faculty": "College of Design and Engineering",
+    "officialUrl": "",
+    "igpYear": 2025,
+    "igp10Text": "CCC/B",
+    "igp90Text": "AAB/C",
+    "igpSources": [
+      "https://www.nus.edu.sg/oam/admissions/indicative-grade-profile"
+    ],
+    "note": "IGP sourced from NUS official IGP table. For programmes not listed individually, mapped to the relevant NUS umbrella programme band."
+  },
+  {
+    "slug": "nus-real-estate",
+    "name": "Real Estate",
+    "universityName": "NUS",
+    "faculty": "School of Design and Environment",
+    "officialUrl": "",
+    "igpYear": 2025,
+    "igp10Text": "BBB/C",
+    "igp90Text": "AAA/A",
+    "igpSources": [
+      "https://www.nus.edu.sg/oam/admissions/indicative-grade-profile"
+    ],
+    "note": "IGP sourced from NUS official IGP table. For programmes not listed individually, mapped to the relevant NUS umbrella programme band."
+  },
+  {
+    "slug": "nus-project-and-facilities-management",
+    "name": "Project and Facilities Management",
+    "universityName": "NUS",
+    "faculty": "School of Design and Environment",
+    "officialUrl": "",
+    "igpYear": 2025,
+    "igp10Text": "BBB/C",
+    "igp90Text": "AAA/A",
+    "igpSources": [
+      "https://www.nus.edu.sg/oam/admissions/indicative-grade-profile"
+    ],
+    "note": "IGP sourced from NUS official IGP table. For programmes not listed individually, mapped to the relevant NUS umbrella programme band."
+  },
+  {
+    "slug": "nus-nursing",
+    "name": "Nursing",
+    "universityName": "NUS",
+    "faculty": "Alice Lee Centre for Nursing Studies",
+    "officialUrl": "",
+    "igpYear": 2025,
+    "igp10Text": "CCD/C",
+    "igp90Text": "ABB/B",
+    "igpSources": [
+      "https://www.nus.edu.sg/oam/admissions/indicative-grade-profile"
+    ],
+    "note": "IGP sourced from NUS official IGP table. For programmes not listed individually, mapped to the relevant NUS umbrella programme band."
+  },
+  {
+    "slug": "nus-dentistry",
+    "name": "Dentistry",
+    "universityName": "NUS",
+    "faculty": "Faculty of Dentistry",
+    "officialUrl": "",
+    "igpYear": 2025,
+    "igp10Text": "AAA/A",
+    "igp90Text": "AAA/A",
+    "igpSources": [
+      "https://www.nus.edu.sg/oam/admissions/indicative-grade-profile"
+    ],
+    "note": "IGP sourced from NUS official IGP table. For programmes not listed individually, mapped to the relevant NUS umbrella programme band."
+  },
+  {
+    "slug": "nus-public-health",
+    "name": "Public Health",
+    "universityName": "NUS",
+    "faculty": "NUS Saw Swee Hock School of Public Health",
+    "officialUrl": "",
+    "igpYear": 2025,
+    "igp10Text": "ABB/C",
+    "igp90Text": "AAA/A",
+    "igpSources": [
+      "https://www.nus.edu.sg/oam/admissions/indicative-grade-profile"
+    ],
+    "note": "Proxy mapping based on closest official programme band for 2025. Replace with exact programme row when verified."
+  },
+  {
+    "slug": "nus-global-studies",
+    "name": "Global Studies",
+    "universityName": "NUS",
+    "faculty": "Faculty of Arts and Social Sciences",
+    "officialUrl": "",
+    "igpYear": 2025,
+    "igp10Text": "ABB/C",
+    "igp90Text": "AAA/A",
+    "igpSources": [
+      "https://www.nus.edu.sg/oam/admissions/indicative-grade-profile"
+    ],
+    "note": "Proxy mapping based on closest official programme band for 2025. Replace with exact programme row when verified."
+  },
+  {
+    "slug": "nus-sociology",
+    "name": "Sociology",
+    "universityName": "NUS",
+    "faculty": "Faculty of Arts and Social Sciences",
+    "officialUrl": "",
+    "igpYear": 2025,
+    "igp10Text": "ABB/C",
+    "igp90Text": "AAA/A",
+    "igpSources": [
+      "https://www.nus.edu.sg/oam/admissions/indicative-grade-profile"
+    ],
+    "note": "Proxy mapping based on closest official programme band for 2025. Replace with exact programme row when verified."
+  },
+  {
+    "slug": "nus-history",
+    "name": "History",
+    "universityName": "NUS",
+    "faculty": "Faculty of Arts and Social Sciences",
+    "officialUrl": "",
+    "igpYear": 2025,
+    "igp10Text": "ABB/C",
+    "igp90Text": "AAA/A",
+    "igpSources": [
+      "https://www.nus.edu.sg/oam/admissions/indicative-grade-profile"
+    ],
+    "note": "Proxy mapping based on closest official programme band for 2025. Replace with exact programme row when verified."
+  },
+  {
+    "slug": "nus-geography",
+    "name": "Geography",
+    "universityName": "NUS",
+    "faculty": "Faculty of Arts and Social Sciences",
+    "officialUrl": "",
+    "igpYear": 2025,
+    "igp10Text": "ABB/C",
+    "igp90Text": "AAA/A",
+    "igpSources": [
+      "https://www.nus.edu.sg/oam/admissions/indicative-grade-profile"
+    ],
+    "note": "Proxy mapping based on closest official programme band for 2025. Replace with exact programme row when verified."
+  },
+  {
+    "slug": "nus-philosophy",
+    "name": "Philosophy",
+    "universityName": "NUS",
+    "faculty": "Faculty of Arts and Social Sciences",
+    "officialUrl": "",
+    "igpYear": 2025,
+    "igp10Text": "ABB/C",
+    "igp90Text": "AAA/A",
+    "igpSources": [
+      "https://www.nus.edu.sg/oam/admissions/indicative-grade-profile"
+    ],
+    "note": "Proxy mapping based on closest official programme band for 2025. Replace with exact programme row when verified."
+  },
+  {
+    "slug": "nus-chinese-studies",
+    "name": "Chinese Studies",
+    "universityName": "NUS",
+    "faculty": "Faculty of Arts and Social Sciences",
+    "officialUrl": "",
+    "igpYear": 2025,
+    "igp10Text": "ABB/C",
+    "igp90Text": "AAA/A",
+    "igpSources": [
+      "https://www.nus.edu.sg/oam/admissions/indicative-grade-profile"
+    ],
+    "note": "Proxy mapping based on closest official programme band for 2025. Replace with exact programme row when verified."
+  },
+  {
+    "slug": "nus-malay-studies",
+    "name": "Malay Studies",
+    "universityName": "NUS",
+    "faculty": "Faculty of Arts and Social Sciences",
+    "officialUrl": "",
+    "igpYear": 2025,
+    "igp10Text": "ABB/C",
+    "igp90Text": "AAA/A",
+    "igpSources": [
+      "https://www.nus.edu.sg/oam/admissions/indicative-grade-profile"
+    ],
+    "note": "Proxy mapping based on closest official programme band for 2025. Replace with exact programme row when verified."
+  },
+  {
+    "slug": "nus-japanese-studies",
+    "name": "Japanese Studies",
+    "universityName": "NUS",
+    "faculty": "Faculty of Arts and Social Sciences",
+    "officialUrl": "",
+    "igpYear": 2025,
+    "igp10Text": "ABB/C",
+    "igp90Text": "AAA/A",
+    "igpSources": [
+      "https://www.nus.edu.sg/oam/admissions/indicative-grade-profile"
+    ],
+    "note": "Proxy mapping based on closest official programme band for 2025. Replace with exact programme row when verified."
+  },
+  {
+    "slug": "nus-theatre-studies",
+    "name": "Theatre Studies",
+    "universityName": "NUS",
+    "faculty": "Faculty of Arts and Social Sciences",
+    "officialUrl": "",
+    "igpYear": 2025,
+    "igp10Text": "ABB/C",
+    "igp90Text": "AAA/A",
+    "igpSources": [
+      "https://www.nus.edu.sg/oam/admissions/indicative-grade-profile"
+    ],
+    "note": "Proxy mapping based on closest official programme band for 2025. Replace with exact programme row when verified."
+  },
+  {
+    "slug": "nus-communications-and-new-media",
+    "name": "Communications and New Media",
+    "universityName": "NUS",
+    "faculty": "Faculty of Arts and Social Sciences",
+    "officialUrl": "",
+    "igpYear": 2025,
+    "igp10Text": "ABB/C",
+    "igp90Text": "AAA/A",
+    "igpSources": [
+      "https://www.nus.edu.sg/oam/admissions/indicative-grade-profile"
+    ],
+    "note": "Proxy mapping based on closest official programme band for 2025. Replace with exact programme row when verified."
+  },
+  {
+    "slug": "nus-social-work",
+    "name": "Social Work",
+    "universityName": "NUS",
+    "faculty": "Faculty of Arts and Social Sciences",
+    "officialUrl": "",
+    "igpYear": 2025,
+    "igp10Text": "ABB/C",
+    "igp90Text": "AAA/A",
+    "igpSources": [
+      "https://www.nus.edu.sg/oam/admissions/indicative-grade-profile"
+    ],
+    "note": "Proxy mapping based on closest official programme band for 2025. Replace with exact programme row when verified."
+  },
+  {
+    "slug": "nus-business-administration-accountancy",
+    "name": "Business Administration (Accountancy)",
+    "universityName": "NUS",
+    "faculty": "NUS Business School",
+    "officialUrl": "",
+    "igpYear": 2025,
+    "igp10Text": "AAA/C",
+    "igp90Text": "AAA/A",
+    "igpSources": [
+      "https://www.nus.edu.sg/oam/admissions/indicative-grade-profile"
+    ],
+    "note": "Proxy mapping based on closest official programme band for 2025. Replace with exact programme row when verified."
+  },
+  {
+    "slug": "nus-humanities-and-sciences",
+    "name": "Humanities and Sciences",
+    "universityName": "NUS",
+    "faculty": "College of Humanities and Sciences",
+    "officialUrl": "",
+    "igpYear": 2025,
+    "igp10Text": "ABB/C",
+    "igp90Text": "AAA/A",
+    "igpSources": [
+      "https://www.nus.edu.sg/oam/admissions/indicative-grade-profile"
+    ],
+    "note": "Proxy mapping based on closest official programme band for 2025. Replace with exact programme row when verified."
+  },
+  {
+    "slug": "nus-engineering",
+    "name": "Engineering",
+    "universityName": "NUS",
+    "faculty": "College of Design and Engineering",
+    "officialUrl": "",
+    "igpYear": 2025,
+    "igp10Text": "BBB/C",
+    "igp90Text": "AAA/A",
+    "igpSources": [
+      "https://www.nus.edu.sg/oam/admissions/indicative-grade-profile"
+    ],
+    "note": "Proxy mapping based on closest official programme band for 2025. Replace with exact programme row when verified."
+  },
+  {
+    "slug": "ntu-bioengineering",
+    "name": "Bioengineering",
+    "universityName": "NTU",
+    "faculty": "School of Chemistry, Chemical Engineering and Biotechnology",
+    "officialUrl": "",
+    "igpYear": 2025,
+    "igp10Text": "BCC/B",
+    "igp90Text": "AAA/A",
+    "igpSources": [
+      "https://www.ntu.edu.sg/docs/default-source/undergraduate-admissions/igp/ntu_igp.pdf?sfvrsn=5bf56f6c_1"
+    ],
+    "note": "Exact from NTU AY2025/26 IGP table."
+  },
+  {
+    "slug": "ntu-biomedical-sciences-and-biobusiness",
+    "name": "Biomedical Sciences and BioBusiness",
+    "universityName": "NTU",
+    "faculty": "School of Biological Sciences",
+    "officialUrl": "",
+    "igpYear": 2025,
+    "igp10Text": "AAB/B",
+    "igp90Text": "AAA/A",
+    "igpSources": [
+      "https://www.ntu.edu.sg/docs/default-source/undergraduate-admissions/igp/ntu_igp.pdf?sfvrsn=5bf56f6c_1"
+    ],
+    "note": "Exact from NTU AY2025/26 IGP table."
+  },
+  {
+    "slug": "ntu-chemistry-and-biological-chemistry",
+    "name": "Chemistry and Biological Chemistry",
+    "universityName": "NTU",
+    "faculty": "School of Physical and Mathematical Sciences",
+    "officialUrl": "",
+    "igpYear": 2025,
+    "igp10Text": "BCC/C",
+    "igp90Text": "AAA/A",
+    "igpSources": [
+      "https://www.ntu.edu.sg/docs/default-source/undergraduate-admissions/igp/ntu_igp.pdf?sfvrsn=5bf56f6c_1"
+    ],
+    "note": "Exact from NTU AY2025/26 IGP table."
+  },
+  {
+    "slug": "ntu-mathematical-sciences",
+    "name": "Mathematical Sciences",
+    "universityName": "NTU",
+    "faculty": "School of Physical and Mathematical Sciences",
+    "officialUrl": "",
+    "igpYear": 2025,
+    "igp10Text": "BCC/B",
+    "igp90Text": "AAA/A",
+    "igpSources": [
+      "https://www.ntu.edu.sg/docs/default-source/undergraduate-admissions/igp/ntu_igp.pdf?sfvrsn=5bf56f6c_1"
+    ],
+    "note": "Exact from NTU AY2025/26 IGP table."
+  },
+  {
+    "slug": "ntu-physics-applied-physics",
+    "name": "Physics and Applied Physics",
+    "universityName": "NTU",
+    "faculty": "School of Physical and Mathematical Sciences",
+    "officialUrl": "",
+    "igpYear": 2025,
+    "igp10Text": "CCC/D",
+    "igp90Text": "AAA/A",
+    "igpSources": [
+      "https://www.ntu.edu.sg/docs/default-source/undergraduate-admissions/igp/ntu_igp.pdf?sfvrsn=5bf56f6c_1"
+    ],
+    "note": "Exact from NTU AY2025/26 IGP table."
+  },
+  {
+    "slug": "ntu-environmental-earth-systems-science",
+    "name": "Environmental Earth Systems Science",
+    "universityName": "NTU",
+    "faculty": "Asian School of the Environment",
+    "officialUrl": "",
+    "igpYear": 2025,
+    "igp10Text": "AAB/B",
+    "igp90Text": "AAA/A",
+    "igpSources": [
+      "https://www.ntu.edu.sg/docs/default-source/undergraduate-admissions/igp/ntu_igp.pdf?sfvrsn=5bf56f6c_1"
+    ],
+    "note": "Exact from NTU AY2025/26 IGP table."
+  },
+  {
+    "slug": "ntu-business-and-computing",
+    "name": "Business and Computing",
+    "universityName": "NTU",
+    "faculty": "Nanyang Business School / School of Computer Science and Engineering",
+    "officialUrl": "",
+    "igpYear": 2025,
+    "igp10Text": "AAB/C",
+    "igp90Text": "AAA/A",
+    "igpSources": [
+      "https://www.ntu.edu.sg/docs/default-source/undergraduate-admissions/igp/ntu_igp.pdf?sfvrsn=5bf56f6c_1"
+    ],
+    "note": "Proxy mapping based on closest official programme band for 2025. Replace with exact programme row when verified."
+  },
+  {
+    "slug": "ntu-accountancy-and-business",
+    "name": "Accountancy and Business",
+    "universityName": "NTU",
+    "faculty": "Nanyang Business School",
+    "officialUrl": "",
+    "igpYear": 2025,
+    "igp10Text": "BBC/B",
+    "igp90Text": "AAA/A",
+    "igpSources": [
+      "https://www.ntu.edu.sg/docs/default-source/undergraduate-admissions/igp/ntu_igp.pdf?sfvrsn=5bf56f6c_1"
+    ],
+    "note": "Proxy mapping based on closest official programme band for 2025. Replace with exact programme row when verified."
+  },
+  {
+    "slug": "ntu-data-science-and-artificial-intelligence",
+    "name": "Data Science and Artificial Intelligence",
+    "universityName": "NTU",
+    "faculty": "School of Computer Science and Engineering",
+    "officialUrl": "",
+    "igpYear": 2025,
+    "igp10Text": "AAB/B",
+    "igp90Text": "AAA/A",
+    "igpSources": [
+      "https://www.ntu.edu.sg/docs/default-source/undergraduate-admissions/igp/ntu_igp.pdf?sfvrsn=5bf56f6c_1"
+    ],
+    "note": "Exact from NTU AY2025/26 IGP table."
+  },
+  {
+    "slug": "ntu-ai-and-society",
+    "name": "AI and Society",
+    "universityName": "NTU",
+    "faculty": "College of Computing and Data Science",
+    "officialUrl": "",
+    "igpYear": 2025,
+    "igp10Text": "ABC/C",
+    "igp90Text": "AAA/A",
+    "igpSources": [
+      "https://www.ntu.edu.sg/docs/default-source/undergraduate-admissions/igp/ntu_igp.pdf?sfvrsn=5bf56f6c_1"
+    ],
+    "note": "Exact from NTU AY2025/26 IGP table."
+  },
+  {
+    "slug": "ntu-information-engineering-and-media",
+    "name": "Information Engineering and Media",
+    "universityName": "NTU",
+    "faculty": "School of Electrical and Electronic Engineering",
+    "officialUrl": "",
+    "igpYear": 2025,
+    "igp10Text": "BCC/D",
+    "igp90Text": "ABC/B",
+    "igpSources": [
+      "https://www.ntu.edu.sg/docs/default-source/undergraduate-admissions/igp/ntu_igp.pdf?sfvrsn=5bf56f6c_1"
+    ],
+    "note": "Exact from NTU AY2025/26 IGP table."
+  },
+  {
+    "slug": "ntu-renaissance-engineering",
+    "name": "Renaissance Engineering",
+    "universityName": "NTU",
+    "faculty": "Renaissance Engineering Programme",
+    "officialUrl": "",
+    "igpYear": 2025,
+    "igp10Text": "AAA/A",
+    "igp90Text": "AAA/A",
+    "igpSources": [
+      "https://www.ntu.edu.sg/docs/default-source/undergraduate-admissions/igp/ntu_igp.pdf?sfvrsn=5bf56f6c_1"
+    ],
+    "note": "Exact from NTU AY2025/26 IGP table."
+  },
+  {
+    "slug": "ntu-maritime-studies",
+    "name": "Maritime Studies",
+    "universityName": "NTU",
+    "faculty": "School of Civil and Environmental Engineering",
+    "officialUrl": "",
+    "igpYear": 2025,
+    "igp10Text": "BCC/C",
+    "igp90Text": "ABC/B",
+    "igpSources": [
+      "https://www.ntu.edu.sg/docs/default-source/undergraduate-admissions/igp/ntu_igp.pdf?sfvrsn=5bf56f6c_1"
+    ],
+    "note": "Exact from NTU AY2025/26 IGP table."
+  },
+  {
+    "slug": "ntu-environmental-engineering",
+    "name": "Environmental Engineering",
+    "universityName": "NTU",
+    "faculty": "School of Civil and Environmental Engineering",
+    "officialUrl": "",
+    "igpYear": 2025,
+    "igp10Text": "BCC/D",
+    "igp90Text": "AAA/B",
+    "igpSources": [
+      "https://www.ntu.edu.sg/docs/default-source/undergraduate-admissions/igp/ntu_igp.pdf?sfvrsn=5bf56f6c_1"
+    ],
+    "note": "Exact from NTU AY2025/26 IGP table."
+  },
+  {
+    "slug": "ntu-common-engineering",
+    "name": "Common Engineering Programme",
+    "universityName": "NTU",
+    "faculty": "College of Engineering",
+    "officialUrl": "",
+    "igpYear": 2025,
+    "igp10Text": "CCD/C",
+    "igp90Text": "AAA/A",
+    "igpSources": [
+      "https://www.ntu.edu.sg/docs/default-source/undergraduate-admissions/igp/ntu_igp.pdf?sfvrsn=5bf56f6c_1"
+    ],
+    "note": "Proxy mapping based on closest official programme band for 2025. Replace with exact programme row when verified."
+  },
+  {
+    "slug": "ntu-common-computing",
+    "name": "Common Computing Programme",
+    "universityName": "NTU",
+    "faculty": "College of Computing and Data Science",
+    "officialUrl": "",
+    "igpYear": 2025,
+    "igp10Text": "AAB/C",
+    "igp90Text": "AAA/A",
+    "igpSources": [
+      "https://www.ntu.edu.sg/docs/default-source/undergraduate-admissions/igp/ntu_igp.pdf?sfvrsn=5bf56f6c_1"
+    ],
+    "note": "Proxy mapping based on closest official programme band for 2025. Replace with exact programme row when verified."
+  },
+  {
+    "slug": "ntu-common-business",
+    "name": "Common Business Programme",
+    "universityName": "NTU",
+    "faculty": "Nanyang Business School",
+    "officialUrl": "",
+    "igpYear": 2025,
+    "igp10Text": "BBC/B",
+    "igp90Text": "AAA/A",
+    "igpSources": [
+      "https://www.ntu.edu.sg/docs/default-source/undergraduate-admissions/igp/ntu_igp.pdf?sfvrsn=5bf56f6c_1"
+    ],
+    "note": "Proxy mapping based on closest official programme band for 2025. Replace with exact programme row when verified."
+  },
+  {
+    "slug": "ntu-english",
+    "name": "English",
+    "universityName": "NTU",
+    "faculty": "School of Humanities",
+    "officialUrl": "",
+    "igpYear": 2025,
+    "igp10Text": "BBC/C",
+    "igp90Text": "AAA/A",
+    "igpSources": [
+      "https://www.ntu.edu.sg/docs/default-source/undergraduate-admissions/igp/ntu_igp.pdf?sfvrsn=5bf56f6c_1"
+    ],
+    "note": "Exact from NTU AY2025/26 IGP table."
+  },
+  {
+    "slug": "ntu-history",
+    "name": "History",
+    "universityName": "NTU",
+    "faculty": "School of Humanities",
+    "officialUrl": "",
+    "igpYear": 2025,
+    "igp10Text": "BCC/B",
+    "igp90Text": "AAB/C",
+    "igpSources": [
+      "https://www.ntu.edu.sg/docs/default-source/undergraduate-admissions/igp/ntu_igp.pdf?sfvrsn=5bf56f6c_1"
+    ],
+    "note": "Exact from NTU AY2025/26 IGP table."
+  },
+  {
+    "slug": "ntu-philosophy",
+    "name": "Philosophy",
+    "universityName": "NTU",
+    "faculty": "School of Humanities",
+    "officialUrl": "",
+    "igpYear": 2025,
+    "igp10Text": "BBC/C",
+    "igp90Text": "AAB/C",
+    "igpSources": [
+      "https://www.ntu.edu.sg/docs/default-source/undergraduate-admissions/igp/ntu_igp.pdf?sfvrsn=5bf56f6c_1"
+    ],
+    "note": "Exact from NTU AY2025/26 IGP table."
+  },
+  {
+    "slug": "ntu-chinese",
+    "name": "Chinese",
+    "universityName": "NTU",
+    "faculty": "School of Humanities",
+    "officialUrl": "",
+    "igpYear": 2025,
+    "igp10Text": "BBC/C",
+    "igp90Text": "AAA/C",
+    "igpSources": [
+      "https://www.ntu.edu.sg/docs/default-source/undergraduate-admissions/igp/ntu_igp.pdf?sfvrsn=5bf56f6c_1"
+    ],
+    "note": "Exact from NTU AY2025/26 IGP table."
+  },
+  {
+    "slug": "ntu-economics-and-data-science",
+    "name": "Economics and Data Science",
+    "universityName": "NTU",
+    "faculty": "School of Social Sciences",
+    "officialUrl": "",
+    "igpYear": 2025,
+    "igp10Text": "AAB/B",
+    "igp90Text": "AAA/A",
+    "igpSources": [
+      "https://www.ntu.edu.sg/docs/default-source/undergraduate-admissions/igp/ntu_igp.pdf?sfvrsn=5bf56f6c_1"
+    ],
+    "note": "Exact from NTU AY2025/26 IGP table."
+  },
+  {
+    "slug": "ntu-public-policy-and-global-affairs",
+    "name": "Public Policy and Global Affairs",
+    "universityName": "NTU",
+    "faculty": "School of Social Sciences",
+    "officialUrl": "",
+    "igpYear": 2025,
+    "igp10Text": "AAB/B",
+    "igp90Text": "AAA/A",
+    "igpSources": [
+      "https://www.ntu.edu.sg/docs/default-source/undergraduate-admissions/igp/ntu_igp.pdf?sfvrsn=5bf56f6c_1"
+    ],
+    "note": "Exact from NTU AY2025/26 IGP table."
+  },
+  {
+    "slug": "ntu-sociology",
+    "name": "Sociology",
+    "universityName": "NTU",
+    "faculty": "School of Social Sciences",
+    "officialUrl": "",
+    "igpYear": 2025,
+    "igp10Text": "BBC/C",
+    "igp90Text": "AAA/A",
+    "igpSources": [
+      "https://www.ntu.edu.sg/docs/default-source/undergraduate-admissions/igp/ntu_igp.pdf?sfvrsn=5bf56f6c_1"
+    ],
+    "note": "Exact from NTU AY2025/26 IGP table."
+  },
+  {
+    "slug": "ntu-sport-science-and-management",
+    "name": "Sport Science and Management",
+    "universityName": "NTU",
+    "faculty": "National Institute of Education",
+    "officialUrl": "",
+    "igpYear": 2025,
+    "igp10Text": "BCC/D",
+    "igp90Text": "AAB/B",
+    "igpSources": [
+      "https://www.ntu.edu.sg/docs/default-source/undergraduate-admissions/igp/ntu_igp.pdf?sfvrsn=5bf56f6c_1"
+    ],
+    "note": "Exact from NTU AY2025/26 IGP table."
+  },
+  {
+    "slug": "ntu-arts-education",
+    "name": "Arts Education",
+    "universityName": "NTU",
+    "faculty": "National Institute of Education",
+    "officialUrl": "",
+    "igpYear": 2025,
+    "igp10Text": "BCC/B",
+    "igp90Text": "AAA/A",
+    "igpSources": [
+      "https://www.ntu.edu.sg/docs/default-source/undergraduate-admissions/igp/ntu_igp.pdf?sfvrsn=5bf56f6c_1"
+    ],
+    "note": "Exact from NTU AY2025/26 IGP table."
+  },
+  {
+    "slug": "ntu-science-education",
+    "name": "Science Education",
+    "universityName": "NTU",
+    "faculty": "National Institute of Education",
+    "officialUrl": "",
+    "igpYear": 2025,
+    "igp10Text": "BBC/C",
+    "igp90Text": "AAA/A",
+    "igpSources": [
+      "https://www.ntu.edu.sg/docs/default-source/undergraduate-admissions/igp/ntu_igp.pdf?sfvrsn=5bf56f6c_1"
+    ],
+    "note": "Exact from NTU AY2025/26 IGP table."
+  },
+  {
+    "slug": "ntu-engineering-education",
+    "name": "Engineering Education",
+    "universityName": "NTU",
+    "faculty": "National Institute of Education",
+    "officialUrl": "",
+    "igpYear": 2025,
+    "igp10Text": "BBC/C",
+    "igp90Text": "AAA/A",
+    "igpSources": [
+      "https://www.ntu.edu.sg/docs/default-source/undergraduate-admissions/igp/ntu_igp.pdf?sfvrsn=5bf56f6c_1"
+    ],
+    "note": "Proxy mapping based on closest official programme band for 2025. Replace with exact programme row when verified."
+  },
+  {
+    "slug": "ntu-education-humanities",
+    "name": "Education in Humanities",
+    "universityName": "NTU",
+    "faculty": "National Institute of Education",
+    "officialUrl": "",
+    "igpYear": 2025,
+    "igp10Text": "BBC/C",
+    "igp90Text": "AAA/A",
+    "igpSources": [
+      "https://www.ntu.edu.sg/docs/default-source/undergraduate-admissions/igp/ntu_igp.pdf?sfvrsn=5bf56f6c_1"
+    ],
+    "note": "Proxy mapping based on closest official programme band for 2025. Replace with exact programme row when verified."
+  },
+  {
+    "slug": "ntu-education-social-sciences",
+    "name": "Education in Social Sciences",
+    "universityName": "NTU",
+    "faculty": "National Institute of Education",
+    "officialUrl": "",
+    "igpYear": 2025,
+    "igp10Text": "BBC/C",
+    "igp90Text": "AAA/A",
+    "igpSources": [
+      "https://www.ntu.edu.sg/docs/default-source/undergraduate-admissions/igp/ntu_igp.pdf?sfvrsn=5bf56f6c_1"
+    ],
+    "note": "Proxy mapping based on closest official programme band for 2025. Replace with exact programme row when verified."
+  },
+  {
+    "slug": "ntu-accountancy-with-minor",
+    "name": "Accountancy with Minor",
+    "universityName": "NTU",
+    "faculty": "Nanyang Business School",
+    "officialUrl": "",
+    "igpYear": 2025,
+    "igp10Text": "BBC/B",
+    "igp90Text": "AAA/A",
+    "igpSources": [
+      "https://www.ntu.edu.sg/docs/default-source/undergraduate-admissions/igp/ntu_igp.pdf?sfvrsn=5bf56f6c_1"
+    ],
+    "note": "Proxy mapping based on closest official programme band for 2025. Replace with exact programme row when verified."
+  },
+  {
+    "slug": "ntu-business-with-minor",
+    "name": "Business with Minor",
+    "universityName": "NTU",
+    "faculty": "Nanyang Business School",
+    "officialUrl": "",
+    "igpYear": 2025,
+    "igp10Text": "BBC/B",
+    "igp90Text": "AAA/A",
+    "igpSources": [
+      "https://www.ntu.edu.sg/docs/default-source/undergraduate-admissions/igp/ntu_igp.pdf?sfvrsn=5bf56f6c_1"
+    ],
+    "note": "Proxy mapping based on closest official programme band for 2025. Replace with exact programme row when verified."
+  },
+  {
+    "slug": "ntu-applied-computing-finance",
+    "name": "Applied Computing in Finance",
+    "universityName": "NTU",
+    "faculty": "School of Computer Science and Engineering",
+    "officialUrl": "",
+    "igpYear": 2025,
+    "igp10Text": "AAC/C",
+    "igp90Text": "AAA/A",
+    "igpSources": [
+      "https://www.ntu.edu.sg/docs/default-source/undergraduate-admissions/igp/ntu_igp.pdf?sfvrsn=5bf56f6c_1"
+    ],
+    "note": "Exact from NTU AY2025/26 IGP table."
+  },
+  {
+    "slug": "ntu-applied-computing-supply-chain",
+    "name": "Applied Computing in Supply Chain Analytics",
+    "universityName": "NTU",
+    "faculty": "School of Computer Science and Engineering",
+    "officialUrl": "",
+    "igpYear": 2025,
+    "igp10Text": "AAB/C",
+    "igp90Text": "AAA/A",
+    "igpSources": [
+      "https://www.ntu.edu.sg/docs/default-source/undergraduate-admissions/igp/ntu_igp.pdf?sfvrsn=5bf56f6c_1"
+    ],
+    "note": "Proxy mapping based on closest official programme band for 2025. Replace with exact programme row when verified."
+  },
+  {
+    "slug": "ntu-applied-computing-smart-cities",
+    "name": "Applied Computing in Smart City Management",
+    "universityName": "NTU",
+    "faculty": "School of Computer Science and Engineering",
+    "officialUrl": "",
+    "igpYear": 2025,
+    "igp10Text": "AAB/C",
+    "igp90Text": "AAA/A",
+    "igpSources": [
+      "https://www.ntu.edu.sg/docs/default-source/undergraduate-admissions/igp/ntu_igp.pdf?sfvrsn=5bf56f6c_1"
+    ],
+    "note": "Proxy mapping based on closest official programme band for 2025. Replace with exact programme row when verified."
+  },
+  {
+    "slug": "smu-computer-science",
+    "name": "Computer Science",
+    "universityName": "SMU",
+    "faculty": "School of Computing and Information Systems",
+    "officialUrl": "",
+    "igpYear": 2025,
+    "igp10Text": "ABB/A",
+    "igp90Text": "AAA/A",
+    "igpSources": [
+      "https://admissions.smu.edu.sg/admissions-requirements/indicative-grade-profile"
+    ],
+    "note": "Proxy mapping based on closest official programme band for 2025. Replace with exact programme row when verified."
+  },
+  {
+    "slug": "smu-software-engineering",
+    "name": "Software Engineering",
+    "universityName": "SMU",
+    "faculty": "School of Computing and Information Systems",
+    "officialUrl": "",
+    "igpYear": 2025,
+    "igp10Text": "ABB/A",
+    "igp90Text": "AAA/A",
+    "igpSources": [
+      "https://admissions.smu.edu.sg/admissions-requirements/indicative-grade-profile"
+    ],
+    "note": "Proxy mapping based on closest official programme band for 2025. Replace with exact programme row when verified."
+  },
+  {
+    "slug": "smu-business-analytics",
+    "name": "Business Analytics",
+    "universityName": "SMU",
+    "faculty": "School of Computing and Information Systems",
+    "officialUrl": "",
+    "igpYear": 2025,
+    "igp10Text": "ABB/C",
+    "igp90Text": "AAA/A",
+    "igpSources": [
+      "https://admissions.smu.edu.sg/admissions-requirements/indicative-grade-profile"
+    ],
+    "note": "Proxy mapping based on closest official programme band for 2025. Replace with exact programme row when verified."
+  },
+  {
+    "slug": "smu-legal-studies",
+    "name": "Legal Studies",
+    "universityName": "SMU",
+    "faculty": "Yong Pung How School of Law",
+    "officialUrl": "",
+    "igpYear": 2025,
+    "igp10Text": "BBB/C",
+    "igp90Text": "AAA/A",
+    "igpSources": [
+      "https://admissions.smu.edu.sg/admissions-requirements/indicative-grade-profile"
+    ],
+    "note": "Proxy mapping based on closest official programme band for 2025. Replace with exact programme row when verified."
+  },
+  {
+    "slug": "smu-politics-law-and-economics",
+    "name": "Politics, Law and Economics",
+    "universityName": "SMU",
+    "faculty": "School of Social Sciences",
+    "officialUrl": "",
+    "igpYear": 2025,
+    "igp10Text": "BBB/C",
+    "igp90Text": "AAA/A",
+    "igpSources": [
+      "https://admissions.smu.edu.sg/admissions-requirements/indicative-grade-profile"
+    ],
+    "note": "Proxy mapping based on closest official programme band for 2025. Replace with exact programme row when verified."
+  },
+  {
+    "slug": "smu-psychology",
+    "name": "Psychology",
+    "universityName": "SMU",
+    "faculty": "School of Social Sciences",
+    "officialUrl": "",
+    "igpYear": 2025,
+    "igp10Text": "BBB/C",
+    "igp90Text": "AAA/A",
+    "igpSources": [
+      "https://admissions.smu.edu.sg/admissions-requirements/indicative-grade-profile"
+    ],
+    "note": "Proxy mapping based on closest official programme band for 2025. Replace with exact programme row when verified."
+  },
+  {
+    "slug": "smu-sociology",
+    "name": "Sociology",
+    "universityName": "SMU",
+    "faculty": "School of Social Sciences",
+    "officialUrl": "",
+    "igpYear": 2025,
+    "igp10Text": "BBB/C",
+    "igp90Text": "AAA/A",
+    "igpSources": [
+      "https://admissions.smu.edu.sg/admissions-requirements/indicative-grade-profile"
+    ],
+    "note": "Proxy mapping based on closest official programme band for 2025. Replace with exact programme row when verified."
+  },
+  {
+    "slug": "smu-philosophy",
+    "name": "Philosophy",
+    "universityName": "SMU",
+    "faculty": "School of Social Sciences",
+    "officialUrl": "",
+    "igpYear": 2025,
+    "igp10Text": "BBB/C",
+    "igp90Text": "AAA/A",
+    "igpSources": [
+      "https://admissions.smu.edu.sg/admissions-requirements/indicative-grade-profile"
+    ],
+    "note": "Proxy mapping based on closest official programme band for 2025. Replace with exact programme row when verified."
+  },
+  {
+    "slug": "smu-culture-and-management",
+    "name": "Culture and Management",
+    "universityName": "SMU",
+    "faculty": "School of Social Sciences",
+    "officialUrl": "",
+    "igpYear": 2025,
+    "igp10Text": "BBB/C",
+    "igp90Text": "AAA/A",
+    "igpSources": [
+      "https://admissions.smu.edu.sg/admissions-requirements/indicative-grade-profile"
+    ],
+    "note": "Proxy mapping based on closest official programme band for 2025. Replace with exact programme row when verified."
+  },
+  {
+    "slug": "smu-accountancy-data-and-analytics",
+    "name": "Accountancy (Data and Analytics)",
+    "universityName": "SMU",
+    "faculty": "School of Accountancy",
+    "officialUrl": "",
+    "igpYear": 2025,
+    "igp10Text": "BBB/C",
+    "igp90Text": "AAA/A",
+    "igpSources": [
+      "https://admissions.smu.edu.sg/admissions-requirements/indicative-grade-profile"
+    ],
+    "note": "Proxy mapping based on closest official programme band for 2025. Replace with exact programme row when verified."
+  }
+]

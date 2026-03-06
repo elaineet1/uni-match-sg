@@ -22,6 +22,7 @@ import { PrismaClient } from "@prisma/client";
 import * as fs from "fs";
 import * as path from "path";
 import { igpGradeStringToRP } from "../src/lib/rp-calculator";
+import { loadPreferredDatabaseUrl } from "./load-env";
 
 interface IGPRow {
   slug: string;
@@ -36,6 +37,8 @@ function isGradeLike(value: string): boolean {
 }
 
 async function main() {
+  loadPreferredDatabaseUrl();
+
   const args = process.argv.slice(2);
   const dryRun = args.includes("--dry-run");
   const inputPath = args.find((a) => !a.startsWith("--")) ?? "data/igp-2025.json";

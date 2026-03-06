@@ -9,6 +9,7 @@
 import { PrismaClient } from "@prisma/client";
 import * as fs from "fs";
 import * as path from "path";
+import { loadPreferredDatabaseUrl } from "./load-env";
 
 interface CourseSeedRow {
   slug: string;
@@ -28,6 +29,8 @@ interface SeedData {
 }
 
 async function main() {
+  loadPreferredDatabaseUrl();
+
   const dryRun = process.argv.includes("--dry-run");
   const filePath = path.join(process.cwd(), "data", "courses.json");
   const parsed = JSON.parse(fs.readFileSync(filePath, "utf-8")) as SeedData;
@@ -78,4 +81,3 @@ main().catch((e) => {
   console.error(e);
   process.exit(1);
 });
-
