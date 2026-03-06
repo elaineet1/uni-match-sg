@@ -16,13 +16,25 @@ export async function GET() {
       },
     });
 
-    const data: CourseData[] = courses.map((course) => {
+    const data: CourseData[] = courses
+      .map((course) => {
       const latestIgp = course.igps[0] ?? null;
       const latestOutcome = course.outcomes[0] ?? null;
       const tags: InterestTag[] = JSON.parse(course.tags || "[]");
       const typicalRoles: string[] = JSON.parse(course.typicalRoles || "[]");
 
       const maskProxyIgp = shouldMaskProxyIgp(course.slug);
+      const hasUsableIgp =
+        !maskProxyIgp &&
+        !!latestIgp?.igp10Text?.trim() &&
+        !!latestIgp?.igp90Text?.trim();
+      const hasDetails =
+        !!course.description?.trim() &&
+        tags.length > 0 &&
+        typicalRoles.length > 0;
+
+      // Show only complete courses: must have core details and usable IGP.
+      if (!hasUsableIgp || !hasDetails) return null;
 
       return {
         id: course.id,
@@ -42,7 +54,8 @@ export async function GET() {
         typicalRoles,
         aiRiskNote: course.aiRiskNote,
       };
-    });
+    })
+      .filter((course): course is CourseData => course !== null);
 
     return NextResponse.json(data);
   } catch (error) {
