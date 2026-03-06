@@ -488,9 +488,15 @@ export default function ResultsInputPage() {
             best combination of subjects to maximise your score via rebasing.
           </p>
 
-          <div className="flex flex-col gap-3 sm:flex-row">
+          <div className="flex flex-col gap-3 sm:flex-row sm:items-center">
             <Link href="/quiz" className="btn-primary">
               Next: Take the Interests Quiz
+            </Link>
+            <Link
+              href="/recommendations"
+              className="inline-flex items-center justify-center rounded-lg border-2 border-blue-600 bg-white px-6 py-3 text-base font-semibold text-blue-700 transition-colors hover:bg-blue-50"
+            >
+              Skip Quizzes: Choose Interest Tags Manually
             </Link>
           </div>
         </section>
